@@ -1,0 +1,7 @@
+<!-- ?xml version="1.0" encoding="utf-8"? -->
+<resources>
+
+    <integer name="seek_bar_w">32</integer>
+    <integer name="seek_bar_h">240</integer>
+
+</resources>

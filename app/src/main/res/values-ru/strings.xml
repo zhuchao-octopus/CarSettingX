@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="update_app">"Нажмите данную кномку для обновления системных приложений"</string>
+    <string name="update_app_text">"Система перезагрузится автоматически, елси обновление успешно"</string>
+    <string name="no_update_app_text">"Проверьте наличие apk-файлов в директории (/extsd/update_apk/)"</string>
+    <string name="update_new_text">"Системные приложения последней версии"</string>
+    <string name="navigation_choice_title">"Выбор приложения Навигация"</string>
+    <string name="navigation_choice_summary">"Выбор навигационной программы"</string>
+    <string name="navi_mix_title">"Выбор режима подсказки навигации"</string>
+    <string name="video_on_driving_title">Просмотр Видео</string>
+    <string name="dynamic_back_track">Динамические парковочные линии</string>
+    <string name="static_back_track">Парковочные линии</string>
+    <string name="auto_play_music_title">Автовоспроизведение музыки</string>
+    <string name="auto_play_music_summary">"Разрешить автовоспроизведение музыки при подключения USB/SD"</string>
+    <string name="led_settings_title">"Подсветка кнопок"</string>
+    <string name="led_settings_summary">Выберите цвет кнопок</string>
+    <string name="auto_ill_title">"Автоподсветка кнопок"</string>
+    <string name="auto_ill_summary">"Включение и выключение ночного режима по времени"</string>
+    <string name="ill_start_time_title">"Время включения"</string>
+    <string name="ill_stop_time_title">"Время выключения"</string>
+    <string name="auto_ill_error_same">Время начала и конца не может быть одинаковым!</string>
+    <string name="touch_sound_title">"Прикоснитесь звуки"</string>
+    <string name="steering_wheel_control_settings_title">"Настройка кнопок на руле"</string>
+    <string name="steering_wheel_control_settings_summary">"Назначтьте кнопкам на руле пользовательские функции"</string>
+    <string name="factory_settings_title">"Меню загрузки"</string>
+    <string name="update_mcu">"Обновить MCU"</string>
+    <string name="alert_dialog_cancel">"Отмена"</string>
+    <string name="sure_update_mcu">"Обновить MCU?"</string>
+    <string name="update_mcu_text">Если обновление MCU выполнилось - система перезагрузится.</string>
+    <string name="source_not_exist">"Исходный каталог не существует"</string>
+    <string name="update_failed">"Не удалось обновить"</string>
+    <string name="start_install">"Старт автоустановки APK： "</string>
+    <string name="install_success">"　 Установка APK успешна"</string>
+    <string name="install_failed">"　 Установка APK не удалась"</string>
+    <string name="install_over">"Установка APK завершена"</string>
+    <string name="install_warning">"Не выходите пока устанавливается APK."</string>
+    <string name="no_files">"Нет APK-файлов"</string>
+    <string name="app_name">"Файл-менеджер"</string>
+
+    <string name="update_mcu_title">Обновление MCU</string>
+    <string name="reset_system_title">Восстановление заводских настроек</string>
+    <string name="video_on_driving_summary">Разрешить просмотр видео в движении?</string>
+    <string name="cur_led_color">"Выбранный цвет подсветки"</string>
+
+    
+        <string name="title_car_settings_personal">Персональные настройки</string>
+    <string name="title_car_settings_navi">"Настройки навигации"</string>
+    <string name="title_car_settings_drive">Настройки водителя</string>
+    <string name="title_car_settings_wheel">Кнопки на руле</string>
+    <string name="title_car_settings_factory">Сервисные настройки</string>
+    <string name="title_car_settings_update">"Обновление системы и MCU"</string>
+    
+    
+    <string name="reverse_volume">Громкость при движении задним ходом</string>    
+    <string name="reverse_mirror">"Камера заднего вида-зеркало"</string>    
+    <string name="input_code">"Пожалуйста, введите пароль"</string>
+    
+    
+    <string name="acc_delay_poweroff">Задержка полного отключения (сон)</string>
+    
+    <string name="update_android_title">"Обновление системы"</string>
+    
+     <string name="reset_volume">"Уровень громкости при включении"</string>
+    <string name="audio_gain_title">"Громкость источников"</string>
+    
+    <string name="title_wheel_control">"Настройки кнопок на руле"</string>
+    <string name="title_eq">"Аудионастройки"</string>
+    <string name="title_gps_search">"GPS поиск"</string>
+    <string name="title_gps_monitor">Звезда поиска GPS</string>
+    
+    
+    <string name="degrees_360">"Система кругового обзора"</string>
+    <string name="show_360_btn">Показать кнопку на экране</string>
+    
+    <string name="car_cell">Батарея автомобиля</string>
+    <string name="car_cell_summary">Отображение тока аккумулятора транспортного средства</string>
+
+    <string name="car_settings">"Главные настройки"</string>
+    <string name="navigation_sound_channel_settings_title">"Настройки звукового канала подсказок навигации"</string>
+    <string name="navigation_sound_channel_settings_summary">"Выбор звукового канала навигации"</string>
+    <string name="car_settings_name">"Настройки мультимедийной системы"</string> 
+
+    <string name="backup_title">"Настройки резервирования"</string>
+    <string name="backup_message">"Вы хотите резервировать все сервисныенастройки на SD/USB?"</string>
+    <string name="restore_title">"Настройки восстановления"</string>
+    <string name="restore_message">"Вы хотите восстановить все сервисные настройки с SD/USB?"</string>
+    <string name="backup_settings">"Резерв."</string>
+    <string name="restore_settings">"Восстан."</string>
+    <string name="restore_default">"Сброс"</string>
+
+    <string name="reboot_warning">"Новые настройки вступят в силу после перезагрузки!"</string>
+    <string name="alert_dialog_i_know">"Я знаю это"</string>
+    <string name="backup_success">"Резервирование настроек завершено!"</string>
+    <string name="restore_success">"Восстановление настроек завершено!"</string>
+    <string name="no_valid_ext_storage">"Не найдено SD/USB носителей!"</string>
+    <string name="no_backuped_setting_found">"Не найден резервный файл настроек!"</string>
+    <string name="label_red">"Красный: "</string>
+    <string name="label_green">"Зеленый: "</string>
+    <string name="label_blue">"Синий: "</string>
+    <string name="reboot_dialog_title">"Подготовка к перезагрузке!"</string>
+    <string name="no_valid_android_image">"Не найден образ для обновления Android!"</string>
+    <string name="update_android_message">"Система будет сброшена и обновлена из \"%1$s\"!\nПожалуйста, не выключайте устройство!"</string>
+    <string name="enable">"Включено"</string>
+    <string name="disable">"Отключено"</string>
+    <string name="dvr_path">"Место храниния записей видео регистратора"</string>
+    <string name="apk_install">"Установщик APK"</string>
+    <string name="video_out_label">"Видео-выход"</string>
+    <string name="video_out_off">"ВЫКЛ"</string>
+    <string name="dvr_record_time">"Время записи видеорегистратора"</string>
+    <string name="wallpaper_instructions">"Установить заставку"</string>
+    <string name="pick_wallpaper">"Заставки"</string>
+    <string name="car_model">"Модель"</string>
+    <string name="mcu_model">"Модель MCU"</string>
+    
+
+    <string name="bt_cell">Телефон Bluetooth</string>
+    <string name="bt_cell_summary">Отображение заряда батареи телефона, сила сигнала</string>
+    
+    <string name="temp_dis">"Ед. изм. температуры"</string>
+    <string name="mileage_unit">"Ед. изм. Пробега"</string>
+
+    <string name="cancel">"Отмена"</string>
+<string name="mic_type">Тип микрофона</string>
+     <string name="mic_inside">внутри</string>
+     <string name="mic_outside">снаружи</string>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="navigation_choice_title">Wybory Nawigacyjne</string>
+    <string name="navi_mix_title">"Wybierz Nawigacji głosowej"</string>
+    <string name="video_on_driving_title">"Zobacz film"</string>
+    <string name="dynamic_back_track">Dynamiczny trajektoria parkowania</string>
+    <string name="static_back_track">Kamery cofania linijki</string>
+    <string name="auto_play_music_title">Muzyka autoodtwarzania</string>
+    <string name="auto_play_music_summary">Kiedy karta USB / SD jest włożona, automatycznie odtwarzać muzykę?</string>
+    <string name="led_settings_title">Przycisk Ustawienia lampy LED</string>
+    <string name="led_settings_summary">"Select kolor światła"</string>
+    <string name="auto_ill_title">"Automatyczna regulacja jasności"</string>
+    <string name="auto_ill_summary">"Automatyczna regulacja jaskrawości ekranu i zapalić lampę LED"</string>
+    <string name="ill_start_time_title">"Automatycznie ustawić czas rozpoczęcia"</string>
+    <string name="ill_stop_time_title">"Automatycznie ustawić czas zakończenia"</string>
+    <string name="auto_ill_error_same">"Czas rozpoczęcia i zakończenia nie może być taka sama"</string>
+    <string name="touch_sound_title">"dotknij dźwięki"</string>
+    <string name="steering_wheel_control_settings_title">Ustawienia kontroli kierownicy</string>
+    <string name="steering_wheel_control_settings_summary">"Skopiować przyciski sterowania na kierownicy"</string>
+    <string name="factory_settings_title">Ustawienia fabryczne</string>
+    <string name="update_mcu">Kliknij ten przycisk, aby uaktualnić MCU</string>
+    <string name="update_mcu_text">Po uaktualnieniu MCU, system automatycznie ponownie uruchomiony</string>
+    <string name="update_mcu_title">Aktualizacja MCU</string>
+    <string name="reset_system_title">Przywracanie ustawień fabrycznych</string>
+    <string name="video_on_driving_summary">"Podczas jazdy, można obejrzeć film?"</string>
+    <string name="cur_led_color">"Obecny kolor LED:"</string>
+
+    <string name="apk_install">APK Installer</string>
+    <string name="audio_gain_title">Wzmocnienie dźwięku</string>
+    
+    <string name="car_cell">Akumulator samochodowy</string>
+    <string name="car_cell_summary">Akumulator Samochodówwyświetlanie aktualnego napięcia akumulatora pojazdu</string>
+
+    <string name="bt_cell">Telefon Bluetooth</string>
+    <string name="bt_cell_summary">Wyświetlanie zasilania baterii telefonu, siły sygnału</string>
+</resources>

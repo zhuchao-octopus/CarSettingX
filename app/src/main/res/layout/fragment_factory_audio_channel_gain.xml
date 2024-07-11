@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:layoutDirection="ltr"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="@dimen/factory_audio_channel_gain_layout_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layoutDirection="ltr"
+        android:orientation="horizontal" >
+        <Button
+            android:id="@+id/restore"
+            android:layout_width="120.0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/restore_default" />
+	</LinearLayout>
+	
+    <LinearLayout
+        android:layout_width="@dimen/factory_audio_channel_gain_layout_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="16.0dip"
+        android:layoutDirection="ltr"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="@dimen/factory_audio_channel_gain_textview_width1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/video_out_tv" />
+
+        <Button
+            android:id="@+id/tvsub"
+            android:layout_width="@dimen/factory_audio_channel_gain_button_width"
+            android:layout_height="@dimen/factory_audio_channel_gain_button_width"
+            android:text="@string/radio_dec" />
+
+        <TextView
+            android:id="@+id/texttv"
+            android:layout_width="@dimen/factory_audio_channel_gain_textview_width2"
+            android:layout_height="40.0dip"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/tvadd"
+            android:layout_width="@dimen/factory_audio_channel_gain_button_width"
+            android:layout_height="@dimen/factory_audio_channel_gain_button_width"
+            android:text="@string/radio_inc" />
+
+        <TextView
+            android:layout_width="@dimen/factory_audio_channel_gain_textview_width1"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/factory_audio_channel_gain_textview_marginLeft"
+            android:gravity="center"
+            android:text="@string/video_out_av" />
+
+        <Button
+            android:id="@+id/avinsub"
+            android:layout_width="@dimen/factory_audio_channel_gain_button_width"
+            android:layout_height="@dimen/factory_audio_channel_gain_button_width"
+            android:text="@string/radio_dec" />
+
+        <TextView
+            android:id="@+id/textavin"
+            android:layout_width="@dimen/factory_audio_channel_gain_textview_width2"
+            android:layout_height="40.0dip"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/avinadd"
+            android:layout_width="@dimen/factory_audio_channel_gain_button_width"
+            android:layout_height="@dimen/factory_audio_channel_gain_button_width"
+            android:text="@string/radio_inc" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="@dimen/factory_audio_channel_gain_layout_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="14.0dip"
+        android:layoutDirection="ltr"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="@dimen/factory_audio_channel_gain_textview_width1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/video_out_dvd" />
+
+        <Button
+            android:id="@+id/dvdsub"
+            android:layout_width="@dimen/factory_audio_channel_gain_button_width"
+            android:layout_height="@dimen/factory_audio_channel_gain_button_width"
+            android:text="@string/radio_dec" />
+
+        <TextView
+            android:id="@+id/textdvd"
+            android:layout_width="@dimen/factory_audio_channel_gain_textview_width2"
+            android:layout_height="40.0dip"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/dvdadd"
+            android:layout_width="@dimen/factory_audio_channel_gain_button_width"
+            android:layout_height="@dimen/factory_audio_channel_gain_button_width"
+            android:text="@string/radio_inc" />
+
+        <TextView
+            android:layout_width="@dimen/factory_audio_channel_gain_textview_width1"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/factory_audio_channel_gain_textview_marginLeft"
+            android:gravity="center"
+            android:text="@string/radio" />
+
+        <Button
+            android:id="@+id/radiosub"
+            android:layout_width="@dimen/factory_audio_channel_gain_button_width"
+            android:layout_height="@dimen/factory_audio_channel_gain_button_width"
+            android:text="@string/radio_dec" />
+
+        <TextView
+            android:id="@+id/textradio"
+            android:layout_width="@dimen/factory_audio_channel_gain_textview_width2"
+            android:layout_height="40.0dip"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/radioadd"
+            android:layout_width="@dimen/factory_audio_channel_gain_button_width"
+            android:layout_height="@dimen/factory_audio_channel_gain_button_width"
+            android:text="@string/radio_inc" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="@dimen/factory_audio_channel_gain_layout_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="14.0dip"
+        android:layoutDirection="ltr"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="@dimen/factory_audio_channel_gain_textview_width1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/system" />
+
+        <Button
+            android:id="@+id/systemsub"
+            android:layout_width="@dimen/factory_audio_channel_gain_button_width"
+            android:layout_height="@dimen/factory_audio_channel_gain_button_width"
+            android:text="@string/radio_dec" />
+
+        <TextView
+            android:id="@+id/textsystem"
+            android:layout_width="@dimen/factory_audio_channel_gain_textview_width2"
+            android:layout_height="40.0dip"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/systemadd"
+            android:layout_width="@dimen/factory_audio_channel_gain_button_width"
+            android:layout_height="@dimen/factory_audio_channel_gain_button_width"
+            android:text="@string/radio_inc" />
+
+        <TextView
+            android:layout_width="@dimen/factory_audio_channel_gain_textview_width1"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/factory_audio_channel_gain_textview_marginLeft"
+            android:gravity="center"
+            android:text="@string/key_bt" />
+
+        <Button
+            android:id="@+id/bluetoothsub"
+            android:layout_width="@dimen/factory_audio_channel_gain_button_width"
+            android:layout_height="@dimen/factory_audio_channel_gain_button_width"
+            android:text="@string/radio_dec" />
+
+        <TextView
+            android:id="@+id/textbluetooth"
+            android:layout_width="@dimen/factory_audio_channel_gain_textview_width2"
+            android:layout_height="40.0dip"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/bluetoothadd"
+            android:layout_width="@dimen/factory_audio_channel_gain_button_width"
+            android:layout_height="@dimen/factory_audio_channel_gain_button_width"
+            android:text="@string/radio_inc" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="@dimen/factory_audio_channel_gain_layout_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="14.0dip"
+        android:layoutDirection="ltr"
+        android:visibility="visible"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="@dimen/factory_audio_channel_gain_textview_width1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="MIC" />
+
+        <Button
+            android:id="@+id/micsub"
+            android:layout_width="@dimen/factory_audio_channel_gain_button_width"
+            android:layout_height="@dimen/factory_audio_channel_gain_button_width"
+            android:text="@string/radio_dec" />
+
+        <TextView
+            android:id="@+id/textmic"
+            android:layout_width="@dimen/factory_audio_channel_gain_textview_width2"
+            android:layout_height="40.0dip"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/micadd"
+            android:layout_width="@dimen/factory_audio_channel_gain_button_width"
+            android:layout_height="@dimen/factory_audio_channel_gain_button_width"
+            android:text="@string/radio_inc" />
+    </LinearLayout>
+
+</LinearLayout>

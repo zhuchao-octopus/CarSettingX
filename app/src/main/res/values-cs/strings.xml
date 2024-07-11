@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="navigation_choice_title">"Nastavit navigační software"</string>
+    <string name="navigation_choice_summary">"Vybrat navigační software"</string>
+    <string name="navi_mix_title">"Select Hlasová Navigace"</string>
+    <string name="video_on_driving_title">"Sledování videa"</string>
+    <string name="dynamic_back_track">"Zobrazit parkovací čáry"</string>
+    <string name="static_back_track">"Parkovací pravítko"</string>
+    <string name="auto_play_music_title">"Automatické přehrávání hudby"</string>
+    <string name="auto_play_music_summary">"Povolit automaticky přehrávat hudbu, když se připojí USB nebo micro SD karta"</string>
+    <string name="led_settings_title">"Nastavení podsvícení tlačítek"</string>
+    <string name="led_settings_summary">"Vybrat barvu podsvícení tlačítek"</string>
+    <string name="auto_ill_title">"Automatický jas"</string>
+    <string name="auto_ill_summary">"Automatický jas a zapnutí podsvícení tlačítek"</string>
+    <string name="ill_start_time_title">"Automatické ztlumení - začátek"</string>
+    <string name="ill_stop_time_title">"Automatický ztlumení - konec"</string>
+    <string name="auto_ill_error_same">"Čas pro začátek a konec nemůže být stejný"</string>
+    <string name="touch_sound_title">"Tón při doteku"</string>
+    <string name="steering_wheel_control_settings_title">Ovládání řízení tlačítka</string>
+    <string name="steering_wheel_control_settings_summary">"Kopírovat ovládacích tlačítek na volantu"</string>
+    <string name="factory_settings_title">Tovární Nastavení</string>
+    <string name="update_mcu">Kliknutím na toto tlačítko pro upgrade MCU</string>
+    <string name="update_mcu_text">"Pokud aktualizace MCU proběhne úspěšně, systém se restartuje."</string>
+    <string name="update_mcu_title">Aktualizace MCU</string>
+    <string name="reset_system_title">Obnovení továrního nastavení</string>
+    <string name="video_on_driving_summary">"Povolit sledování videa za jízdy?"</string>
+    <string name="cur_led_color">"Proud LED color:"</string>
+
+    <string name="apk_install">APK Installer</string>
+    <string name="audio_gain_title">Zesílení zvuku</string>
+
+    <string name="car_cell">Akumulátor vozidla</string>
+    <string name="car_cell_summary">Zobrazit aktuální napětí baterie vozidla</string>
+
+    <string name="bt_cell">Telefon s technologií Bluetooth</string>
+    <string name="bt_cell_summary">Zobrazení napájení z telefonní baterie, síla signálu</string>
+    
+    <string name="car_settings_name">"Nastavení vozidla"</string> 
+    <string name="sure_update_mcu">"Aktualizovat MCU?"</string>
+    <string name="update_failed">"Aktualizace selhala"</string>
+    <string name="reak_setting">"Nastavení ruční brzdy"</string>
+    <string name="joykey_study">"Programování joystiku"</string>
+    <string name="pannel_led_control">"Ovládání LED panelu"</string>    
+    <string name="reverse_volume">"Hlasitost při parkování"</string>
+    <string name="acc_delay_poweroff">"Zpoždění vypnutí"</string>
+    <string name="title_car_settings_personal">"Osobní nastavení"</string>
+    <string name="title_car_settings_navi">"Nastavení navigace"</string>
+    <string name="title_car_settings_drive">"Nastavení řízení"</string>
+    <string name="title_car_settings_wheel">"Nastavení multifunkce"</string>
+    <string name="title_car_settings_factory">"Tovární nastavení"</string>
+    <string name="title_car_settings_update">"Aktualizovat a obnovit tovární nastavení"</string>
+
+    <string name="launcher_ui_title">"Aplikace "domů""</string>
+    <string name="update_android_message">"Jednotka se restartuje a provede aktualizaci \"%1$s\"!\nNevypínejte zapalování!"</string>
+
+</resources>

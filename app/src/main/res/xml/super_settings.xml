@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout="@layout/preference_list_fragment" >
+
+    <PreferenceScreen
+        android:key="touch3_settings"
+        android:layout="@layout/preference_car_settings_submenu"
+        android:title="@string/title_touch3_gesture_settings" >
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="touch3_settings_switch"
+            android:layout="@layout/preference_car_settings_submenu"
+            android:title="@string/title_touch3_switch" />
+
+        <ListPreference
+            android:entries="@array/touch3_settings_keycode_entries"
+            android:entryValues="@array/touch3_settings_keycode_entries_values"
+            android:key="touch3_settings_upkey"
+            android:layout="@layout/preference_car_settings_submenu"
+            android:title="@string/title_touch3_upkey" />
+        <ListPreference
+            android:entries="@array/touch3_settings_keycode_entries"
+            android:entryValues="@array/touch3_settings_keycode_entries_values"
+            android:key="touch3_settings_downkey"
+            android:layout="@layout/preference_car_settings_submenu"
+            android:title="@string/title_touch3_downkey" />
+        <ListPreference
+            android:entries="@array/touch3_settings_keycode_entries"
+            android:entryValues="@array/touch3_settings_keycode_entries_values"
+            android:key="touch3_settings_leftkey"
+            android:layout="@layout/preference_car_settings_submenu"
+            android:title="@string/title_touch3_leftkey" />
+        <ListPreference
+            android:entries="@array/touch3_settings_keycode_entries"
+            android:entryValues="@array/touch3_settings_keycode_entries_values"
+            android:key="touch3_settings_rightkey"
+            android:layout="@layout/preference_car_settings_submenu"
+            android:title="@string/title_touch3_rightkey" />
+    </PreferenceScreen>
+
+</PreferenceScreen>

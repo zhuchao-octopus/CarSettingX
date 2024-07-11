@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80px"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="@string/bt_copy" />
+
+        <Button
+            android:id="@+id/update_bt"
+            android:layout_width="match_parent"
+            android:layout_height="80px"
+            android:onClick="onClick"
+            android:text="@string/bt_140" />
+
+        <Button
+            android:id="@+id/update_bt_145"
+            android:layout_width="match_parent"
+            android:layout_height="80px"
+            android:onClick="onClick"
+            android:text="@string/bt_145" />
+
+        <Button
+            android:id="@+id/update_bt_vol"
+            android:layout_width="match_parent"
+            android:layout_height="80px"
+            android:layout_marginTop="20px"
+            android:onClick="onClick"
+            android:text="@string/bt_parameter" />
+        
+        
+
+        <Button
+            android:id="@+id/update_bt_8761"
+            android:layout_width="match_parent"
+            android:layout_height="80px"
+            android:layout_marginTop="20px"
+            android:onClick="onClick"
+            android:text="@string/bt_8761" />
+    </LinearLayout>
+
+</LinearLayout>

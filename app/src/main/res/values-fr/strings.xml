@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="car_settings_name">Paramètres de voiture</string>
+    <string name="navigation_choice_title">Sélectionnez le logiciel de navigation</string>
+    <string name="navi_mix_title">"Sélectionnez la navigation vocale"</string>
+    <string name="video_on_driving_title">"Voir la vidéo"</string>
+    <string name="dynamic_back_track">Trajectoire de stationnement dynamique</string>
+    <string name="static_back_track">Inverser la règle de la caméra</string>
+    <string name="auto_play_music_title">Musique Autoplay</string>
+    <string name="auto_play_music_summary">Lorsque vous insérez SD / USB, jouer automatiquement la musique?</string>
+    <string name="led_settings_title">Réglages de la lampe LED bouton</string>
+    <string name="led_settings_summary">"Sélection de couleur LED"</string>
+    <string name="auto_ill_title">"Régler automatiquement la luminosité"</string>
+    <string name="auto_ill_summary">"Ajuste automatiquement la luminosité de l'écran, et tourner la LED"</string>
+    <string name="ill_start_time_title">"Ajuster automatiquement l'heure de début de la luminosité"</string>
+    <string name="ill_stop_time_title">"Ajuste automatiquement l'heure de fin de la luminosité"</string>
+    <string name="auto_ill_error_same">"De début et de fin, pas les mêmes"</string>
+    <string name="touch_sound_title">"sons des touches"</string>
+    <string name="steering_wheel_control_settings_title">réglage de la commande</string>
+    <string name="steering_wheel_control_settings_summary">"Copiez les boutons du volant"</string>
+    <string name="factory_settings_title">Les réglages d usine</string>
+    <string name="update_mcu">Cliquez sur ce bouton pour mettre à niveau MCU</string>
+    <string name="update_mcu_text">La mise à jour est terminée, le système redémarre</string>
+    <string name="update_mcu_title">mise à niveau MCU</string>
+    <string name="reset_system_title">Restaurer les paramètres d usine</string>
+    <string name="video_on_driving_summary">"Conduite, permettent le visionnage de la vidéo?"</string>
+    <string name="cur_led_color">"LED couleur actuelle:"</string>
+
+    <string name="apk_install">APK Installer</string>
+    
+        <string name="title_car_settings_personal">Paramètres personnels</string>
+    <string name="title_car_settings_navi">Paramètres de navigation</string>
+    <string name="title_car_settings_drive">Cadre de conduite</string>
+    <string name="title_car_settings_wheel">Apprentissage au volant</string>
+    <string name="title_car_settings_factory">Réglage d\'usine</string>
+    <string name="title_car_settings_update">Mettre à niveau et restaurer les paramètres d\'usine</string>
+    
+    
+    <string name="reverse_volume">Volume d\'inversion</string>    
+    <string name="reverse_mirror">Miroir horizontal à écran inversé</string>    
+    <string name="input_code">"S\'il vous plaît entrer votre mot de passe"</string>
+    
+    
+    <string name="alert_dialog_ok">D\'accord</string>
+    <string name="alert_dialog_cancel">Annuler</string>
+    
+    <string name="update_android_title">Mettre à jour Android</string>
+    
+    <string name="acc_delay_poweroff">Délai de mise hors tension si ACC OFF</string>
+    <string name="audio_gain_title">Gain audio</string>
+    
+    <string name="car_cell">Batterie du véhicule</string>
+    <string name="car_cell_summary">Afficher la tension actuelle de la batterie du véhicule</string>
+
+    <string name="bt_cell">Téléphone Bluetooth</string>
+    <string name="bt_cell_summary">Afficher la puissance de la batterie du téléphone, la force du signal</string>
+    <string name="mic_type">Type de micro</string>
+     <string name="mic_inside">"à l'intérieur"</string>
+     <string name="mic_outside">dehors</string>
+</resources>

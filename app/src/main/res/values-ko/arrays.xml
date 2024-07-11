@@ -1,0 +1,14 @@
+<resources>
+
+	<string-array name="acc_delay_poweroff_select">
+		<item>"끊다"</item>
+		<item>"5 초"</item>
+		<item>"30 초"</item>
+		<item>"2 분"</item>
+		<item>"5 분"</item>
+		<item>"10 분"</item>
+		<item>"30 분"</item>
+		<item>"1 시간"</item>
+	</string-array>
+
+</resources>

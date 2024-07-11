@@ -1,0 +1,848 @@
+<resources>
+	
+	<string-array name="auxin_select">
+		<item>Front</item>
+		<item>Rear</item>
+		<item>Front and Rear</item>
+	</string-array>
+	
+	<string-array name="rds_select">
+		<item>NO</item>
+		<item>YES</item>
+	</string-array>
+	
+	<string-array name="led_select">
+		<item>MONO</item>
+		<item>COLOR 1</item>
+		<item>COLOR 2</item>
+	</string-array>
+	
+	<string-array name="canbox_select">
+		<item>"0:NONE"</item>		
+		<item>"1:Ford/Focus/uga/Ecosport/Fiesta(Simple)"</item>
+		<item>"2:TOYOTA/CAMRY/RAV4(Simple)"</item>
+		<item>"3:MAZDA/OPEL(Raise)"</item>
+		<item>"4:X80(Raise)"</item>
+		<item>"5:2013 TEANA(Simple)"</item>
+		<item>"6:MAZDA/Old OPEL(Simple)"</item>
+		<item>"7:VW(Simple,Raise)"</item>
+<!-- 		<item>"8:CAMRY/RAV4/Carola/LAND CRUISER(Simple)"</item>		 -->
+
+		<item>"8:Mitsubishi/Outlander(Simple)"</item>
+		<item>"9:HYUNDA/KIA/ix35/Sonata8/ACCENT/imx45/Sorento/K5/K7(Simple)"</item>
+		<item>"10:PSA/DS/301/307/308/3008/C4/C5(bagoo)"</item>
+		<item>"11:GM/BUICK/CHEVROLET/OPEL(Simple)"</item>
+		<item>"12:HONDA/DA(Simple)"</item>
+		<item>"13:VW-GOLF7(Simple,Raise)"</item>
+		<item>"14:Ram1500/FIAT(Simple)"</item>
+		<item>"15:Renault/Megane/fluence(Simple)"</item>
+		<item>"16:BMW/E90/X1(Union)"</item>
+		<item>"17:FIAT(Simple,Union)"</item>
+		<item>"18:FORD/MONDEO(Simple)"</item>
+		<item>"19:PSA(Simple)"</item>
+		<item>"20:Benz(bagoo)"</item>
+		<item>"21:Kadjar(Raise)"</item>
+		<item>"22:GMC(Simple)"</item>
+		<item>"23:BENZ/B200(Union)"</item>
+		<item>"24:MAZDA/BT-50(Simple)"</item>
+		<item>"25:JEEP/Cherokee/Renegade/FiatAegea/Doblo(Simple)"</item>
+		<item>"26:ACCORD7(ChangYuanTong)"</item>
+		<item>"27:TOYOTA(Binarytek)"</item>
+		<item>"28:MAZDA(Xinbas)"</item>
+		<item>"29:Peugeot206(Simple)"</item>
+		<item>"30:Accord2013(Simple,Biruina)"</item>
+		<item>"31:Nissan2013(Simple)"</item>
+		<item>"32:PORSCHE(Union)"</item>
+		<item>"33:MAZDA 3(Binarytek)"</item>		
+		<item>"34:FIAT/BRAVO(Union)"</item>
+		<item>"35:Touarg(Hiworld)"</item>		
+		<item>"36:Dacia(Simple)"</item>
+		<item>"37:Nissan(Raise)"</item>
+		<item>"38:Peugeot/Citroen(Raise)"</item>
+		<item>"39:Ford/Explorer(Simple)"</item>
+		<item>"40:Accord(Binarytek)"</item>
+		<item>"41:Audi(Simple)"</item>
+		<item>"42:SUBARU_XV(ODS)"</item>
+		<item>"43:Mini(Hiworld)"</item>
+		<item>"44:Nissan(Binarytek)"</item>
+		<item>"45:BENZ/Vito(Simple)"</item>
+		<item>"46:VW_MQB(Raise)"</item>
+		<item>"47:Chery(OD)"</item>		
+		<item>"48:Chrysler(Simple)"</item>		
+		<item>"49:Mazda3(Simple)"</item>
+		<item>"50:OBD(binarytek)"</item>
+		<item>"51 Hafer/H2(Xinbas)"</item>
+		<item>"52:Honda(Raise)"</item>
+		<item>"53:Peugeot/Citroen/Keep Car Screen(Raise)"</item>
+		<item>"54:Ford/Focus/uga/Ecosport/Fiesta(Raise)"</item>
+		<item>"55:BenZ/Smart(HaoZheng)"</item>
+		<item>"56:LanRover(HaoZheng)"</item>
+		<item>"57:Peugeot307(union)"</item>
+		<item>"58:Mazda CX-5(Simple)"</item>
+		<item>"59:RX330/LC100(HaoZheng)"</item>	
+		<item>"60:PSA/206/307(Simple)"</item>	
+		<item>"61:BESTUNE/X40(Raise)"</item>	
+		<item>"62:Mondeo(DaoJun)"</item>		
+		<item>"63:Jeep(Xinbas)"</item>		
+		<item>"64:Changan/OuShang(Raise)"</item>				
+		<item>"65:Fiat/EGEA(Raise)"</item>				
+		<item>"66:HY(Raise)"</item>			
+		<item>"67:Alpha(Bagoo)"</item>		
+		<item>"68.Toyota(Raise)"</item>		
+		<item>"69.Mini(HaoZheng)"</item>	
+		<item>"70:Subaru(Simple)"</item>	
+		<item>"71:GM(OD)"</item>	
+		<item>"72:Mazda(Raise)"</item>	
+		<item>"73:GM(Raise)"</item>	
+	</string-array>
+
+
+	<string-array name="canbox_manufacturer_values" translatable="false">
+        <item>"all"</item>
+        <item>"simple"</item>
+        <item>"raise"</item>
+        <item>"bagoo"</item>
+        <item>"union"</item>
+        <item>"cyt"</item>
+        <item>"binarytek"</item>
+        <item>"xinbas"</item>
+        <item>"hiworld"</item>
+        <item>"OD"</item>
+    </string-array>
+	<string-array name="canbox_select_manufacturer">
+        <item>"0:All"</item>
+        <item>"1:Simple"</item>
+        <item>"2:Raise"</item>
+        <item>"3:Bagoo"</item>
+        <item>"4:Union"</item>
+        <item>"5:ChangYuanTong"</item>
+        <item>"6:Binarytek"</item>
+        <item>"7:Xinbas"</item>
+        <item>"8:Hiworld"</item>
+        <item>"9:Other"</item>
+    </string-array>
+    <string-array name="canbox_select_simple">
+        <item>"0:NONE"</item>
+        <item>"1:Ford/Focus/uga/Ecosport/Fiesta(Simple)"</item>
+        <item>"2:TOYOTA/CAMRY/RAV4(Simple)"</item>
+        <item>"5:2013 TEANA(Simple)"</item>
+        <item>"6:MAZDA/Old OPEL(Simple)"</item>
+        <item>"7:VW(Simple,Raise)"</item>
+        <!-- <item>"8:CAMRY/RAV4/Carola/LAND CRUISER(Simple)"</item> -->
+        <item>"8:Mitsubishi/Outlander(Simple)"</item>
+        <item>"9:HYUNDA/KIA/ix35/Sonata8/ACCENT/imx45/Sorento/K5/K7(Simple)"</item>
+        <item>"11:GM/BUICK/CHEVROLET/OPEL(Simple)"</item>
+        <item>"12:HONDA/DA(Simple)"</item>
+        <item>"13:VW-GOLF7(Simple,Raise)"</item>
+        <item>"14:Ram1500/FIAT(Simple)"</item>
+        <item>"15:Renault/Megane/fluence(Simple)"</item>
+        <item>"17:FIAT(Simple,Union)"</item>
+        <item>"18:FORD/MONDEO(Simple)"</item>
+        <item>"19:PSA(Simple)"</item>
+        <item>"22:GMC(Simple)"</item>
+        <item>"24:MAZDA/BT-50(Simple)"</item>
+        <item>"25:JEEP/Cherokee/Renegade/FiatAegea/Doblo(Simple)"</item>
+        <item>"29:Peugeot206(Simple)"</item>
+        <item>"30:Accord2013(Simple)"</item>
+        <item>"31:Nissan2013(Simple)"</item>	
+		<item>"36:Dacia(Simple)"</item>
+		<item>"39:Ford/Explorer(Simple)"</item>
+		<item>"41:Audi(Simple)"</item>
+		<item>"45:BENZ/Vito(Simple)"</item>
+		<item>"48:Chrysler(Simple)"</item>		
+		<item>"49:Mazda3(Simple)"</item>
+		<item>"58:Mazda CX-5(Simple)"</item>	
+		<item>"60:PSA/206/307(Simple)"</item>	
+		<item>"70:Subaru(Simple)"</item>	
+    </string-array>
+    <string-array name="canbox_select_raise">
+        <item>"0:NONE"</item>
+        <item>"3:MAZDA3/5/6/CX-7/B50/B70/A3/M3/S7/BYD F3/GA3.(Raise)"</item>
+        <item>"4:X80(Raise)"</item>
+        <item>"7:VW(Simple,Raise)"</item>
+        <item>"13:VW-GOLF7(Simple,Raise)"</item>
+        <item>"21:Kadjar(Raise)"</item>
+		<item>"37:Nissan(Raise)"</item>
+		<item>"38:Peugeot/Citroen(Raise)"</item>
+		<item>"46:VW_MQB(Raise)"</item>
+		<item>"52:Honda(Raise)"</item>
+		<item>"53:Peugeot/Citroen/Keep Car Screen(Raise)"</item>
+		<item>"54:Ford/Focus/uga/Ecosport/Fiesta(Raise)"</item>
+		<item>"61:BESTUNE/X40(Raise)"</item>	
+		<item>"64:Changan/OuShang(Raise)"</item>
+		<item>"65:Fiat/EGEA(Raise)"</item>			
+		<item>"66:HY(Raise)"</item>	
+		<item>"68.Toyota(Raise)"</item>	
+		<item>"69.Accord10(Raise)"</item>	
+		<item>"72:Mazda(Raise)"</item>	
+		<item>"73:GM(Raise)"</item>	
+    </string-array>
+    <string-array name="canbox_select_bagoo">
+        <item>"0:NONE"</item>
+        <item>"10:PSA/DS/301/307/308/3008/C4/C5(bagoo)"</item>
+        <item>"20:Benz(bagoo)"</item>
+		<item>"42:SUBARU_XV(ODS)"</item>	
+		<item>"67:Alpha(Bagoo)"</item>	
+    </string-array>
+    <string-array name="canbox_select_union">
+        <item>"0:NONE"</item>
+        <item>"16:BMW/E90/X1(Union)"</item>
+        <item>"17:FIAT(Simple,Union)"</item>
+        <item>"23:BENZ/B200(Union)"</item>
+        <item>"32:PORSCHE(Union)"</item>
+        <item>"34:FIAT/BRAVO(Union)"</item>
+		<item>"57:Peugeot307(union)"</item>
+    </string-array>
+    <string-array name="canbox_select_cyt">
+        <item>"0:NONE"</item>
+        <item>"26:ACCORD7(ChangYuanTong)"</item>
+    </string-array>
+       <string-array name="canbox_select_od">
+        <item>"0:NONE"</item>
+		<item>"47:Chery(OD)"</item>
+		<item>"59:RX330/LC100(HaoZheng)"</item>	
+		<item>"62:Mondeo(DaoJun)"</item>
+		<item>"69.Mini(HaoZheng)"</item>	
+		<item>"71:GM(OD)"</item>	
+    </string-array>
+    <string-array name="canbox_select_binarytek">
+        <item>"0:NONE"</item>
+        <item>"27:TOYOTA(Binarytek)"</item>
+        <item>"33:MAZDA 3(Binarytek)"</item>
+		<item>"40:Accord(Binarytek)"</item>
+		<item>"44:Nissan(Binarytek)"</item>
+		<item>"50:OBD(binarytek)"</item>
+    </string-array>
+    <string-array name="canbox_select_xinbas">
+        <item>"0:NONE"</item>
+        <item>"28:MAZDA(Xinbas)"</item>
+        <item>"51 Hafer/H2(Xinbas)"</item>	
+		<item>"63:Jeep(Xinbas)"</item>	
+    </string-array>
+    <string-array name="canbox_select_hiworld">
+        <item>"0:NONE"</item>
+        <item>"35:Touarg(Hiworld)"</item>
+		<item>"43:Mini(Hiworld)"</item>
+    </string-array>
+
+
+
+	<string-array name="dvd_select">
+		<item>DVS DVD</item>
+		<item>Shinwa DVD</item>
+	</string-array>
+	
+	<string-array name="reak_select">
+		<item>Off</item>
+		<item>Level</item>
+		<item>Sequence</item>
+	</string-array>
+
+	<string-array name="brake_select">
+		<item>Use level detection</item>
+		<item>Use pulse detection</item>
+	</string-array>
+	<string-array name="brake_select_value" translatable="false">
+		<item>1</item>
+		<item>2</item>
+	</string-array>
+					
+	<string-array name="illumin_select">
+		<item>Use level detection</item>
+		<item>Use pulse detection</item>
+	</string-array>
+	<string-array name="illumin_select_value" translatable="false">
+		<item>0</item>
+		<item>1</item>
+	</string-array>
+	
+	<string-array name="radio_select">
+		<item>Sensitivity of seeking Dx to FM</item>
+		<item>Sensitivity of seeking Loc to FM</item>
+		<item>Sensitivity of seeking Dx to AM</item>
+		<item>Sensitivity of seeking Loc to AM</item>
+		<item>Restore defaults</item>
+	</string-array>
+	
+	<string-array name="fan_select">
+		<item>Always On</item>
+		<item>45°C</item>
+		<item>46°C</item>
+		<item>47°C</item>
+		<item>48°C</item>
+		<item>49°C</item>
+		<item>50°C</item>
+		<item>51°C</item>
+		<item>52°C</item>
+		<item>53°C</item>
+		<item>54°C</item>
+		<item>55°C</item>
+		<item>56°C</item>
+		<item>57°C</item>
+		<item>58°C</item>
+		<item>Always Off</item>
+	</string-array>	
+	
+	<string-array name="radio_region_select">
+		<item><font><b>USA</b></font>\nFM:87.5~107.9MHZ\nAM:530~1710KHZ</item>
+		<item><font><b>LATIN</b></font>\nFM:87.5~108.0MHZ\nAM:530~1710KHZ</item>
+		<item><font><b>EUROPE</b></font>\nFM:87.5~108.0MHZ\nAM:522~1620KHZ</item>
+		<item><font><b>OIRT</b></font>\nFM:65.0~74.0MHZ\nAM:522~1620KHZ</item>
+		<item><font><b>JAPAN</b></font>\nFM:76.0~90.0MHZ\nAM:522~1629KHZ</item>
+		<item><font><b>CHINA</b></font>\nFM:87.5~108.0MHZ\nAM:522~1620KHZ</item>
+		<item><font><b>AUSTRALIA</b></font>\nFM:87.5~108.0MHZ\nAM:522~1710KHZ</item>
+		<item><font><b>RUSSIA</b></font>\nFM:65.0~74.0MHZ 87.5.0~108.0MHZ\nAM:522~1620KHZ</item>
+		<item><font><b>JAPAN2</b></font>\nFM:76.0~108.0MHZ\nAM:522~1620KHZ</item>
+	</string-array>
+	<string-array name="radio_region_select_value" translatable="false">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>8</item>
+		<item>10</item>
+		<item>11</item>
+	</string-array>
+	
+	<string-array name="car_support_select">
+		<item>radar control</item>
+		<item>parking switch</item>
+	</string-array>
+	
+	<string-array name="on_off">
+		<item>Off</item>
+		<item>On</item>	
+	</string-array>
+	
+		<string-array name="navigation_sound_channel_entries">
+		<item>Front-left</item>
+		<item>Front-right</item>
+		<item>Front Dual</item>
+	</string-array>
+    <string-array name="navigation_sound_channel_entries_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="app_hide_select">
+		<item>DVD</item>
+		<item>@string/f_camera_label</item>
+		<item>@string/video_out_label</item>
+		<item>TV</item>
+		<item>DVR</item>
+		<item>VoiceControl</item>
+		<item>@string/joykey_study</item>
+		<item>@string/wheelkey_study</item>		
+		<item>USB DVD</item>
+	</string-array>
+	<string-array name="app_hide_select_value" >
+		<item>DVD</item>
+		<item>FCAM</item>
+		<item>VOUT</item>
+		<item>DTV</item>
+		<item>DVR</item>
+		<item>VOICE</item>
+		<item>JOYSTUDY</item>
+		<item>WHEELKEYSTUDY</item>	
+		<item>USBDISC</item>
+	</string-array>
+		<string-array name="camera_mode_select">
+	    <item>F-CAM</item>
+	    <item>4-CAM</item>
+	</string-array>
+	<string-array name="camera_mode_value">
+	    <item>0</item>
+	    <item>1</item>
+	</string-array>
+    
+	<string-array name="bt_mode_select">
+        <item>IVT i140</item>
+        <item>IVT i145</item>
+        <item>FC6000TN</item>
+        <item>GOC_BC5_3008</item>
+        <item>KD6</item>
+        <item>WQ_RF210</item>
+        <item>SD_816</item>
+    </string-array>	<string-array name="bt_mode_value">
+        <item>0</item>
+        <item>-1</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>260</item>
+    </string-array>
+	
+    <string-array name="tv_mode">
+        <item>1.NONE</item>
+        <item>2.CVBS (0x00FF)</item>
+        <item>3.CVBS (HR600)</item>
+        <item>4.CVBS (HR600_2_TOUCH)</item>
+    </string-array>	<string-array name="tv_mode_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    
+    <string-array name="led_type">
+        <item>@string/mono</item>
+        <item>RGB LED</item>
+        <item>BGR LED</item>
+    </string-array>
+    <string-array name="led_type_value">
+        <item>1</item>
+        <item>0</item>
+        <item>2</item>
+    </string-array>
+    
+    	<string-array name="screen_size_select_value">
+        <item>1024,600</item>
+        <item>800,480</item>
+    </string-array>
+    
+	<string-array name="screen_size_select">	    
+        <item>1024 X 600</item>
+        <item>800 X 480</item>
+	</string-array>
+	
+	<string-array name="switch_to_front_camera_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    	<string-array name="switch_to_front_camera">
+        <item>Off</item>
+        <item>1 s</item>
+        <item>2 s</item>
+        <item>3 s</item>
+        <item>4 s</item>
+        <item>5 s</item>
+        <item>6 s</item>
+        <item>7 s</item>
+        <item>8 s</item>
+        <item>9 s</item>
+        <item>10 s</item>
+    </string-array>
+	
+	<string-array name="led_control_select">	    
+        <item>Illumination Control</item>
+        <item>Switch Control</item>
+        <item>Switch and Illumination Control</item>
+	</string-array>
+	
+	<string-array name="led_control_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    
+	<string-array name="screen1_view_select">
+        <item>BT Phone Call View</item>
+        <item>Reverse Camera View</item>
+    </string-array>
+    <string-array name="screen1_view_select_value" translatable="false">
+        <item>bt</item>
+        <item>reverse</item>
+    </string-array>
+	
+	<string-array name="navi_mix_select">
+		<item>Switch navi sound directly</item>
+		<item>Mix navi sound level -5</item>
+		<item>Mix navi sound level -4</item>
+		<item>Mix navi sound level -3</item>
+		<item>Mix navi sound level -2</item>
+		<item>Mix navi sound level -1</item>
+		<item>Mix navi sound level 0</item>
+		<item>Mix navi sound level 1</item>
+		<item>Mix navi sound level 2</item>
+		<item>Mix navi sound level 3</item>
+		<item>Mix navi sound level 4</item>
+		<item>Mix navi sound level 5</item>
+	</string-array>
+	<string-array name="navi_mix_select_value" translatable="false">
+		<item>0</item>
+		<item>118</item>
+		<item>120</item>
+		<item>122</item>
+		<item>124</item>
+		<item>126</item>
+		<item>128</item>
+		<item>130</item>
+		<item>132</item>
+		<item>134</item>
+		<item>136</item>
+		<item>138</item>
+	</string-array>
+	
+	<string-array name="acc_delay_poweroff_select">
+		<item>OFF</item>
+		<item>5 seconds</item>
+		<item>30 seconds</item>
+		<item>2 minutes</item>
+		<item>5 minutes</item>
+		<item>10 minutes</item>
+		<item>30 minutes</item>
+		<item>1 hour</item>
+	</string-array>
+	<string-array name="acc_delay_poweroff_value" translatable="false">
+		<item>0</item>
+		<item>30</item>
+		<item>120</item>
+		<item>300</item>
+		<item>600</item>
+		<item>1800</item>
+		<item>3600</item>
+	</string-array>
+	
+		<string-array name="launcher_ui_select">
+	    <item>@string/launcher_ui_1</item>
+	    <item>@string/launcher_ui_2</item>
+	</string-array>
+	<string-array name="launcher_ui_value">
+	    <item>0</item>
+	    <item>1</item>
+	</string-array>
+	
+		<string-array name="reset_volume">
+	    <item>Off</item>
+	    <item>10</item>
+	    <item>11</item>
+	    <item>12</item>
+	    <item>13</item>
+	    <item>14</item>
+	    <item>15</item>
+	    <item>16</item>
+	    <item>17</item>
+	    <item>18</item>
+	    <item>19</item>
+	    <item>20</item>
+	</string-array>
+	<string-array name="reset_volume_value">
+	    <item>0</item>
+	    <item>10</item>
+	    <item>11</item>
+	    <item>12</item>
+	    <item>13</item>
+	    <item>14</item>
+	    <item>15</item>
+	    <item>16</item>
+	    <item>17</item>
+	    <item>18</item>
+	    <item>19</item>
+	    <item>20</item>
+	</string-array>
+	
+	<string-array name="reverse_volume_select">
+		<item>On</item>
+<!-- 		<item>Reduction -1</item> -->
+<!-- 		<item>Reduction -2</item> -->
+<!-- 		<item>Reduction -3</item> -->
+<!-- 		<item>Reduction -4</item> -->
+		<item>50%</item>
+<!-- 		<item>Reduction -6</item> -->
+<!-- 		<item>Reduction -7</item> -->
+<!-- 		<item>Reduction -8</item> -->
+<!-- 		<item>Reduction -9</item>		 -->
+		<item>Off</item>
+	</string-array>
+	<string-array name="reverse_volume_select_value" translatable="false">
+		<item>100</item>
+<!-- 		<item>90</item> -->
+<!-- 		<item>80</item> -->
+<!-- 		<item>70</item> -->
+<!-- 		<item>60</item> -->
+		<item>50</item>
+<!-- 		<item>40</item> -->
+<!-- 		<item>30</item> -->
+<!-- 		<item>20</item> -->
+<!-- 		<item>10</item> -->
+		<item>0</item>
+	</string-array>
+	
+	<string-array name="dvr_record_time_select">
+		<item>1 Min</item>
+		<item>3 Min</item>
+		<item>5 Min</item>
+	</string-array>
+	<string-array name="dvr_record_time_select_value" translatable="false">
+		<item>1</item>
+		<item>3</item>
+		<item>5</item>
+	</string-array>
+	
+	
+	<string-array name="logo_type">
+        <item>Logo 2</item>
+        <item>Logo 1</item>
+    </string-array>
+
+	<string-array name="logo_type_value" translatable="false">
+		<item>0</item>
+		<item>1</item>
+	</string-array>
+
+    <string-array name="panel_key_defconfigs">	    
+        <item>Generic</item>
+        <item>Mazda Atenza</item>
+        <item>Mazda Atenza 2</item>
+        <item>Benz</item>
+        <item>Generic_Invert</item>
+        <item>Benz_Invert</item>
+        <item>Mazda Atenza_Invert</item>
+        <item>Mazda Atenza_Invert 2</item>
+        <item>Type 8</item>
+        <item>Type 9</item>
+        <item>Type 10</item>
+        <item>Type 11</item>
+        <item>Type 12</item>
+        <item>Type 13</item>
+        <item>Type 14</item>
+        <item>Type 15</item>
+        <item>Type 16</item>
+        <item>Type 17</item>
+        <item>Type 18</item>
+        <item>Type 19</item>
+        <item>Type 20</item>
+    </string-array>
+
+    <string-array name="panel_key_defconfig_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>257</item>
+        <item>2</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>263</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+    </string-array>	
+
+    <string-array name="amp_volumes" translatable="false">	    
+        <item>0dB</item>
+        <item>-3dB</item>
+        <item>-6dB</item>
+        <item>-9dB</item>
+        <item>-12dB</item>
+        <item>-15dB</item>
+    </string-array>
+    <string-array name="amp_volumes_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    
+    <string-array name="factory_settings_tab_item_name">
+        <item>FUNC</item>
+        <item>RADIO</item>
+        <item>KEY</item>
+        <item>CANBUS</item>
+        <item>VOLUME</item>
+        <item>APP</item>
+        <item>OTHER</item>
+    </string-array>	
+    <string-array name="touch3_settings_keycode_entries">
+        <!-- key -->
+	    <item>None</item>
+	    <item>Mute</item>
+	    <item>Play/Pause</item>
+	    <item>Next</item>
+	    <item>Previous</item>
+	    <item>Eject</item>
+	    <item>Play</item>
+	    <item>Pause</item>
+	    <item>Fast_F</item>
+	    <item>Fast_R</item>
+	    <item>Home</item>
+	    <item>Back</item>
+	    <item>Screen off</item>
+	    <item>Brightness</item>
+	    <!-- app -->
+	    <item>Speech recognition</item>
+	    <item>DVD</item>
+	    <item>Navigation</item>
+	    <item>Radio</item>
+	    <item>EQ</item>
+	    <item>Bluetooth</item>
+	    <item>Music</item>
+	    <item>Video</item>
+	    <item>BT Music</item>
+	</string-array>
+	<string-array name="touch3_settings_keycode_entries_values">
+	    <!-- key -->
+	    <item>0</item>
+	    <item>1</item>
+	    <item>2</item>
+	    <item>3</item>
+	    <item>4</item>
+	    <item>5</item>
+	    <item>7</item>
+	    <item>8</item>
+	    <item>31</item>
+	    <item>32</item>
+	    <item>36</item>
+	    <item>37</item>
+	    <item>65</item>
+	    <item>66</item>
+	    <!-- app -->
+	    <item>86</item>
+	    <item>48</item>
+	    <item>49</item>
+	    <item>109</item>
+	    <item>9</item>
+	    <item>44</item>
+	    <item>60</item>
+	    <item>61</item>
+	    <item>63</item>
+	</string-array>
+
+	<string-array name="tpms_entries">
+	    <item>No</item>
+		<item>TPMS1_KLD</item>
+		<item>TPMS1_KLD2</item>
+		<item>DAB_MF40</item>
+	</string-array>
+    <string-array name="tpms_entries_value" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>100</item>
+    </string-array>
+    
+    <string-array name="ftj_entries">
+	    <item>No</item>
+		<item>FTJ type1</item>
+	</string-array>
+    <string-array name="ftj_entries_value" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="swc_key_defconfigs">	    
+        <item>Generic</item>
+        <item>Corolla</item>
+        <item>Type 2</item>
+        <item>Type 3</item>
+        <item>Type 4</item>
+        <item>Type 5</item>
+        <item>Type 6</item>
+        <item>Type 7</item>
+        <item>Type 8</item>
+        <item>Type 9</item>
+        <item>Type 10</item>
+    </string-array>
+
+    <string-array name="swc_key_defconfig_values" translatable="false">
+        <item>128</item>
+        <item>129</item>
+        <item>130</item>
+        <item>131</item>
+        <item>132</item>
+        <item>133</item>
+        <item>134</item>
+        <item>135</item>
+        <item>136</item>
+        <item>137</item>
+        <item>138</item>
+    </string-array>
+    
+    <string-array name="temp_dis_t">
+        <item>AUTO</item>
+        <item>°C</item>
+        <item>F</item>
+    </string-array>
+    <string-array name="mileage_unit_t">
+        <item>AUTO</item>
+        <item>KM</item>
+        <item>Mile</item>
+    </string-array>
+
+    
+    <string-array name="common_s2">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    
+    	<string-array name="car_info_screensaver">
+		<item>@string/off</item>
+		<item>15 sec</item>
+		<item>30 sec</item>
+		<item>1 min</item>
+		<item>2 min</item>
+		<item>5 min</item>
+		<item>10 min</item>
+		<item>15 min</item>
+		<item>30 min</item>
+	</string-array>
+	
+		<string-array name="car_info_screensaver_value">
+		<item>2147483647</item>
+		<item>15000</item>
+		<item>30000</item>
+		<item>60000</item>
+		<item>120000</item>
+		<item>300000</item>
+		<item>600000</item>
+		<item>900000</item>
+		<item>1800000</item>
+	</string-array>
+
+  <string-array name="ad_std_entry">
+      <item>720P25</item>
+      <!--<item>720P30</item>-->
+      <!--<item>720P50</item>-->
+      <!--<item>720P60</item>-->
+      <item>1080P25</item>
+      <!--<item>1080P30</item>-->
+      <item>NTSC-960H</item>
+      <item>PAL-960H</item>
+      <!--<item>NTSC-D1</item>-->
+      <!--<item>PAL-D1</item>-->
+  </string-array>
+
+  <string-array name="ad_std_value">
+      <item>0</item>
+      <!--<item>1</item>-->
+      <!--<item>2</item>-->
+      <!--<item>3</item>-->
+      <item>4</item>
+      <!--<item>5</item>-->
+      <item>6</item>
+      <item>7</item>
+      <!--<item>8</item>-->
+      <!--<item>9</item>-->
+  </string-array>
+	
+	<string-array name="mic_type">
+        <item>@string/mic_outside</item>
+        <item>@string/mic_inside</item>
+    </string-array>
+
+</resources>

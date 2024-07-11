@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="car_settings_name">Allgemeine Einstellungen</string>
+    <string name="navigation_choice_title">Navi-App auswählen</string>
+    <string name="navigation_choice_summary">Navigations Anwendung auswählen</string>
+    <string name="navi_mix_title">"Navi-Ton"</string>
+    <string name="video_on_driving_title">"Video anschauen"</string>
+    <string name="dynamic_back_track">Dynamische Einparkweg</string>
+    <string name="static_back_track">Rückfahrkamera  Lineal</string>
+    <string name="auto_play_music_title">Automatische Wiedergabe Musik</string>
+    <string name="auto_play_music_summary">Nachdem Sie den USB / SD-Karte einsetzen, spielt das Gerät automatisch die Musik?</string>
+    <string name="led_settings_title">LED-Farbeinstellungen </string>
+    <string name="led_settings_summary">"Set-Taste Farbe LED-Leuchten"</string>
+    <string name="auto_ill_title">"Automatische Helligkeitsanpassung "</string>
+    <string name="auto_ill_summary">"Automatisch abblendende Bildschirmhelligkeit  und offene Panel Licht"</string>
+    <string name="ill_start_time_title">"Helligkeitseinstellung  Startzeit "</string>
+    <string name="ill_stop_time_title">"Helligkeitsjustage Endzeit"</string>
+    <string name="auto_ill_error_same">"Start- und Endzeit kann nicht die gleiche"</string>
+    <string name="touch_sound_title">"Berühren Sie Töne"</string>
+    <string name="steering_wheel_control_settings_title">Lenkradsbedienung Lernen</string>
+    <string name="steering_wheel_control_settings_summary">"Lernen Sie die Schaltfunktion Lenkradsteuerung"</string>
+    <string name="factory_settings_title">Werkseinstellungen</string>
+    <string name="update_mcu">Klicken Sie auf Upgrade MCU</string>
+    <string name="update_mcu_text">MCU-Upgrade abgeschlossen ist, wird das System automatisch neu gestartet</string>
+    <string name="update_mcu_title">MCU-Upgrade</string>
+    <string name="reset_system_title">Werkseinstellungen wiederherstellen</string>
+    <string name="video_on_driving_summary">"Wenn das Fahrzeug fährt, können Sie ein Video ansehen?"</string>
+    <string name="cur_led_color">"Aktuelle LED-Farbe:"</string>
+
+    <string name="apk_install">APK Installer</string>
+    
+        <string name="title_car_settings_personal">Persönliche Einstellungen</string>
+    <string name="title_car_settings_navi">Navigationseinstellungen</string>
+    <string name="title_car_settings_drive">Fahreinstellung</string>
+    <string name="title_car_settings_wheel">Lenkrad lernen</string>
+    <string name="title_car_settings_factory">Werkseinstellung</string>
+    <string name="title_car_settings_update">Aktualisieren und Wiederherstellen der Werkseinstellungen</string>
+    
+    
+    <string name="reverse_volume">Volumen umkehren</string>    
+    <string name="reverse_mirror">Horizontaler Spiegel des Rückfahrschirms</string>    
+    <string name="input_code">Bitte geben Sie Ihr Passwort ein</string>
+    
+    
+<!--     <string name="alert_dialog_ok">D\'accord</string> -->
+    <string name="alert_dialog_cancel">stornieren</string>
+    
+<!--     <string name="update_android_title">Mettre à jour Android</string>     -->
+    <string name="acc_delay_poweroff">acc verzögert das Ausschalten</string>
+    <string name="audio_gain_title">Audio gain</string>
+    
+    <string name="car_cell">Fahrzeugbatterie</string>
+    <string name="car_cell_summary">Anzeige der aktuellen Batteriespannung des Fahrzeugs</string>
+
+    <string name="bt_cell">Bluetooth Telefon</string>
+    <string name="bt_cell_summary">Anzeige der Mobilfunkleistung, Signalstärke</string>
+    
+    
+    <string name="temp_dis">Temperatur-Anzeige</string>
+    <string name="mileage_unit">Kilometerstand-Einheit</string>
+    
+    <string name="mic_type">Mikrofontyp</string>
+     <string name="mic_inside">innen</string>
+     <string name="mic_outside">draußen</string>
+</resources>

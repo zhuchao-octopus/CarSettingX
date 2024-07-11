@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="update_mcu">點擊此按鈕升級 MCU</string>
+    <string name="update_mcu_text">MCU升級後完成會自動重啟系統</string>
+    <string name="no_update_app_text">"請檢查(/extsd/update_apk/)裡是否有更新程式"</string>
+    <string name="update_new_text">當前系統應用程式已是最新版本</string>
+    <string name="update_app">點擊此按鈕升級系統內部應用程式</string>
+    <string name="update_app_text">升級完成後會自動重啟系統</string>
+    <string name="install">"安裝外部卡APK       (請確認檔在 /extsd/apk/目錄下)"</string>
+    <string name="install2">"安裝內部存儲空間APK       (請確認檔在 /sdcard/apk/)"</string>
+    <string name="start_install">"自動安裝APK開始： "</string>
+    <string name="install_success">"　 安裝APK成功"</string>
+    <string name="install_failed">"　 安裝APK失敗"</string>
+    <string name="install_over">"安裝APK完成"</string>
+    <string name="install_warning">安裝APK時請不要退出程式</string>
+    <string name="no_files">沒有可以安裝的APK檔</string>
+    <string name="calibrattion_text">請準確點擊螢幕上的十字架進行校準</string>
+    <string name="product_setting">生產設置</string>
+    <string name="reak_setting">手刹設置</string>
+    <string name="auxin_setting">AUX IN 設置</string>
+    <string name="illumin_setting">大燈設置</string>
+    <string name="radio_setting">收音設置</string>
+    <string name="fan_setting">風扇設置</string>
+    <string name="radio_region_setting">收音區域設置</string>
+    <string name="radio_dec">-</string>
+    <string name="radio_inc">+</string>
+    <string name="listening_test">試聽</string>
+    <string name="radio_default">恢復</string>
+    <string name="no_need_calibration">這是電容屏,不需要校準!</string>
+    <string name="steering_wheel_control_settings_title">方向盤按鍵學習</string>
+    <string name="pannel_control_settings_title">面板按鍵學習</string>
+    <string name="download_warning">下載過程中請勿掉電！</string>
+    <string name="download_title">下載開機LOGO?</string>
+    <string name="download_waiting"> 下載中，請等待。。。</string>
+    <string name="ok">確定</string>
+    <string name="cancel"> 取消</string>
+    <string name="exit">退出</string>
+    <string name="download_success">更新成功，重啟後生效</string>
+    <string name="download_fail">更新失敗</string>
+    <string name="run_script">運行腳本</string>
+    <string name="logo_settings_title">開機Logo設置</string>
+    <string name="reset_system_title">恢復出廠設置</string>
+    <string name="led_settings_title">LED燈顏色設置</string>
+    
+    <string name="canbox_settings_manufacturer">CAN盒廠商</string>
+    <string name="canbox_settings_title">CAN盒設置</string>
+    <string name="canbox_settings_title1">CAN盒設置,設置完重啟才會生效</string>
+ 	<string name="rds_settings_title">RDS 設置</string>
+ 	
+ 	<string name="hide_app_title">選擇需要隱藏的應用程式</string>
+ 	
+    <string name="screen1_view_title">副屏設置</string>
+ 	
+ 	 
+    <string name="spec_function_title">特殊功能設置</string>
+    <string name="spec_function1">倒車退出後切換到前置攝像頭顯示,20秒後退出（重啟後生效）</string>
+ 	
+    	<string name="navigation_channel_choice">導航通道設置</string>
+    <string name="calibration_failed">校準失敗</string>
+    <string name="calibration_ok">校準成功</string>
+    <string name="dlg_ok" msgid="2402639055725653590">"確定"</string>
+    <string name="dlg_cancel" msgid="1674753358972975911">"取消"</string>
+    <string name="calibration_settings_title">螢幕校準</string>
+    <string name="calibration_settings_summary">""</string>
+    <string name="buzzer_settings_title">蜂鳴器開關</string>
+    <string name="buzzer_settings_summary">打開或關閉蜂鳴器</string>
+    <string name="navigation_sound_channel_settings_title">導航聲道設置</string>
+    <string name="navigation_sound_channel_settings_summary">選擇導航聲道</string>
+    <string name="radio_region_title">收音區域設置</string>
+    <string name="radio_region_summary">選擇收音區域</string>
+    <string name="navigation_choice_title">導航選擇</string>
+    <string name="navigation_choice_summary">選擇要使用的導航軟體</string>
+    <string name="navigation_auto_dispaux_title">禁止導航自動副屏顯示</string>
+    <string name="navigation_auto_dispaux_summary">導航切換至後臺運行時不自動顯示在副屏</string>
+    <string name="bluetooth_title">藍牙</string>
+    <string name="bluetooth_summary">打開或關閉藍牙</string>
+    <string name="led_setting">按鍵LED燈設置</string>
+    <string name="led_summery">點擊此項選擇下一種按鍵燈顏色(部分車型有效)</string>
+    <string name="rear_settings_title">頭枕設置</string>
+    <string name="sure_reset_mcu">你確定要恢復MCU出廠設置嗎？</string>
+    <string name="sure_reset_system">你確定要恢復系統嗎？</string>
+    <string name="reset_system_message">恢復系統，以前的設置有可能會丟失。</string>
+    <string name="update_mcu_title">升級MCU</string>
+    <string name="factory_settings_title">工廠設置</string>
+    <string name="app_install_title">自動安裝apk檔</string>
+    <string name="app_install_manul_title">手動安裝apk檔</string>
+    <string name="update_system_app">更新系統內置應用程式</string>
+    <string name="reverse_mute">倒車靜音</string>
+    <string name="other_app_sound">協力廠商聲音優先</string>
+    <string name="prompt_start">請點擊開始學習</string>
+    <string name="prompt_study">請點擊需要學習的按鈕</string>
+    <string name="prompt_press">請在方控上按鍵</string>
+    <string name="prompt_success">學習成功，請學習下一按鈕</string>
+    <string name="prompt_completed">完成學習</string>
+    <string name="prompt_clear_key">清空按鍵</string>
+    <string name="app_name">方控學習</string>
+    <string name="answer">接聽</string>
+    <string name="play_pause">播放/暫停</string>
+    <string name="previous">上一曲</string>
+    <string name="next">下一曲</string>
+    <string name="hung_up">掛斷</string>
+    <string name="volume_mute">靜音</string>
+    <string name="volume_inc">音量加</string>
+    <string name="volume_dec">音量減</string>
+    <string name="study_over">完成學習</string>
+    <string name="study_start">開始學習</string>
+    <string name="clear_key">清空按鍵</string>
+    <string name="key_tbd">待定</string>
+    <string name="panel_prompt_press">請在面板上按鍵</string>
+    <string name="app_name2">面板學習</string>
+    <string name="ff">快進</string>
+    <string name="fr">快退</string>
+    <string name="front_left">前左</string>
+    <string name="open">打開</string>
+    <string name="close">關閉</string>
+    <string name="mute">靜音</string>
+    <string name="unmute">非靜音</string>
+    <string name="enable">開</string>
+    <string name="disable">關</string>
+
+    <string name="car_settings_name">車機設置</string>
+    <string name="screen_config_file_not_found">%1$s和%2$s找不到設定檔~</string>
+    <string name="screen_config_too_more">超過200個文件.</string>
+    <string name="screen_config_success">屏配置成功.</string>
+
+    <string name="os_update_tip">在掛載的設備上發現Android升級檔(%1$s).\n確定現在升級嗎?</string>
+    <string name="update_file_no_exists">升級檔不存在(%1$s).</string>
+    <string name="update_file_copy_fail">無法升級。原因：無法正常複製升級檔.</string>
+    <string name="update_file_is_prepare">"升級正在準備中, 請稍候 ..."</string>
+    <string name="update_file_prepared">升級準備完成，機器即將重啟。</string>
+    <string name="update_file_copy_progress">"正在複製升級檔...\n複製：%1$s  (%2$s)"</string>
+    
+    <string name="video_on_driving_title">"觀看視頻"</string>
+    <string name="video_on_driving_summary">"允許在行車時觀看視頻？"</string>
+    <string name="steering_wheel_control_settings_summary">"學習方向盤按鈕控制功能"</string>
+    <string name="pannel_control_settings_summary">"學習面板按鈕控制功能"</string>
+    <string name="logo_settings_summary">"選擇開機畫面"</string>
+    <string name="led_settings_summary">"選擇面板燈顏色"</string>
+    <string name="no_app_hide">"無"</string>
+    <string name="touch_key_study_title">"觸控式螢幕按鍵學習"</string>
+    <string name="touch_key_study_summary">"學習觸控式螢幕按鈕控制功能"</string>
+    <string name="can_key_study_title">Canbus 按鍵學習</string>
+    <string name="can_key_study_summary">學習Canbus按鈕控制功能</string>
+    <string name="password_error">"密碼錯誤"</string>
+    <string name="brake_det_off">"不檢測手刹"</string>
+    <string name="backup_title">"備份設置"</string>
+    <string name="backup_message">"您是否想將全部工廠設置資訊保存到外部SD或USB設備？"</string>
+    <string name="restore_title">"恢復設置"</string>
+    <string name="restore_message">"您是否想將外部SD或USB設備中的工廠設置資訊恢復到本機？"</string>
+    <string name="backup_settings">備份設置</string>
+    <string name="restore_settings">恢復設置</string>
+    <string name="restore_default">恢復初值</string>
+    <string name="reboot_warning">"新設置需要在重啟後方能生效！"</string>
+    <string name="alert_dialog_i_know">"我知道了"</string>
+    <string name="backup_success">"備份設置成功"</string>
+    <string name="restore_success">"恢復設置成功"</string>
+    <string name="no_valid_ext_storage">"找不到有效的SD或USB設備"</string>
+    <string name="no_backuped_setting_found">"找不到設置備份檔案"</string>
+    <string name="cur_led_color">"當前LED燈顏色："</string>
+    <string name="label_red">"紅色："</string>
+    <string name="label_green">"綠色："</string>
+    <string name="label_blue">"藍色："</string>
+    <string name="reboot_dialog_title">"準備重啟！"</string>
+    <string name="ill_start_time_title">"亮度自動調節開始時間"</string>
+    <string name="ill_stop_time_title">"亮度自動調節結束時間"</string>
+    <string name="auto_ill_title">"自動調節亮度"</string>
+    <string name="auto_ill_summary">"自動調暗螢幕亮度和打開面板燈"</string>
+    <string name="auto_ill_error_same">"開始時間不能和結束時間一樣"</string>
+    <string name="touch_calibration_title">"觸控式螢幕校準"</string>
+    <string name="touch_note_1">"1. 請點擊左上角的藍色點"</string>
+    <string name="touch_note_2">"2. 請點擊右下角的紅色點"</string>
+    <string name="touch_note_begin">"點擊任意位置開始校準觸控式螢幕"</string>
+    <string name="touch_note_end">"觸控式螢幕校準成功！點擊任意位置退出"</string>
+    <string name="update_android_title">"升級安卓"</string>
+    <string name="no_valid_android_image">"找不到安卓軟體鏡像"</string>
+    <string name="update_android_message">"機器將會重啟並通過\"%1$s\"升級安卓系統!\n請勿斷電!"</string>
+    <string name="touch_sound_title">"觸摸和按鍵音"</string>
+    <string name="rds_switch">RDS開關</string>
+    <string name="radio_ant_power">收音天線電源開關</string>
+    <string name="navi_mix_title">"導航聲音選項"</string>
+    
+    <string name="dvr_path">行車記錄儀存儲位置</string>
+    
+    <string name="apk_install">APK安裝器</string>
+    
+    
+    <string name="dynamic_back_track">倒車動態軌跡</string>
+    
+    <string name="static_back_track">後視尺規</string>
+    
+    <string name="auto_play_music_title">自動播放音樂</string>
+    <string name="auto_switch_drak_mode">當小燈打開時自動切換到夜晚模式</string>
+    <string name="night_mode">夜晚模式</string>
+    <string name="auto_play_music_summary">當SD或者USB設備插入時自動切換到音樂界面</string>
+    
+    <string name="f_camera_label">前攝像頭</string>
+    <string name="video_out_label">"後臺視頻設置"</string>
+    
+    <string name="screen_size_title">選擇主螢幕顯示大小</string>
+    
+    <string name="pannel_led_control">面板燈控制</string>    
+    
+    <string name="screen_size_reboot">設置螢幕尺寸需要重啟機器,是否繼續?</string>
+    
+    
+    <string name="alert_dialog_ok">確定</string>
+    <string name="alert_dialog_cancel">取消</string>
+    
+    
+    <string name="acc_delay_poweroff">ACC 熄火關機延時</string>
+    
+    <string name="dvr_record_time">記錄儀錄製時間</string>
+    <string name="custom">自訂</string>
+    <string name="radio">收音</string>
+    <string name="system">系統</string>    
+    
+    <string name="car_type">車型</string>    
+    <string name="apply">應用</string>
+    
+    
+    <string name="save_driver_on">打開安全駕駛!</string>
+    <string name="save_driver_off">關閉安全駕駛!</string>    
+    <string name="canbox_key_mode">按鍵模式</string>
+    <string name="canbox_eq_mode">功放模式</string>
+    
+    
+    <string name="canbox_car_type">車型</string> 
+    <string name="canbox_car_type2">車型2</string> 
+    <string name="canbox_key_change">按鍵交換</string> 
+    <string name="canbox_air">空調</string> 
+    <string name="canbox_front_door">前門</string> 
+    <string name="canbox_rear_door">後門</string>   
+    
+    
+    <string name="canbox_pre_next">上下曲</string>  
+    <string name="canbox_volume_increase_decrease">音量加減</string> 
+   
+    
+    <string name="normal">正常</string>    
+    <string name="change">互換</string>
+    <string name="hide">隱藏</string>
+    <string name="bt_mode">藍牙模組</string>
+    <string name="bt_mic_gain">藍牙Mic增益</string>
+    
+    <string name="tv_mode">TV模組</string>
+    <string name="camera_mode">攝像頭模式</string>
+    
+    
+    <string name="joykey_study">1號方控學習</string>
+
+
+    <string name="wheelkey_study">方控學習</string>
+
+    
+    <string name="no_reverse">禁止倒車</string>
+
+    <string name="rudder">右駕功能</string>
+    
+    <string name="led_type">LED 類型</string>
+    <string name="mono">單色 LED</string>
+    
+    <string name="update_paramter_text">更新成功後會自動重啟</string>
+     <string name="update_paramter">點擊此按鈕更新 paramter</string>
+
+    <string name="panel_key_defconfig_title">面板按鍵預設配置</string>    
+    <string name="swc_key_defconfig_title">方控按鍵預設配置</string>    
+
+    <string name="amp_volume_title">功放音量</string>
+    <string name="audio_channel_gain_title">聲道增益</string>
+    
+
+    <string name="car_model">設備型號</string>
+    <string name="mcu_model">MCU型號</string>
+    
+    <string name="touch3_key_type">"按鍵:&#160;"</string>
+    <string name="touch3_app_type">"應用:&#160;"</string>
+    
+    <string name="title_super_settings">超級設置</string>
+
+	<string name="title_touch3_gesture_settings">三指手勢設置</string>
+	<string name="title_touch3_switch">開啟三指手勢功能</string>
+	<string name="title_touch3_upkey">上滑</string>
+	<string name="title_touch3_downkey">下滑</string>
+    <string name="title_touch3_leftkey">左滑</string>
+    <string name="title_touch3_rightkey">右滑</string>
+    
+    <string name="title_car_settings_personal">個人設置</string>
+    <string name="title_car_settings_navi">導航設置</string>
+    <string name="title_car_settings_drive">行車設置</string>
+    <string name="title_car_settings_wheel">方向盤學習</string>
+    <string name="title_car_settings_factory">工廠設置</string>
+    <string name="title_car_settings_update">升級及恢復出廠設置</string>
+    
+    
+    <string name="reverse_volume">倒車音量</string>    
+    <string name="reverse_mirror">倒車畫面水準鏡像</string>    
+    <string name="input_code">請輸入密碼</string>
+    
+    <string name="launcher_ui_title">主螢幕應用</string>
+    <string name="tpms">胎壓</string>
+    <string name="ftj">分體機</string>
+    
+    <string name="audio_gain_title">音訊增益</string>
+    
+    <string name="switch_to_front_camera">倒車後切換到前攝像頭</string>
+    <string name="add_a_language">添加語言</string>
+    
+    
+    <string name="reset_volume">當音量大於此值時重啟後自動恢復</string>
+    
+    <string name="title_wheel_control">方控</string>
+    <string name="title_eq">等化器</string>
+    <string name="title_gps_search">GPS搜星</string>
+    <string name="title_gps_monitor">GPS監控</string>
+    
+    <string name="update_touch_config">找到觸控式螢幕升級檔 %s, 是否更新?</string>
+    <string name="update_system">找到系統升級檔 %s, 是否更新?</string>
+    
+    <string name="car_cell">車輛電池</string>
+    <string name="car_cell_summary">顯示車輛當前電池電壓</string>
+    
+    <string name="off">關</string>
+    <string name="on">開</string>
+
+    <string name="bt_cell">藍牙電話</string>
+    <string name="bt_cell_summary">顯示電話電池電量,信號強度</string>
+    
+    
+    <string name="car_amplifier_volume">原車功放音量</string>
+    
+    <string name="temp_dis">溫度顯示單位</string>
+    <string name="mileage_unit">里程單位</string>
+    
+    
+    <string name="video_on_stop_title">車輛停止後觀看視頻</string>
+    <string name="video_on_stop_summary">通過GPS判斷車輛停止後，允許觀看視頻</string>
+    
+    
+    <string name="canbox_door_voice">車門打開關閉時語音提示</string>
+    <string name="canbox_front_radar_camera">有前雷達時打開前攝像頭</string>
+    
+
+    <string name="other">其它設置</string>
+    <string name="radar_volume">雷達聲音</string>
+    <string name="radar_ui">隱藏雷達介面</string>
+    <string name="air_single">只顯示單通道溫度</string>
+    
+		<string name="summary_ad_std_apply">選定後請點擊此項保存設置並重啟</string>
+    <string name="title_ad_std">設置視頻通道標準</string>
+    <string name="title_ad_enable">開/關</string>
+    <string name="title_ad_channel_reverse">通道0: 倒車</string>
+    <string name="title_ad_channel_auxin">通道1: AuxIn</string>
+    <string name="title_ad_channel_dvd">通道2: DVD</string>
+    <string name="title_ad_channel_fcam">通道3: 前視</string>
+
+    
+    
+    <string name="bt_updating">更新中</string>
+    <string name="bt_not_sound_file">沒找到音效檔</string>
+    
+    
+    <string name="mic_type">麥克風類型</string>
+    <string name="mic_inside">內</string>
+    <string name="mic_outside">外</string>
+</resources>

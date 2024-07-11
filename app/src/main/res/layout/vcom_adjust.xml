@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true" />
+
+    <RelativeLayout
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="#9999CCCC" >
+
+        <com.common.view.RepeatingButton
+            android:id="@+id/button_inc"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:textSize="28sp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/button_inc"
+            android:layout_below="@+id/button_inc"
+            android:layout_marginTop="11dp"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="36sp" />
+
+        <com.common.view.RepeatingButton
+            android:id="@+id/button_dec"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView"
+            android:layout_below="@+id/textView"
+            android:layout_marginTop="17dp"
+            android:gravity="center"
+            android:textSize="28sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

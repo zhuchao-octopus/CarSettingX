@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="navigation_choice_title">בחירות ניווט</string>
+    <string name="navi_mix_title">"ניווט קולי בחר"</string>
+    <string name="video_on_driving_title">"צפו בוידאו"</string>
+    <string name="dynamic_back_track">מסלול חניה Dynamic</string>
+    <string name="static_back_track">היפוך שליט מצלמה</string>
+    <string name="auto_play_music_title">מוסיקת Autoplay</string>
+    <string name="auto_play_music_summary">כאשר כרטיס SD או התקן USB מוכנס, לעבור אוטומטית לממשק המוזיקה?</string>
+    <string name="led_settings_title">הגדרות צבע LED</string>
+    <string name="led_settings_summary">"אורות פנל בחירת צבע"</string>
+    <string name="auto_ill_title">"כוונון אוטומטי של הבהירות"</string>
+    <string name="auto_ill_summary">"באופן אוטומטי את בהירות המסך עמעום אור פאנל פתוח"</string>
+    <string name="ill_start_time_title">"התאמה אוטומטית של שעת התחלה בהירה"</string>
+    <string name="ill_stop_time_title">"שעת סיום התאמת בהירות אוטומטית"</string>
+    <string name="auto_ill_error_same">"שעת התחלה וסיום לא יכולה להיות זהה"</string>
+    <string name="touch_sound_title">"צלילי מגע"</string>
+    <string name="steering_wheel_control_settings_title">למידת כפתור גלגל הגה</string>
+    <string name="steering_wheel_control_settings_summary">"פונקציית שליטה למידה של כפתורי ההגה"</string>
+    <string name="factory_settings_title">הגדרות יצרן</string>
+    <string name="update_mcu">לחץ על כפתור זה כדי לשדרג MCU</string>
+    <string name="update_mcu_text">MCU לאחר סיום השדרוג, המערכת באופן אוטומטי מחדש</string>
+    <string name="update_mcu_title">שדרוג MCU</string>
+    <string name="reset_system_title">שחזור הגדרות יצרן</string>
+    <string name="video_on_driving_summary">"הרכב פועל, אם אתה יכול לצפות בסרטון?"</string>
+    <string name="cur_led_color">"צבע LED נוכחי:"</string>
+
+    <string name="apk_install">מתקין APK</string>
+    <string name="reverse_mirror">היפוך X-Mirror</string>
+    
+    <string name="acc_delay_poweroff">כבה את השהייה אם ACC כבוי</string>
+     
+    <string name="update_android_title">Aעדכון Android</string>
+    
+    
+    <string name="reset_volume">אוטומטי מתחדש עוצמת הקול לאחר ההפעלה מחדש</string>
+    <string name="audio_gain_title">רווח שמע</string>
+     
+    <string name="car_settings_name">הגדרות רכב</string>
+    
+    <string name="car_cell">סוללת רכב</string>
+    <string name="car_cell_summary">סוללת רכב הצג את מתח הסוללה הנוכחי של הרכב</string>
+
+    <string name="bt_cell">"טלפון בלוטות '"</string>
+    <string name="bt_cell_summary">הצגת עוצמת הסוללה של הטלפון, עוצמת האות</string>
+    
+        <string name="title_car_settings_personal">הגדרות אישיות</string>
+    <string name="title_car_settings_navi">הגדרות ניווט</string>
+    <string name="title_car_settings_drive">הגדרת נהיגה</string>
+    <string name="title_car_settings_wheel">למידת הגה</string>
+    <string name="title_car_settings_factory">הגדרת מפעל</string>
+    <string name="title_car_settings_update">שדרג ושחזר את הגדרות היצרן</string>
+    
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="640px"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/appList"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/save_drive_list_h"
+        android:paddingLeft="40px"
+        android:paddingRight="40px" >
+    </ListView>
+
+    <RelativeLayout
+        android:layout_marginTop="10px"
+        android:layout_width="wrap_content"
+        android:paddingLeft="20px"
+        android:paddingRight="20px" 
+        android:layout_marginBottom="10px"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="192px"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="@string/cancel" />
+
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="192px"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="@string/ok" />
+    </RelativeLayout>
+
+</LinearLayout>

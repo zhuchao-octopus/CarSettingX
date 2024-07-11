@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/update_mcu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10px"
+        android:paddingTop="10px"
+        android:text="@string/update_paramter"
+        android:textColor="#ff0000"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/update_mcu_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20px"
+        android:text="@string/update_paramter_text"
+        android:textColor="#ffffff"
+        android:textSize="26sp" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="80px"
+        android:text="@string/alert_dialog_cancel"
+        android:textSize="32sp" />
+
+    <!-- <Button -->
+    <!-- android:id="@+id/update_nav" -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="100px" -->
+    <!-- android:text="@string/update_nav" -->
+    <!-- android:textSize="20sp" /> -->
+
+    <TextView
+        android:id="@+id/update_app_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20px"
+        android:paddingBottom="10px"
+        android:paddingTop="10px"
+        android:textColor="#ff0000"
+        android:textSize="20sp" />
+
+</LinearLayout>

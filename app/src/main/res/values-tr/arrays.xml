@@ -1,0 +1,29 @@
+<resources>
+
+	<string-array name="navi_mix_select">
+		<item>"Navigasyon Sesine Direk Geçiş"</item>
+		<item>"Navi sesi karıştırma -5"</item>
+		<item>"Navi sesi karıştırma -4"</item>
+		<item>"Navi sesi karıştırma -3"</item>
+		<item>"Navi sesi karıştırma -2"</item>
+		<item>"Navi sesi karıştırma -1"</item>
+		<item>"Navi sesi karıştırma 0"</item>
+		<item>"Navi sesi karıştırma 1"</item>
+		<item>"Navi sesi karıştırma 2"</item>
+		<item>"Navi sesi karıştırma 3"</item>
+		<item>"Navi sesi karıştırma 4"</item>
+		<item>"Navi sesi karıştırma 5"</item>
+	</string-array>
+
+	<string-array name="acc_delay_poweroff_select">
+		<item>"Kapalı"</item>
+		<item>"5 Saniye"</item>
+		<item>"30 Saniye"</item>
+		<item>"2 Dakika"</item>
+		<item>"5 Dakika"</item>
+		<item>"10 Dakika"</item>
+		<item>"30 Dakika"</item>
+		<item>"1 Saat"</item>
+	</string-array>
+
+</resources>

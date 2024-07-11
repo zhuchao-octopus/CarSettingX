@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout="@layout/preference_list_fragment" >
+   
+    <EditTextPreference
+        android:key="model"
+        android:title="@string/car_model"
+        android:layout="@layout/preference_car_settings_submenu" />
+    <EditTextPreference
+        android:key="mcu_version_prefix"
+        android:title="@string/mcu_model"
+        android:layout="@layout/preference_car_settings_submenu" />
+
+</PreferenceScreen>

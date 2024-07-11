@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:layout_width="450px"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="40px"
+        android:layout_marginTop="90px"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/VideoOutRadioL"
+            style="@style/VideoOutRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="113px"
+            android:layout_marginTop="5px"
+            android:background="@drawable/tz"
+            android:gravity="center_horizontal"
+            android:paddingTop="86px"
+            
+            android:textColor="#ff000000"
+              />
+
+        <RadioGroup
+            android:id="@+id/radioGroupVideoOutL"
+            android:layout_width="175px"
+            android:layout_height="400px"
+            android:layout_marginLeft="3px"
+            android:visibility="gone"
+            android:background="@drawable/com_button13"
+            android:paddingTop="10px" >
+
+            <RadioButton
+                android:id="@+id/radioLOff"
+                style="@style/VideoOutRadio"
+                android:text="@string/video_out_off" />
+
+            <RadioButton
+                android:id="@+id/radioLArm"
+                style="@style/VideoOutRadio"
+                android:text="@string/video_out_arm" />
+
+            <RadioButton
+                android:id="@+id/radioLDvd"
+                style="@style/VideoOutRadio"
+                android:text="@string/video_out_dvd" />
+
+            <RadioButton
+                android:id="@+id/radioLTv"
+                style="@style/VideoOutRadio"
+                android:text="@string/video_out_tv" />
+
+            <RadioButton
+                android:id="@+id/radioLAv"
+                style="@style/VideoOutRadio"
+                android:text="@string/video_out_av" />
+        </RadioGroup>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="450px"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="40px"
+        android:layout_marginTop="90px" >
+
+        <TextView
+            android:id="@+id/VideoOutRadioR"
+            style="@style/VideoOutRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5px"
+            android:textColor="#ff000000"
+            android:background="@drawable/tz"
+            android:gravity="center_horizontal"
+            android:paddingTop="86px"
+              />
+
+        <RadioGroup
+            android:id="@+id/radioGroupVideoOutR"
+            android:layout_width="175px"
+            android:layout_height="400px"
+            android:layout_alignParentRight="true"
+            android:visibility="gone"
+            android:layout_marginRight="3px"
+            android:background="@drawable/com_button13" >
+
+            <RadioButton
+                android:id="@+id/radioROff"
+                style="@style/VideoOutRadio"
+                android:text="@string/video_out_off" />
+
+            <RadioButton
+                android:id="@+id/radioRArm"
+                style="@style/VideoOutRadio"
+                android:text="@string/video_out_arm" />
+
+            <RadioButton
+                android:id="@+id/radioRDvd"
+                style="@style/VideoOutRadio"
+                android:text="@string/video_out_dvd" />
+
+            <RadioButton
+                android:id="@+id/radioRTv"
+                style="@style/VideoOutRadio"
+                android:text="@string/video_out_tv" />
+
+            <RadioButton
+                android:id="@+id/radioRAv"
+                style="@style/VideoOutRadio"
+                android:text="@string/video_out_av" />
+        </RadioGroup>
+    </RelativeLayout>
+
+</LinearLayout>

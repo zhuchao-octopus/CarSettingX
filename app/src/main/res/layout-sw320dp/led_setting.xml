@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="210.0px"
+        android:layout_marginTop="10.0px"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cur_led_color"
+            android:textSize="16sp" />
+
+        <View
+            android:id="@+id/cur_led_color"
+            android:layout_width="300.0px"
+            android:layout_height="48.0px"
+            android:layout_marginStart="32.0px"
+            android:background="#000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20.0px"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="96.0px"
+                    android:layout_height="wrap_content"
+                    android:text="@string/label_red"
+                    android:textColor="#FF0000"
+                    android:textSize="16sp" />
+
+                <SeekBar
+                    android:id="@+id/seekbar_red"
+                    android:layout_width="256.0px"
+                    android:layout_height="wrap_content"
+                    android:indeterminate="false"
+                    android:max="255" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20.0px"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="96.0px"
+                    android:layout_height="wrap_content"
+                    android:text="@string/label_green"
+                    android:textColor="#00FF00"
+                    android:textSize="16sp" />
+
+                <SeekBar
+                    android:id="@+id/seekbar_green"
+                    android:layout_width="256.0px"
+                    android:layout_height="wrap_content"
+                    android:indeterminate="false"
+                    android:max="255" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20.0px"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="96.0px"
+                    android:layout_height="wrap_content"
+                    android:text="@string/label_blue"
+                    android:textColor="#0000FF"
+                    android:textSize="16sp" />
+
+                <SeekBar
+                    android:id="@+id/seekbar_blue"
+                    android:layout_width="256.0px"
+                    android:layout_height="wrap_content"
+                    android:indeterminate="false"
+                    android:max="255" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10.0px"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10.0px"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <View
+                    android:id="@+id/color_red"
+                    android:layout_width="58.0px"
+                    android:layout_height="58.0px"
+                    android:layout_marginLeft="64.0px"
+                    android:background="#FF0000" />
+
+                <View
+                    android:id="@+id/color_green"
+                    android:layout_width="58.0px"
+                    android:layout_height="58.0px"
+                    android:layout_marginLeft="64.0px"
+                    android:background="#00FF00" />
+
+                <View
+                    android:id="@+id/color_blue"
+                    android:layout_width="58.0px"
+                    android:layout_height="58.0px"
+                    android:layout_marginLeft="64.0px"
+                    android:background="#0000FF" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10.0px"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <View
+                    android:id="@+id/color_yellow"
+                    android:layout_width="58.0px"
+                    android:layout_height="58.0px"
+                    android:layout_marginLeft="64.0px"
+                    android:background="#FFFF00"
+                    android:visibility="gone" />
+
+                <View
+                    android:id="@+id/color_fe500a"
+                    android:layout_width="58.0px"
+                    android:layout_height="58.0px"
+                    android:layout_marginLeft="64.0px"
+                    android:background="#FE500A" />
+
+                <View
+                    android:id="@+id/color_80fe80"
+                    android:layout_width="58.0px"
+                    android:layout_height="58.0px"
+                    android:layout_marginLeft="64.0px"
+                    android:background="#80fe80" />
+
+                <View
+                    android:id="@+id/color_8080fe"
+                    android:layout_width="58.0px"
+                    android:layout_height="58.0px"
+                    android:layout_marginLeft="64.0px"
+                    android:background="#8080fe" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10.0px"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <View
+                    android:id="@+id/color_808000"
+                    android:layout_width="58.0px"
+                    android:layout_height="58.0px"
+                    android:layout_marginLeft="64.0px"
+                    android:background="#808000" />
+
+                <View
+                    android:id="@+id/color_white"
+                    android:layout_width="58.0px"
+                    android:layout_height="58.0px"
+                    android:layout_marginLeft="64.0px"
+                    android:background="#FFFFFF" />
+
+                <View
+                    android:id="@+id/color_bar"
+                    android:layout_width="58.0px"
+                    android:layout_height="58.0px"
+                    android:layout_marginLeft="64.0px"
+                    android:background="@drawable/colorbar" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0px"
+        android:gravity="right"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="192.0px"
+            android:paddingTop="12px"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="32.0px"
+            android:text="@string/cancel" />
+
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="192.0px"
+            android:paddingTop="12px"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="64.0px"
+            android:text="@string/ok" />
+    </LinearLayout>
+
+</LinearLayout>

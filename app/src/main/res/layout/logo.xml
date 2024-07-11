@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" 
+    	android:layout_height="fill_parent" android:layout_weight="1">
+    <com.my.logo.LogoImageView android:id="@+id/logo1_1"  android:layout_width="@dimen/logo_width"  android:layout_height="@dimen/logo_height"
+    	android:layout_weight="1" android:onClick="processOnClick" android:layout_marginLeft="3dip" android:layout_marginRight="3dip" android:layout_marginTop="6dip"> </com.my.logo.LogoImageView>
+    <com.my.logo.LogoImageView android:id="@+id/logo1_2"  android:layout_width="@dimen/logo_width"  android:layout_height="@dimen/logo_height"
+    	android:layout_weight="1" android:onClick="processOnClick" android:layout_marginLeft="3dip" android:layout_marginRight="3dip" android:layout_marginTop="6dip"></com.my.logo.LogoImageView>
+    <com.my.logo.LogoImageView android:id="@+id/logo1_3"  android:layout_width="@dimen/logo_width"  android:layout_height="@dimen/logo_height"
+    	android:layout_weight="1" android:onClick="processOnClick" android:layout_marginLeft="3dip"  android:layout_marginRight="3dip" android:layout_marginTop="6dip"></com.my.logo.LogoImageView>
+    <com.my.logo.LogoImageView android:id="@+id/logo1_4"  android:layout_width="@dimen/logo_width"  android:layout_height="@dimen/logo_height"
+    	android:layout_weight="1" android:onClick="processOnClick" android:layout_marginLeft="3dip" android:layout_marginRight="3dip" android:layout_marginTop="6dip"></com.my.logo.LogoImageView>
+    <com.my.logo.LogoImageView android:id="@+id/logo1_5"  android:layout_width="@dimen/logo_width"  android:layout_height="@dimen/logo_height"
+    	android:layout_weight="1" android:onClick="processOnClick" android:layout_marginLeft="3dip" android:layout_marginRight="3dip" android:layout_marginTop="6dip"></com.my.logo.LogoImageView>
+    <com.my.logo.LogoImageView android:id="@+id/logo1_6"  android:layout_width="@dimen/logo_width"  android:layout_height="@dimen/logo_height"
+    	android:layout_weight="1" android:onClick="processOnClick" android:layout_marginLeft="3dip" android:layout_marginRight="3dip" android:layout_marginTop="6dip"></com.my.logo.LogoImageView>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent"
+    	android:layout_height="fill_parent" android:layout_weight="1">
+    <com.my.logo.LogoImageView android:id="@+id/logo2_1"  android:layout_width="@dimen/logo_width"  android:layout_height="@dimen/logo_height"
+    	android:layout_weight="1" android:onClick="processOnClick" android:layout_marginLeft="3dip" android:layout_marginRight="3dip" android:layout_marginTop="6dip"></com.my.logo.LogoImageView>
+    <com.my.logo.LogoImageView android:id="@+id/logo2_2"  android:layout_width="@dimen/logo_width"  android:layout_height="@dimen/logo_height"
+    	android:layout_weight="1" android:onClick="processOnClick" android:layout_marginLeft="3dip" android:layout_marginRight="3dip" android:layout_marginTop="6dip"></com.my.logo.LogoImageView>
+    <com.my.logo.LogoImageView android:id="@+id/logo2_3"  android:layout_width="@dimen/logo_width"  android:layout_height="@dimen/logo_height"
+    	android:layout_weight="1" android:onClick="processOnClick" android:layout_marginLeft="3dip" android:layout_marginRight="3dip" android:layout_marginTop="6dip"></com.my.logo.LogoImageView>
+    <com.my.logo.LogoImageView android:id="@+id/logo2_4"  android:layout_width="@dimen/logo_width"  android:layout_height="@dimen/logo_height"
+    	android:layout_weight="1" android:onClick="processOnClick" android:layout_marginLeft="3dip" android:layout_marginRight="3dip" android:layout_marginTop="6dip"></com.my.logo.LogoImageView>
+    <com.my.logo.LogoImageView android:id="@+id/logo2_5"  android:layout_width="@dimen/logo_width"  android:layout_height="@dimen/logo_height"
+    	android:layout_weight="1" android:onClick="processOnClick" android:layout_marginLeft="3dip" android:layout_marginRight="3dip" android:layout_marginTop="6dip"></com.my.logo.LogoImageView>
+    <com.my.logo.LogoImageView android:id="@+id/logo2_6"  android:layout_width="@dimen/logo_width"  android:layout_height="@dimen/logo_height"
+    	android:layout_weight="1" android:onClick="processOnClick" android:layout_marginLeft="3dip" android:layout_marginRight="3dip" android:layout_marginTop="6dip"></com.my.logo.LogoImageView>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent"
+    	android:layout_height="fill_parent" android:layout_weight="1">
+    <com.my.logo.LogoImageView android:id="@+id/logo3_1"  android:layout_width="@dimen/logo_width"  android:layout_height="@dimen/logo_height"
+    	android:layout_weight="1"  android:onClick="processOnClick" android:layout_marginLeft="3dip" android:layout_marginRight="3dip" android:layout_marginTop="6dip"></com.my.logo.LogoImageView>
+    <com.my.logo.LogoImageView android:id="@+id/logo3_2"  android:layout_width="@dimen/logo_width"  android:layout_height="@dimen/logo_height"
+    	android:layout_weight="1"  android:onClick="processOnClick" android:layout_marginLeft="3dip" android:layout_marginRight="3dip" android:layout_marginTop="6dip"></com.my.logo.LogoImageView>
+    <com.my.logo.LogoImageView android:id="@+id/logo3_3"  android:layout_width="@dimen/logo_width"  android:layout_height="@dimen/logo_height"
+    	android:layout_weight="1"  android:onClick="processOnClick" android:layout_marginLeft="3dip" android:layout_marginRight="3dip" android:layout_marginTop="6dip"></com.my.logo.LogoImageView>
+    <com.my.logo.LogoImageView android:id="@+id/logo3_4"  android:layout_width="@dimen/logo_width"  android:layout_height="@dimen/logo_height"
+    	android:layout_weight="1"  android:onClick="processOnClick" android:layout_marginLeft="3dip" android:layout_marginRight="3dip" android:layout_marginTop="6dip"></com.my.logo.LogoImageView>
+    <com.my.logo.LogoImageView android:id="@+id/logo3_5"  android:layout_width="@dimen/logo_width"  android:layout_height="@dimen/logo_height"
+    	android:layout_weight="1" android:onClick="processOnClick" android:layout_marginLeft="3dip" android:layout_marginRight="3dip" android:layout_marginTop="6dip"></com.my.logo.LogoImageView>
+    <com.my.logo.LogoImageView android:id="@+id/logo3_6"  android:layout_width="@dimen/logo_width"  android:layout_height="@dimen/logo_height"
+    	android:layout_weight="1"  android:onClick="processOnClick" android:layout_marginLeft="3dip" android:layout_marginRight="3dip" android:layout_marginTop="6dip"></com.my.logo.LogoImageView>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent"
+    	android:layout_height="fill_parent" android:layout_weight="1">
+    <com.my.logo.LogoImageView android:id="@+id/logo4_1"  android:layout_width="@dimen/logo_width"  android:layout_height="@dimen/logo_height"
+    	android:layout_weight="1"  android:onClick="processOnClick" android:layout_marginLeft="3dip" android:layout_marginRight="3dip" android:layout_marginTop="6dip"></com.my.logo.LogoImageView>
+    <com.my.logo.LogoImageView android:id="@+id/logo4_2"  android:layout_width="@dimen/logo_width"  android:layout_height="@dimen/logo_height"
+    	android:layout_weight="1"  android:onClick="processOnClick" android:layout_marginLeft="3dip" android:layout_marginRight="3dip" android:layout_marginTop="6dip"></com.my.logo.LogoImageView>
+    <com.my.logo.LogoImageView android:id="@+id/logo4_3"  android:layout_width="@dimen/logo_width"  android:layout_height="@dimen/logo_height"
+    	android:layout_weight="1"  android:onClick="processOnClick" android:layout_marginLeft="3dip" android:layout_marginRight="3dip" android:layout_marginTop="6dip"></com.my.logo.LogoImageView>
+    <com.my.logo.LogoImageView android:id="@+id/logo4_4"  android:layout_width="@dimen/logo_width"  android:layout_height="@dimen/logo_height"
+    	android:layout_weight="1"  android:onClick="processOnClick" android:layout_marginLeft="3dip" android:layout_marginRight="3dip" android:layout_marginTop="6dip"></com.my.logo.LogoImageView>
+    <com.my.logo.LogoImageView android:id="@+id/logo4_5"  android:layout_width="@dimen/logo_width"  android:layout_height="@dimen/logo_height"
+    	android:layout_weight="1"  android:onClick="processOnClick" android:layout_marginLeft="3dip" android:layout_marginRight="3dip" android:layout_marginTop="6dip"></com.my.logo.LogoImageView>
+    <com.my.logo.LogoImageView android:id="@+id/logo4_6"  android:layout_width="@dimen/logo_width"  android:layout_height="@dimen/logo_height"
+    	android:layout_weight="1"  android:onClick="processOnClick" android:layout_marginLeft="3dip" android:layout_marginRight="3dip" android:layout_marginTop="6dip"></com.my.logo.LogoImageView>
+    </LinearLayout>
+    <View android:layout_width="match_parent" android:layout_height="1dip"
+		android:layout_weight="0" android:background="#ffffffff"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent"
+    	android:layout_height="fill_parent" android:layout_weight="1">
+    	
+    <com.my.logo.LogoImageView android:id="@+id/logo5_1"  android:layout_width="@dimen/logo_width"  android:layout_height="@dimen/logo_height"
+    	android:layout_weight="1"  android:onClick="processOnClick" android:layout_marginLeft="3dip" android:layout_marginRight="3dip" android:layout_marginTop="6dip"></com.my.logo.LogoImageView>
+    <com.my.logo.LogoImageView android:id="@+id/logo5_2"  android:layout_width="@dimen/logo_width"  android:layout_height="@dimen/logo_height"
+    	android:layout_weight="1"  android:onClick="processOnClick" android:layout_marginLeft="3dip" android:layout_marginRight="3dip" android:layout_marginTop="6dip"></com.my.logo.LogoImageView>
+    <com.my.logo.LogoImageView android:id="@+id/logo5_3"  android:layout_width="@dimen/logo_width"  android:layout_height="@dimen/logo_height"
+    	android:layout_weight="1"  android:onClick="processOnClick" android:layout_marginLeft="3dip" android:layout_marginRight="3dip" android:layout_marginTop="6dip"></com.my.logo.LogoImageView>
+    <com.my.logo.LogoImageView android:id="@+id/logo5_4"  android:layout_width="@dimen/logo_width"  android:layout_height="@dimen/logo_height"
+    	android:layout_weight="1"  android:onClick="processOnClick" android:layout_marginLeft="3dip" android:layout_marginRight="3dip" android:layout_marginTop="6dip"></com.my.logo.LogoImageView>
+    <com.my.logo.LogoImageView android:id="@+id/logo5_5"  android:layout_width="@dimen/logo_width"  android:layout_height="@dimen/logo_height"
+    	android:layout_weight="1"  android:onClick="processOnClick" android:layout_marginLeft="3dip" android:layout_marginRight="3dip" android:layout_marginTop="6dip"></com.my.logo.LogoImageView>
+    <com.my.logo.LogoImageView android:id="@+id/logo5_6"  android:layout_width="@dimen/logo_width"  android:layout_height="@dimen/logo_height"
+    	android:layout_weight="1"  android:onClick="processOnClick" android:layout_marginLeft="3dip" android:layout_marginRight="3dip" android:layout_marginTop="6dip"></com.my.logo.LogoImageView>
+    </LinearLayout>
+</LinearLayout>

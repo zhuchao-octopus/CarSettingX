@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="update_app">"Κάντε κλικ σε αυτό το κουμπί για να ενημερώσετε τις εφαρμογές του συστήματος"</string>
+    <string name="update_app_text">"Το σύστημα θα επανεκκινήσει αυτόματα αν οι εφαρμογές ενημερώσουν την επιτυχία"</string>
+    <string name="no_update_app_text">"ελέγξτε αν υπάρχουν αρχεία apk στο (/ extsd / update_apk /)"</string>
+    <string name="update_new_text">"τώρα οιεφαρμογές του συστήματος είναι οι τελευταίες"</string>
+    <string name="update_mcu">"Κάντε κλικ σε αυτό το κουμπί για να ενημερώσετε την MCU"</string>
+    <string name="alert_dialog_ok">OK</string>
+    <string name="alert_dialog_cancel">"Ακύρωση"</string>
+    <string name="sure_update_mcu">"Αναβάθμιση MCU?"</string>
+    <string name="update_mcu_text">"Το σύστημα θα επανεκκινήσει αυτόματα εάν η επιτυχία της ενημέρωσης MCU είναι επιτυχής."</string>
+    <string name="source_not_exist">"Ο κατάλογος πηγής δεν υπάρχει"</string>
+    <string name="update_failed">"Ενημέρωση απέτυχε"</string>
+    <string name="start_install">"Εγκατάσταση αυτόματης εγκατάστασης APK: "</string>
+    <string name="install_success">"　 Επιτυχής εγκατάσταση APK"</string>
+    <string name="install_failed">"　 Αποτυχία εγκατάστασης APK"</string>
+    <string name="install_over">"Εγκατάσταση APK Ολοκληρώθηκε"</string>
+    <string name="install_warning">"Μην διακόψετε την εγκατάσταση του APK."</string>
+    <string name="no_files">"Δεν υπάρχουν αρχεία APK"</string>
+    <string name="input_code">"Εισαγάγετε τον κωδικό πρόσβασης"</string>
+    <string name="steering_wheel_control_settings_title">"Εκμάθηση χειριστηρίων τιμονιού"</string>
+
+    <string name="app_name">"Διαχείριση αρχείων"</string>
+
+    <string name="led_settings_title">"Ρύθμιση LED"</string>
+    
+
+    <string name="car_settings">"Γενικές ρυθμίσεις"</string>
+
+    <string name="update_mcu_title">"Αναβάθμιση MCU"</string>
+
+    <string name="navigation_sound_channel_settings_title">"Ρύθμιση καναλιών ήχου πλοήγησης"</string>
+    <string name="navigation_sound_channel_settings_summary">"Επιλογή ήχου καναλιού πλοήγησης"</string>
+    <string name="navigation_choice_title">"Ορίστε ένα λογισμικό πλοήγησης"</string>
+    <string name="navigation_choice_summary">"Επιλέξτε λογισμικό πλοήγησης"</string>
+
+    <string name="factory_settings_title">"Εργοστασιακές ρυθμίσεις"</string>
+
+    <string name="car_settings_name">"Ρυθμίσεις αυτοκινήτου"</string> 
+
+    
+    <string name="video_on_driving_title">"Παρακολουθήστε βίντεο"</string>
+    <string name="video_on_driving_summary">"Επιτρέπεται η παρακολούθηση βίντεο κατά την οδήγηση?"</string>
+    <string name="steering_wheel_control_settings_summary">"Εκμάθηση της λειτουργίας για το πλήκτρο στο τιμόνι"</string>
+    <string name="led_settings_summary">"Επιλογή χρωματισμού πλήκτρων LED "</string>
+
+    <string name="reboot_warning">"Οι νέες ρυθμίσεις θα ισχύουν μετά την επανεκκίνηση!"</string>
+    <string name="alert_dialog_i_know">"Το ξέρω αυτό"</string>
+    <string name="no_valid_ext_storage">"Δεν βρέθηκε έγκυρος αποθηκευτικός χώρος SD / USB!"</string>
+    <string name="no_backuped_setting_found">"Δεν βρέθηκε κανένα αρχείο δημιουργίας αντιγράφων ρυθμίσεων!"</string>
+    <string name="cur_led_color">"Τρέχον χρώμα LED: "</string>
+    <string name="label_red">"Κόκκινο:"</string>
+    <string name="label_green">"Πράσινο:"</string>
+    <string name="label_blue">"Μπλε:"</string>
+    <string name="reboot_dialog_title">"Προετοιμασια για επανεκκίνηση!"</string>
+    <string name="ill_start_time_title">"Ο αυτόματος φωτισμός ξεκινάει στις"</string>
+    <string name="ill_stop_time_title">"Ο αυτόματος φωτισμός σταματά στις"</string>
+    <string name="auto_ill_title">"Αυτόματος φωτισμός"</string>
+    <string name="auto_ill_summary">"Αυτόματη μείωση της οθόνης και ενεργοποίηση των πλήκτρων led"</string>
+    <string name="auto_ill_error_same">"Ώρα έναρξης δεν μπορεί να είναι ίδιο με το χρόνο διακοπής!"</string>
+    <string name="update_android_title">"Ενημερώστε το Android"</string>
+    <string name="no_valid_android_image">"Δεν βρέθηκε έγκυρo αρχείο Android!"</string>
+    <string name="update_android_message">"Η συσκευή θα επαναφέρει και θα ενημερώσει το Android από το \"%1$s\"!\nΠαρακαλώ κρατήστε την τροφοδοσία!"</string>
+    <string name="touch_sound_title">"Ήχος αφής και πλήκτρων"</string>
+    <string name="navi_mix_title">"Ήχος πλοήγησης"</string>
+    <string name="enable">"Ενεργοποίηση"</string>
+    <string name="disable">"Απενεργοποίηση"</string>
+    
+    <string name="dvr_path">"Θέση αποθήκευσης DVR"</string>
+    
+    <string name="dynamic_back_track">"Εικονική τροχιά οπισθοπορείας"</string>
+    
+    <string name="static_back_track">"Γραμμές απόστασης οπισθοπορείας"</string>
+    <string name="auto_play_music_title">"Αυτόματη αναπαραγωγή μουσικής"</string>
+    <string name="auto_play_music_summary">"Επιτρέπεται η αυτόματη αναπαραγωγή μουσικής όταν έχει τοποθετηθεί USB ή SD"</string>
+    
+    
+    <string name="reverse_volume">"Ήχος κατά την όπισθεν"</string>
+    <string name="acc_delay_poweroff">"Καθυστέρηση απενεργοποίησης μετά το κλείσιμο διακόπτη"</string>
+    <string name="dvr_record_time">"DVR χρόνος εγγραφής"</string>
+    
+    
+    <string name="wallpaper_instructions">"Ορισμός ταπετσαρίας"</string>
+    <string name="pick_wallpaper">"Ταπετσαρίες"</string>
+    
+    
+    <string name="reverse_mirror">"Αναστροφή κάμερας"</string>
+    
+    <string name="car_model">"Μοντέλο "</string>
+    <string name="mcu_model">"Μοντέλο MCU"</string>
+    
+  
+    <string name="title_car_settings_personal">"Προσωπικές ρυθμίσεις"</string>
+    <string name="title_car_settings_navi">"Ρυθμίσεις πλοήγησης"</string>
+    <string name="title_car_settings_drive">"Ρυθμίσεις οδήγησης"</string>
+    <string name="title_car_settings_wheel">"Πλήκτρα χειριστηρίου τιμονιού"</string>
+    <string name="title_car_settings_factory">"Εργοστασιακές ρυθμίσεις"</string>
+    <string name="title_car_settings_update">"Αναβαθμίστε και επαναφέρετε τις εργοστασιακές ρυθμίσεις"</string>
+    
+
+    
+    <string name="reset_volume">"Η αυτόματη συνέχιση της έντασης μετά την επανεκκίνηση"</string>
+    
+    <string name="title_wheel_control">"Έλεγχος τιμονιού"</string>
+    <string name="title_eq">"Ενισχυτής"</string>
+    
+    
+    <string name="degrees_360">"Σύστημα 360 μοίρες"</string>
+    
+    <string name="show_360_btn">"Εμφάνιση πλήκτρου στην οθόνη"</string>
+
+
+    <string name="temp_dis">"Θερμοκρασία "</string>
+    <string name="mileage_unit">"Μονάδα χιλιομέτρων"</string>
+</resources>

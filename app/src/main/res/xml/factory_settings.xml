@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout="@layout/preference_list_fragment" >
+
+    <ListPreference
+        android:entries="@array/radio_region_select"
+        android:entryValues="@array/radio_region_select_value"
+        android:key="radio_region_setting"
+        android:title="@string/radio_region_setting"
+        android:layout="@layout/preference_car_settings_submenu" />
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="rds_switch"
+        android:title="@string/rds_switch"
+        android:layout="@layout/preference_car_settings_submenu" />
+    
+        <SwitchPreference
+        android:key="radio_ant_power"
+        android:title="@string/radio_ant_power"
+        android:layout="@layout/preference_car_settings_submenu" />
+        
+        
+	<ListPreference
+        android:entries="@array/ftj_entries"
+        android:entryValues="@array/ftj_entries_value"
+        android:key="ftj"
+        android:title="@string/ftj"
+        android:layout="@layout/preference_car_settings_submenu" />    
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="no_reverse"
+        android:title="@string/no_reverse"
+        android:layout="@layout/preference_car_settings_submenu" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="rudder"
+        android:title="@string/rudder"
+        android:layout="@layout/preference_car_settings_submenu" />
+
+    <!-- <ListPreference -->
+    <!-- android:key="illum_setting" -->
+    <!-- android:title="@string/illumin_setting" -->
+    <!-- android:entries="@array/illumin_select" -->
+    <!-- android:entryValues="@array/illumin_select_value" /> -->
+
+    <ListPreference
+        android:entries="@array/led_control_select"
+        android:entryValues="@array/led_control_value"
+        android:key="pannel_led_control"
+        android:title="@string/pannel_led_control"
+        android:layout="@layout/preference_car_settings_submenu" />
+    <ListPreference
+        android:entries="@array/panel_key_defconfigs"
+        android:entryValues="@array/panel_key_defconfig_values"
+        android:key="panel_key_defconfig"
+        android:title="@string/panel_key_defconfig_title"
+        android:layout="@layout/preference_car_settings_submenu" />
+
+    <ListPreference
+        android:entries="@array/swc_key_defconfigs"
+        android:entryValues="@array/swc_key_defconfig_values"
+        android:key="swc_key_defconfig"
+        android:title="@string/swc_key_defconfig_title"
+        android:layout="@layout/preference_car_settings_submenu" />
+
+    <PreferenceScreen
+        android:key="panel_key_study"
+        android:summary="@string/pannel_control_settings_summary"
+        android:title="@string/pannel_control_settings_title"
+        android:layout="@layout/preference_car_settings_submenu" >
+        <intent android:action="com.SwcApplication.intent.action.PanelActivity" />
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:key="touch_key_study"
+        android:summary="@string/touch_key_study_summary"
+        android:title="@string/touch_key_study_title"
+        android:layout="@layout/preference_car_settings_submenu" >
+        <intent android:action="com.SwcApplication.intent.action.TouchActivity" />
+    </PreferenceScreen>
+    
+    <PreferenceScreen
+        android:key="can_key_study"
+        android:summary="@string/can_key_study_summary"
+        android:title="@string/can_key_study_title"
+        android:layout="@layout/preference_car_settings_submenu" >
+        <intent android:action="com.SwcApplication.intent.action.CanKeyActivity" />
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:key="logo_setting"
+        android:summary="@string/logo_settings_summary"
+        android:title="@string/logo_settings_title"
+        android:layout="@layout/preference_car_settings_submenu" />
+    <PreferenceScreen
+        android:key="canbox_setting"
+        android:title="@string/canbox_settings_title"
+        android:layout="@layout/preference_car_settings_submenu" >
+        <intent android:action="com.my.factory.intent.action.CanboxSettings" />
+    </PreferenceScreen>
+
+    <ListPreference
+        android:entries="@array/camera_mode_select"
+        android:entryValues="@array/camera_mode_value"
+        android:key="camera_mode"
+        android:title="@string/camera_mode"
+        android:layout="@layout/preference_car_settings_submenu" />
+    <ListPreference
+        android:entries="@array/bt_mode_select"
+        android:entryValues="@array/bt_mode_value"
+        android:key="bt_mode"
+        android:title="@string/bt_mode"
+        android:layout="@layout/preference_car_settings_submenu" />
+    <ListPreference
+        android:entries="@array/tv_mode"
+        android:entryValues="@array/tv_mode_value"
+        android:key="tv_mode"
+        android:title="@string/tv_mode"
+        android:layout="@layout/preference_car_settings_submenu" />
+    <ListPreference
+        android:entries="@array/led_type"
+        android:entryValues="@array/led_type_value"
+        android:key="led_type"
+        android:title="@string/led_type"
+        android:layout="@layout/preference_car_settings_submenu" />
+	<ListPreference
+        android:entries="@array/tpms_entries"
+        android:entryValues="@array/tpms_entries_value"
+        android:key="tpms"
+        android:title="@string/tpms"
+        android:layout="@layout/preference_car_settings_submenu" />
+
+    <com.common.view.MyPreferenceEdit
+        android:key="vcom"
+        android:title="@string/vcom"
+        android:layout="@layout/preference_car_settings_submenu" />
+
+    <!-- <ListPreference -->
+    <!-- android:entries="@array/canbox_select" -->
+    <!-- android:key="canbox_setting" -->
+    <!-- android:title="@string/canbox_settings_title" /> -->
+    <!-- 自动安装APK文件 -->
+    <!-- <PreferenceScreen android:title="@string/app_install_title" > -->
+    <!-- <intent android:action="com.my.appinstall.intent.action.AppinstallActivity" /> -->
+    <!-- </PreferenceScreen> -->
+    <MultiSelectListPreference
+        android:entries="@array/app_hide_select"
+        android:entryValues="@array/app_hide_select_value"
+        android:key="app_hide_setting"
+        android:title="@string/hide_app_title"
+        android:layout="@layout/preference_car_settings_submenu" />
+    
+    <EditTextPreference
+        android:key="model"
+        android:title="@string/car_model"
+        android:layout="@layout/preference_car_settings_submenu" />
+    <EditTextPreference
+        android:key="mcu_version_prefix"
+        android:title="@string/mcu_model"
+        android:layout="@layout/preference_car_settings_submenu" />
+
+    <ListPreference
+        android:entries="@array/screen_size_select"
+        android:entryValues="@array/screen_size_select_value"
+        android:key="screen_size_setting"
+        android:title="@string/screen_size_title"
+        android:layout="@layout/preference_car_settings_submenu" />
+    
+     <ListPreference
+        android:entries="@array/switch_to_front_camera"
+        android:entryValues="@array/switch_to_front_camera_value"
+        android:key="switch_to_front_camera"
+        android:title="@string/switch_to_front_camera"
+        android:layout="@layout/preference_car_settings_submenu" />
+
+     <Preference
+        android:key="add_a_language"
+        android:title="@string/add_a_language"
+        android:layout="@layout/preference_car_settings_submenu" />
+
+
+    <!-- <MultiSelectListPreference -->
+    <!-- android:entries="@array/screen1_view_select" -->
+    <!-- android:entryValues="@array/screen1_view_select_value" -->
+    <!-- android:key="show_screen1_view" -->
+    <!-- android:title="@string/screen1_view_title" /> -->
+
+    <PreferenceScreen
+        android:key="show_screen1_view"
+        android:title="@string/screen1_view_title"
+        android:layout="@layout/preference_car_settings_submenu" >
+        <intent android:action="com.my.settings.intent.action.SettingsActivity" />
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:key="touch_calibration"
+        android:title="@string/touch_calibration_title"
+        android:layout="@layout/preference_car_settings_submenu" >
+        <intent android:action="com.my.factory.intent.action.TouchCalibrationSettings" />
+    </PreferenceScreen>
+
+    <ListPreference
+        android:entries="@array/amp_volumes"
+        android:entryValues="@array/amp_volumes_values"
+        android:key="amp_volume"
+        android:title="@string/amp_volume_title"
+        android:layout="@layout/preference_car_settings_submenu" />
+
+    <PreferenceScreen
+        android:key="audio_channel_gain"
+        android:title="@string/audio_channel_gain_title"
+        android:layout="@layout/preference_car_settings_submenu" />
+
+        <ListPreference
+        android:entries="@array/switch_to_front_camera_value"
+        android:entryValues="@array/switch_to_front_camera_value"
+        android:key="bt_mic_gain"
+        android:title="@string/bt_mic_gain"
+        android:layout="@layout/preference_car_settings_submenu" />
+        
+    <PreferenceScreen
+        android:key="backup_settings"
+        android:title="@string/backup_title"
+        android:layout="@layout/preference_car_settings_submenu" >
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:key="restore_settings"
+        android:title="@string/restore_title"
+        android:layout="@layout/preference_car_settings_submenu" >
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:key="super_settings_menu"
+        android:title="@string/title_super_settings"
+        android:layout="@layout/preference_car_settings_submenu" >
+	</PreferenceScreen>
+    <!-- <PreferenceScreen
+        android:key="touch3_settings"
+        android:title="@string/title_touch3_gesture_settings"
+        android:layout="@layout/preference_car_settings_submenu"  >
+        <SwitchPreference
+            android:key="touch3_settings_switch"
+            android:title="@string/title_touch3_switch"
+            android:defaultValue="false"
+            android:layout="@layout/preference_car_settings_submenu"/>
+        <ListPreference
+            android:key="touch3_settings_upkey"
+            android:title="@string/title_touch3_upkey"
+            android:entries="@array/touch3_settings_keycode_entries"
+            android:entryValues="@array/touch3_settings_keycode_entries_values"
+            android:layout="@layout/preference_car_settings_submenu" />
+        <ListPreference
+            android:key="touch3_settings_downkey"
+            android:title="@string/title_touch3_downkey"
+            android:entries="@array/touch3_settings_keycode_entries"
+            android:entryValues="@array/touch3_settings_keycode_entries_values"
+            android:layout="@layout/preference_car_settings_submenu" />
+        <ListPreference
+            android:key="touch3_settings_leftkey"
+            android:title="@string/title_touch3_leftkey"
+            android:entries="@array/touch3_settings_keycode_entries"
+            android:entryValues="@array/touch3_settings_keycode_entries_values"
+            android:layout="@layout/preference_car_settings_submenu" />
+        <ListPreference
+            android:key="touch3_settings_rightkey"
+            android:title="@string/title_touch3_rightkey"
+            android:entries="@array/touch3_settings_keycode_entries"
+            android:entryValues="@array/touch3_settings_keycode_entries_values"
+            android:layout="@layout/preference_car_settings_submenu" />
+    </PreferenceScreen> -->
+</PreferenceScreen>

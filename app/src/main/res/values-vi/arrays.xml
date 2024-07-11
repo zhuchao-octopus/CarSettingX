@@ -1,0 +1,29 @@
+<resources>
+
+	<string-array name="navi_mix_select">
+		<item>"Chuyển đổi âm thanh điều hướng trực tiếp"</item>
+		<item>"Trộn âm thanh điều hướng mức -5"</item>
+		<item>"Trộn âm thanh điều hướng mức -4"</item>
+		<item>"Trộn âm thanh điều hướng mức -3"</item>
+		<item>"Trộn âm thanh điều hướng mức -2"</item>
+		<item>"Trộn âm thanh điều hướng mức -1"</item>
+		<item>"Trộn âm thanh điều hướng mức 0"</item>
+		<item>"Trộn âm thanh điều hướng mức 1"</item>
+		<item>"Trộn âm thanh điều hướng mức 2"</item>
+		<item>"Trộn âm thanh điều hướng mức 3"</item>
+		<item>"Trộn âm thanh điều hướng mức 4"</item>
+		<item>"Trộn âm thanh điều hướng mức 5"</item>
+	</string-array>
+
+	<string-array name="acc_delay_poweroff_select">
+		<item>"TẮT"</item>
+		<item>"5 giây"</item>
+		<item>"30 giây"</item>
+		<item>"2 phút"</item>
+		<item>"5 phút"</item>
+		<item>"10 phút"</item>
+		<item>"30 phút"</item>
+		<item>"1 giờ"</item>
+	</string-array>
+
+</resources>

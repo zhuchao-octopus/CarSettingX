@@ -1,0 +1,57 @@
+<resources>
+	<string-array name="navi_mix_select">
+		<item>"Переключать звук"</item>
+		<item>"Смешивать звук, уровень -5"</item>
+		<item>"Смешивать звук, уровень -4"</item>
+		<item>"Смешивать звук, уровень -3"</item>
+		<item>"Смешивать звук, уровень -2"</item>
+		<item>"Смешивать звук, уровень -1"</item>
+		<item>"Смешивать звук, уровень 0"</item>
+		<item>"Смешивать звук, уровень 1"</item>
+		<item>"Смешивать звук, уровень 2"</item>
+		<item>"Смешивать звук, уровень 3"</item>
+		<item>"Смешивать звук, уровень 4"</item>
+		<item>"Смешивать звук, уровень 5"</item>
+	</string-array>
+
+	<string-array name="acc_delay_poweroff_select">
+		<item>"ВЫКЛ"</item>
+		<item>"5 секунды"</item>
+		<item>"30 секунды"</item>
+		<item>"2 минуты"</item>
+		<item>"5 минуты"</item>
+		<item>"10 минуты"</item>
+		<item>"30 минуты"</item>
+		<item>"1 часы"</item>
+	</string-array>
+	
+	<string-array name="reverse_volume_select">
+		<item>"Не менять громкость"</item>
+<!-- 		<item>Reduction -1</item> -->
+<!-- 		<item>Reduction -2</item> -->
+<!-- 		<item>Reduction -3</item> -->
+<!-- 		<item>Reduction -4</item> -->
+		<item>"Приглушать на 50%"</item>
+<!-- 		<item>Reduction -6</item> -->
+<!-- 		<item>Reduction -7</item> -->
+<!-- 		<item>Reduction -8</item> -->
+<!-- 		<item>Reduction -9</item>		 -->
+		<item>"Выключать звук"</item>
+	</string-array>
+
+		<string-array name="reset_volume">
+	    <item>"Отключено"</item>
+	    <item>10</item>
+	    <item>11</item>
+	    <item>12</item>
+	    <item>13</item>
+	    <item>14</item>
+	    <item>15</item>
+	    <item>16</item>
+	    <item>17</item>
+	    <item>18</item>
+	    <item>19</item>
+	    <item>20</item>
+	</string-array>
+
+</resources>

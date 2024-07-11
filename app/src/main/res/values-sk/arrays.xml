@@ -1,0 +1,29 @@
+<resources>
+
+	<string-array name="navi_mix_select">
+		<item>"Prepnite zvuk navi priamo"</item>
+		<item>"Zmiešajte úroveň zvuku navi -5"</item>
+		<item>"Zmiešajte úroveň zvuku navi -4"</item>
+		<item>"Zmiešajte úroveň zvuku navi -3"</item>
+		<item>"Zmiešajte úroveň zvuku navi -2"</item>
+		<item>"Zmiešajte úroveň zvuku navi -1"</item>
+		<item>"Zmiešajte úroveň zvuku navi 0"</item>
+		<item>"Zmiešajte úroveň zvuku navi 1"</item>
+		<item>"Zmiešajte úroveň zvuku navi 2"</item>
+		<item>"Zmiešajte úroveň zvuku navi 3"</item>
+		<item>"Zmiešajte úroveň zvuku navi 4"</item>
+		<item>"Zmiešajte úroveň zvuku navi 5"</item>
+	</string-array>
+	
+	<string-array name="acc_delay_poweroff_select">
+		<item>"VYPNUTÉ:"</item>
+		<item>"5 sekúnd"</item>
+		<item>"30 sekúnd"</item>
+		<item>"2 minút"</item>
+		<item>"5 minút"</item>
+		<item>"10 minút"</item>
+		<item>"30 minút"</item>
+		<item>"1 hodina"</item>
+	</string-array>
+
+</resources>

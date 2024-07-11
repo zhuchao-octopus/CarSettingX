@@ -1,0 +1,233 @@
+<resources>
+	<string-array name="scan_modes">
+		<item>不可見不可連接</item>
+		<item>可見但不可連接</item>
+		<item>不可見但可連接</item>
+		<item>可見可連接</item>
+	</string-array>
+	
+		<string-array name="led_select">
+		<item>單色</item>
+		<item>顏色1</item>
+		<item>顏色2</item>
+	</string-array>
+
+	<string-array name="mic_input">
+		<item>內MIC</item>
+		<item>外MIC</item>
+	</string-array>
+	
+	<string-array name="mic_gain">
+		<item>音量0</item>
+		<item>音量1</item>
+		<item>音量2</item>
+		<item>音量3</item>
+		<item>音量4</item>
+		<item>音量5</item>
+	</string-array>
+	
+	<string-array name="auxin_select">
+		<item>前置</item>
+		<item>後置</item>
+		<item>前後置</item>
+	</string-array>
+	
+	<string-array name="dvd_select">
+		<item>DVS機芯</item>
+		<item>信華機芯</item>
+	</string-array>
+	
+	<string-array name="reak_select">
+		<item>關閉</item>
+		<item>電平</item>
+		<item>序列</item>
+	</string-array>
+	
+	<string-array name="illumin_select">
+		<item>電平</item>
+		<item>脈衝</item>
+	</string-array>
+	
+	<string-array name="radio_select">
+		<item>FM近程停台靈敏度</item>
+		<item>FM遠程停台靈敏度</item>
+		<item>AM近程停台靈敏度</item>
+		<item>AM遠程停台靈敏度</item>
+		<item>恢復默認停台靈敏度</item>
+	</string-array>
+	
+		
+	<string-array name="led_control_select">	    
+        <item>小燈狀態控制</item>
+        <item>開關狀態控制</item>
+        <item>開關和小燈狀態控制</item>
+	</string-array>
+	
+	<string-array name="fan_select">
+		<item>始終啟動</item>
+		<item>45°C</item>
+		<item>46°C</item>
+		<item>47°C</item>
+		<item>48°C</item>
+		<item>49°C</item>
+		<item>50°C</item>
+		<item>51°C</item>
+		<item>52°C</item>
+		<item>53°C</item>
+		<item>54°C</item>
+		<item>55°C</item>
+		<item>56°C</item>
+		<item>57°C</item>
+		<item>58°C</item>
+		<item>始終關閉</item>
+	</string-array>
+	
+	<string-array name="radio_region_select">
+	    <item><font><b>美國</b></font>\nFM:87.5~107.9MHZ\nAM:530~1710KHZ</item>
+		<item><font><b>拉丁美洲</b></font>\nFM:87.5~108.0MHZ\nAM:530~1710KHZ</item>
+		<item><font><b>歐洲</b></font>\nFM:87.5~108.0MHZ\nAM:522~1620KHZ</item>
+		<item><font><b>東歐</b></font>\nFM:65.0~74.0MHZ\nAM:522~1620KHZ</item>
+		<item><font><b>日本</b></font>\nFM:76.0~90.0MHZ\nAM:522~1629KHZ</item>
+		<item><font><b>中國</b></font>\nFM:87.5~108.0MHZ\nAM:522~1620KHZ</item>
+		<item><font><b>澳洲</b></font>\nFM:87.5~108.0MHZ\nAM:522~1710KHZ</item>
+		<item><font><b>俄羅斯</b></font>\nFM:65.0~74.0MHZ 88.0~108.0MHZ\nAM:522~1620KHZ</item>
+		<item><font><b>日本2</b></font>\nFM:76.0~108.0MHZ\nAM:522~1620KHZ</item>
+	</string-array>
+
+	
+	<string-array name="car_support_select">
+		<item>雷達聲控制</item>
+		<item>泊車輔助切換</item>
+	</string-array>
+	
+	<string-array name="on_off">
+		<item>關</item>
+		<item>開</item>	
+	</string-array>
+	
+	<string-array name="navigation_sound_channel_entries">
+		<item>前左</item>
+		<item>前右</item>
+		<item>前左和前右</item>
+	</string-array>
+
+	<string-array name="rds_select">
+		<item>無RDS</item>
+		<item>有RDS</item>
+	</string-array>
+
+	<string-array name="navi_mix_select">
+		<item>"直接切換導航聲音"</item>
+		<item>"導航混音 -5 級"</item>
+		<item>"導航混音 -4 級"</item>
+		<item>"導航混音 -3 級"</item>
+		<item>"導航混音 -2 級"</item>
+		<item>"導航混音 -1 級"</item>
+		<item>"導航混音 0 級"</item>
+		<item>"導航混音 1 級"</item>
+		<item>"導航混音 2 級"</item>
+		<item>"導航混音 3 級"</item>
+		<item>"導航混音 4 級"</item>
+		<item>"導航混音 5 級"</item>
+	</string-array>	
+	 
+	<string-array name="screen1_view_select">
+        <item>藍牙電話通話介面</item>
+        <item>倒車介面</item>
+    </string-array>
+    
+    <string-array name="acc_delay_poweroff_select">
+		<item>關閉</item>
+		<item>5 秒</item>
+		<item>30 秒</item>
+		<item>2 分鐘</item>
+		<item>5 分鐘</item>
+		<item>10 分鐘</item>
+		<item>30 分鐘</item>
+		<item>1 小時</item>
+	</string-array>
+	
+
+    <string-array name="panel_key_defconfigs">	    
+        <item>"通用"</item>
+        <item>"馬自達阿特茲"</item>
+        <item>"馬自達阿特茲2"</item>
+        <item>"賓士"</item>
+        <item>"通用_反"</item>
+        <item>"賓士_反"</item>
+        <item>"馬自達阿特茲_反"</item>
+        <item>"馬自達阿特茲_反_2"</item>
+        <item>"類型 8"</item>
+        <item>"類型 9"</item>
+        <item>"類型 10"</item>
+        <item>"類型 11"</item>
+        <item>"類型 12"</item>
+        <item>"類型 13"</item>
+        <item>"類型 14"</item>
+        <item>"類型 15"</item>
+        <item>"類型 16"</item>
+        <item>"類型 17"</item>
+        <item>"類型 18"</item>
+        <item>"類型 19"</item>
+        <item>"類型 20"</item>
+    </string-array>
+
+    
+    <string-array name="factory_settings_tab_item_name">
+        <item>功能</item>
+        <item>收音</item>
+        <item>按鍵</item>
+        <item>CANBUS</item>
+        <item>音量</item>
+        <item>應用</item>
+        <item>其他</item>
+    </string-array>
+    
+    <string-array name="touch3_settings_keycode_entries">
+        <!-- key -->
+        <item>未定義</item>
+	    <item>靜音</item>
+	    <item>播放/暫停</item>
+	    <item>下一曲</item>
+	    <item>上一曲</item>
+	    <item>彈出</item>
+	    <item>播放</item>
+	    <item>暫停</item>
+	    <item>快進</item>
+	    <item>快退</item>
+	    <item>HOME</item>
+	    <item>返回</item>
+	    <item>關屏</item>
+	    <item>亮度</item>
+	    <!-- app -->
+	    <item>語音辨識</item>
+	    <item>DVD</item>
+	    <item>導航</item>
+	    <item>收音</item>
+	    <item>等化器</item>
+	    <item>藍牙</item>
+	    <item>音樂</item>
+	    <item>視頻</item>
+	    <item>藍牙音樂</item>
+	</string-array>
+	
+    <string-array name="ftj_entries"  translatable="false">
+	    <item>無</item>
+		<item>分體機類型1</item>
+	</string-array>
+
+    <string-array name="swc_key_defconfigs">	    
+        <item>通用</item>
+        <item>卡羅拉</item>
+        <item>類型 2</item>
+        <item>類型 3</item>
+        <item>類型 4</item>
+        <item>類型 5</item>
+        <item>類型 6</item>
+        <item>類型 7</item>
+        <item>類型 8</item>
+        <item>類型 9</item>
+        <item>類型 10</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,19 @@
+<resources>
+	
+
+	<string-array name="navi_mix_select">
+		<item>"เปลี่ยนเสียงนำทางโดยตรง"</item>
+		<item>"ผสมเสียงนำทาง -5  "</item>
+		<item>"ผสมเสียงนำทาง -4  "</item>
+		<item>"ผสมเสียงนำทาง -3  "</item>
+		<item>"ผสมเสียงนำทาง -2  "</item>
+		<item>"ผสมเสียงนำทาง -1  "</item>
+		<item>"ผสมเสียงนำทาง 0  "</item>
+		<item>"ผสมเสียงนำทาง 1  "</item>
+		<item>"ผสมเสียงนำทาง 2  "</item>
+		<item>"ผสมเสียงนำทาง 3  "</item>
+		<item>"ผสมเสียงนำทาง 4  "</item>
+		<item>"ผสมเสียงนำทาง 5  "</item>
+	</string-array>	
+    
+</resources>

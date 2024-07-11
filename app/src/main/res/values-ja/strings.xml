@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+      <string name="car_settings_name">車の設定</string>
+    <string name="navigation_choice_title">ナビゲーションの選択肢</string>
+    <string name="navi_mix_title">"音声ナビゲーションを選択"</string>
+    <string name="video_on_driving_title">"ビデオを見ます"</string>
+    <string name="dynamic_back_track">ダイナミック駐車軌跡</string>
+    <string name="static_back_track">ルーラー逆転カメラ</string>
+    <string name="auto_play_music_title">自動再生の音楽</string>
+    <string name="auto_play_music_summary">USB/ SDカードを挿入すると、自動的に音楽を再生できますか？</string>
+    <string name="led_settings_title">LEDランプの色設定</string>
+    <string name="led_settings_summary">"ボタンの色光を選択"</string>
+    <string name="auto_ill_title">"自動輝度調整"</string>
+    <string name="auto_ill_summary">"自動的に画面の明るさを調光、オープンパネル光"</string>
+    <string name="ill_start_time_title">"自動的に開始時間を調整"</string>
+    <string name="ill_stop_time_title">"自動的に終了時間を調整"</string>
+    <string name="auto_ill_error_same">"開始時刻と終了時刻は、同じではありません"</string>
+    <string name="touch_sound_title">"音をタッチ"</string>
+    <string name="steering_wheel_control_settings_title">ステアリングホイールコントロール研究</string>
+    <string name="steering_wheel_control_settings_summary">"ステアリングホイールのコントロールボタンをコピーします"</string>
+    <string name="factory_settings_title">工場出荷時の設定</string>
+    <string name="update_mcu">MCUのアップグレード]をクリックします</string>
+    <string name="update_mcu_text">MCUのアップグレードが完了すると、システムが自動的に再起動します</string>
+    <string name="update_mcu_title">MCUをアップグレード</string>
+    <string name="reset_system_title">工場出荷時の設定を復元します。</string>
+    <string name="video_on_driving_summary">"運転するときは、ビデオを見ることができますか？"</string>
+    <string name="cur_led_color">"現在、LEDの色:"</string>
+
+    <string name="apk_install">APKインストーラ</string>
+    
+    <string name="title_car_settings_personal">個人設定</string>
+    <string name="title_car_settings_navi">ナビゲーション設定</string>
+    <string name="title_car_settings_drive">運転設定</string>
+    <string name="title_car_settings_wheel">ステアリングホイール学習</string>
+    <string name="title_car_settings_factory">工場設定</string>
+    <string name="title_car_settings_update">工場出荷時の設定にアップグレードして復元する</string>
+    <string name="reverse_volume">ボリュームを元に戻す</string>
+    <string name="reverse_mirror">スクリーン水平ミラーを反転させる</string>
+    <string name="input_code">パスワードを入力してください</string>
+
+    
+    <string name="alert_dialog_ok">OK</string>
+    <string name="alert_dialog_cancel">キャンセル</string>
+    
+    <string name="update_android_title">Androidの更新</string>
+    
+    
+    <string name="acc_delay_poweroff">ACC OFFの場合は電源オフの遅延</string>
+    <string name="audio_gain_title">オーディオゲイン</string>
+    
+    <string name="car_cell">自動車バッテリー</string>
+    <string name="car_cell_summary">車両のバッテリの電圧を表示する</string>
+
+    <string name="bt_cell">bluetooth電話</string>
+    <string name="bt_cell_summary">バッテリーの电源を切れば、电波の强さが表示される</string>
+</resources>

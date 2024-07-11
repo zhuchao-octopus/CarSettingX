@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="@string/bt_copy"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/update_bt"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="@string/bt_140"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/update_bt_145"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="@string/bt_145"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/update_bt_vol"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="@string/bt_parameter"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/update_bt_8761"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="@string/bt_8761"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/update_bt_210"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="@string/bt_210"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/update_bt_sd816"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="@string/sd816"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+</LinearLayout>

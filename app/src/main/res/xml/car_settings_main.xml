@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/car_settings_main_screen" >
+
+    <Preference
+        android:icon="@drawable/ic_car_settings_personal"
+        android:key="key_car_settings_personal"
+        android:layout="@layout/preference_car_settings_mainmenu"
+        android:title="@string/title_car_settings_personal" />
+    <Preference
+        android:icon="@drawable/ic_car_settings_navi"
+        android:key="key_car_settings_navi"
+        android:layout="@layout/preference_car_settings_mainmenu"
+        android:title="@string/title_car_settings_navi" />
+    <Preference
+        android:icon="@drawable/ic_car_settings_drive"
+        android:key="key_car_settings_drive"
+        android:layout="@layout/preference_car_settings_mainmenu"
+        android:title="@string/title_car_settings_drive" />
+  
+    <ListPreference
+        android:icon="@drawable/ic_car_settings_home"
+        android:key="key_car_settings_launcher_ui"
+        android:entries="@array/launcher_ui_select"
+        android:entryValues="@array/launcher_ui_value"
+        android:layout="@layout/preference_car_settings_mainmenu" 
+        android:title="@string/launcher_ui_title"/>
+
+    <PreferenceScreen
+        android:icon="@drawable/ic_car_settings_factory"
+        android:key="key_car_settings_factory"
+        android:layout="@layout/preference_car_settings_mainmenu"
+        android:title="@string/title_car_settings_factory" >
+        <intent android:action="com.my.factory.intent.action.FactorySettings" />
+    </PreferenceScreen>
+
+    <!--
+         <PreferenceScreen
+        android:icon="@drawable/ic_car_settings_wheel"
+        android:key="key_car_settings_wheel"
+        android:title="@string/title_car_settings_wheel"
+        android:layout="@layout/preference_car_settings" >
+        <intent android:action="com.SwcApplication.intent.action.SwcActivity" />
+    </PreferenceScreen>
+    -->
+
+    <Preference
+        android:icon="@drawable/ic_car_settings_update"
+        android:key="key_car_settings_update"
+        android:layout="@layout/preference_car_settings_mainmenu"
+        android:title="@string/title_car_settings_update" />
+
+</PreferenceScreen>

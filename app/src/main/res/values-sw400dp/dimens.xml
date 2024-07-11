@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="logo_width">120dip</dimen>
+    <dimen name="logo_height">100dip</dimen>
+    <dimen name="logo_spacing">8dip</dimen>
+    <dimen name="save_drive_list_h">400px</dimen>
+    
+    <dimen name="factory_audio_channel_gain_layout_width">440.0dip</dimen>
+    <dimen name="factory_audio_channel_gain_textview_width1">46.0dip</dimen>
+    <dimen name="factory_audio_channel_gain_button_width">40.0dip</dimen>
+    <dimen name="factory_audio_channel_gain_textview_width2">66.0dip</dimen>
+    <dimen name="factory_audio_channel_gain_textview_marginLeft">53.0dip</dimen>
+</resources>

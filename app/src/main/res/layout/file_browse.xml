@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/media_folder"
+            style="@style/ActionButton"
+            android:background="@drawable/button_background"
+            android:drawableTop="@drawable/media_folder"
+            android:onClick="processBtnFun"
+            android:text="@string/media_disk"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/home_folder"
+            android:visibility="gone" 
+            style="@style/ActionButton"
+            android:drawableTop="@drawable/root"
+            android:onClick="processBtnFun"
+            android:text="@string/ext_disk" />
+
+        <Button
+            android:id="@+id/u_disk"
+            android:visibility="gone" 
+            style="@style/ActionButton"
+            android:background="@drawable/button_background"
+            android:drawableTop="@drawable/u_disk"
+            android:onClick="processBtnFun"
+            android:text="@string/u_disk" />
+
+        <Button
+            android:id="@+id/multi_selection"
+            style="@style/ActionButton"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/multi_selection"
+            android:onClick="processBtnFun"
+            android:text="@string/multi_select"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/super_dir"
+            style="@style/ActionButton"
+            android:background="@drawable/button_background"
+            android:drawableTop="@drawable/super_dir"
+            android:onClick="processBtnFun"
+            android:text="@string/supper_dir" />
+
+        <Button
+            android:id="@+id/select_all"
+            style="@style/ActionButton"
+            android:visibility="gone" 
+            android:background="@drawable/button_background"
+            android:drawableTop="@drawable/select_all"
+            android:onClick="processBtnFun"
+            android:text="@string/select_all" />
+
+        <Button
+            android:id="@+id/btn_sd"
+            style="@style/ActionButton"
+            android:background="@drawable/button_background"
+            android:drawableTop="@drawable/ic_sdcard"
+            android:onClick="processBtnFun"
+            android:text="@string/sdcard_name" />
+        
+		<Button
+            android:id="@+id/btn_sd1"
+            style="@style/ActionButton"
+            android:background="@drawable/button_background"
+            android:drawableTop="@drawable/ic_sdcard"
+            android:onClick="processBtnFun"
+            android:text="@string/sdcard1_name" />
+		<Button
+            android:id="@+id/btn_sd2"
+            style="@style/ActionButton"
+            android:background="@drawable/button_background"
+            android:drawableTop="@drawable/ic_sdcard"
+            android:onClick="processBtnFun"
+            android:text="@string/sdcard2_name" />
+		<Button
+            android:id="@+id/btn_usb1"
+            style="@style/ActionButton"
+            android:background="@drawable/button_background"
+            android:drawableTop="@drawable/ic_usbdisk"
+            android:onClick="processBtnFun"
+            android:text="@string/usbdisk1_name" />
+		<Button
+            android:id="@+id/btn_usb2"
+            style="@style/ActionButton"
+            android:background="@drawable/button_background"
+            android:drawableTop="@drawable/ic_usbdisk"
+            android:onClick="processBtnFun"
+            android:text="@string/usbdisk2_name" />
+		<Button
+            android:id="@+id/btn_usb3"
+            style="@style/ActionButton"
+            android:background="@drawable/button_background"
+            android:drawableTop="@drawable/ic_usbdisk"
+            android:onClick="processBtnFun"
+            android:text="@string/usbdisk3_name" />
+										
+		<Button
+            android:id="@+id/btn_usb4"
+            style="@style/ActionButton"
+            android:background="@drawable/button_background"
+            android:drawableTop="@drawable/ic_usbdisk"
+            android:onClick="processBtnFun"
+            android:text="@string/usbdisk4_name" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/home_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff" >
+
+        <TextView
+            android:id="@+id/current_path"
+            android:layout_width="450px"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:singleLine="true"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/space"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textColor="#ffffff" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/fileList"
+        android:background="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

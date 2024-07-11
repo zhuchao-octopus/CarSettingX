@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="update_app">Click this button to update system applications</string>
+    <string name="update_app_text">System will reboot auto if applications update success</string>
+    <string name="no_update_app_text">"check if any apk files in (/extsd/update_apk/) "</string>
+    <string name="update_new_text">now system applications is the newest</string>
+    <string name="update_mcu">Click this button to Update MCU</string>
+    <string name="alert_dialog_ok">OK</string>
+    <string name="alert_dialog_cancel">Cancel</string>
+    <string name="sure_update_mcu">Update mcu?</string>
+    <string name="update_mcu_load">Load</string>
+    <string name="update_mcu_start">Start</string>
+    <string name="update_mcu_unlock">Unlock</string>
+    <string name="update_mcu_data">Data</string>
+    <string name="update_mcu_checksum">Checksum</string>
+    <string name="update_mcu_reset">Reset</string>
+    <string name="tag_name">UpdateManager</string>
+    <string name="update_mcu_text">System will reboot auto if MCU update success.</string>
+    <string name="source_not_exist">Source directory not exist</string>
+    <string name="update_failed">Update failed</string>
+    <string name="ext_disk">Micro SD1</string>
+    <string name="ext_disk1">Micro SD1</string>
+    <string name="ext_disk2">Micro SD2</string>
+    <string name="u_disk">USB disk</string>
+    <string name="calibrattion_text">press cross</string>
+    <string name="install">"Install APK              (make sure path /extsd/apk/*.apk   shorcut.txt)"</string>
+    <string name="install2">"Install APK inside       (make sure path /sdcard/apk/*.apk   shorcut.txt)"</string>
+    <string name="start_install">"Auto Install APK Start： "</string>
+    <string name="install_success">"　 Install APK Success"</string>
+    <string name="install_failed">"　 Install APK Fail"</string>
+    <string name="install_over">"Install APK Finished"</string>
+    <string name="install_warning">Do not Quit when Installing APK.</string>
+    <string name="no_files">No APK Files</string>
+    <string name="product_setting">Factory setting</string>
+    <string name="reak_setting">Parking brake setting</string>
+    <string name="brake_setting">Parking brake setting</string>
+    <string name="auxin_setting">AUX IN setting</string>
+    <string name="dvd_setting">DVD setting</string>
+    <string name="illumin_setting">Illumination setting</string>
+    <string name="radio_setting">Radio setting</string>
+    <string name="fan_setting">Fan setting</string>
+    <string name="radio_region_setting">Radio region setting</string>
+    <string name="car_support_setting">Car support setting</string>
+    <string name="mcu_reset">Reset MCU to factory</string>
+    <string name="mcu_secret_reset">Restore MCU safety setting</string>
+    <string name="system_reset">Factory settings</string>
+    <string name="radio_default">Recovery</string>
+    <string name="radio_dec">-</string>
+    <string name="radio_inc">+</string>
+    <string name="listening_test">Listen</string>
+    <string name="no_need_calibration">This Machine No Need Calibration!</string>
+    <string name="input_code">Please input password</string>
+    <string name="steering_wheel_control_settings_title">Steering wheel control settings</string>
+    <string name="pannel_control_settings_title">Pannel control settings</string>
+    <string name="download_warning">Don\'t power off when file is downloading</string>
+    <string name="download_title">Download startup logo?</string>
+    <string name="download_waiting">Downing,please wait...</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="exit">Exit</string>
+    <string name="apply">Apply</string>
+     
+    <string name="download_success">Update succeeded,pleas restart to activate</string>
+    <string name="download_fail">update failed</string>
+    <string name="run_script">Run Script</string>
+    <string name="app_name">File Manager</string>
+    <string name="update_pro">Update Program</string>
+
+    <string-array name="operation_array">
+        <item>Copy</item>
+        <item>Paste</item>
+        <item>Cut</item>
+        <item>Delete</item>
+        <!--
+             <item>Rename</item>
+        <item>Create folder</item>
+        -->
+    </string-array>
+
+    <string name="start">Start </string>
+    <string name="operate_failed">You can\'t operate this directory</string>
+    <string name="sure_delete">Are you sure you want to delete?</string>
+    <string name="space_not_enough">Inner storage card have not enough space! Please clean storage card then update again.</string>
+    <string name="total_space">Inner SD Card Total space:</string>
+    <string name="micro_sd_total_space">Micro SD Card Total space:</string>
+    <string name="udisd_total_space">U disk Total space:</string>
+    <string name="available_space">Available space:</string>
+    <string name="skip">Skip</string>
+    <string name="replace">Replace</string>
+    <string name="update_nav_text">Be careful to upgrade MCU! Please don\'t upgrade when you\'re driving. During upgrade, please don\'t ignition, power off, which may cause interrupt upgrade. Please wait until the upgrade is successful about 30min.</string>
+    <string name="sure_update_nav">Upgrade \"%1$s\" need long time. Are you sure update now?</string>
+    <string name="finded_update_nav">Found the upgrade file named \"%1$s\". Are you sure want to upgrade?</string>
+    <string name="media_disk">Media Space</string>
+    <string name="supper_dir">UP</string>
+    <string name="sdcard_name">Local</string>
+    <string name="sdcard1_name">SD</string>
+    <string name="sdcard2_name">GPSCard</string>
+    <string name="usbdisk1_name">USB1</string>
+    <string name="usbdisk2_name">USB2</string>
+    <string name="usbdisk3_name">USB3</string>
+    <string name="usbdisk4_name">USB4</string>
+    <string name="multi_select">MultiSelect</string>
+    <string name="select_all">Select All</string>
+    <string name="replace_file">The folder contains a file that named \"%1$s\". Do you want to replace the file?</string>
+    <string name="no_space_title">Out of Disk Space</string>
+    <string name="no_space">Out of current disk space. Can\'t accommodate the file named \"%1$s\", please free up enough space to operation.</string>
+    <string name="choice_source_path">Please choose navi software source files folder</string>
+    <string name="chose_file_name">You chose folder name is \"%1$s\"?</string>
+    <string name="faulty_operation">Faulty operation</string>
+    <string name="operation_error">Operation error</string>
+    <string name="new_name">Please input new name</string>
+    <string name="logo_settings_title">Logo Setting</string>
+    <string name="reset_system_title">Restore system to factory settings</string>
+    <string name="led_settings_title">LED settings</string>
+    
+    <string name="canbox_settings_manufacturer">Canbox manufacturer</string>
+    <string name="canbox_settings_title">Canbox settings</string>
+    <string name="canbox_settings_title1">Canbox settings</string>
+    <string name="rds_settings_title">RDS settings</string>
+    
+    <string name="hide_app_title">Select apps to hide</string>
+    <string name="screen_size_title">Select the size of screen</string>    
+    <string name="screen_size_reboot">Reset the screen size will reboot the system, do you want to continue?</string>
+   
+    <string name="screen1_view_title">Vice screen settings</string>
+    
+    <string name="pannel_led_control">Pannel led control</string>    
+    
+    <string name="hide_app_radio">radio</string>
+    <string name="hide_app_dvd">dvd</string>
+    <string name="hide_app_bt">bt</string>
+    <string name="hide_app_aux">aux</string>
+    <string name="hide_app_dtv">dtv</string>
+    <string name="hide_app_ipod">iPod</string>
+    
+    <string name="spec_function_title">special functions settings</string>
+    <string name="spec_function1">switch to front camera 20s if reverse quit.</string>
+
+    <string name="navigation_channel_choice">navigation channel choice</string>
+    <string name="calibration_failed">Calibration failed</string>
+    <string name="calibration_ok">Calibration OK</string>
+
+    <!-- Manage applications, individual application screen, confirmation dialog button. Displays when user selects to "Clear data". Goes through with the clearing of the data. -->
+    <string name="dlg_ok">OK</string>
+    <!-- Manage applications, individual application screen, confirmation dialog button. Displays when user selects to "Clear data". -->
+    <string name="dlg_cancel">Cancel</string>
+    <string name="car_settings">General settings</string>
+    <string name="calibration_settings_title">Screen Calibration</string>
+    <string name="update_mcu_title">Update MCU</string>
+    <string name="calibration_settings_summary">""</string>
+    <string name="buzzer_settings_title">Buzzer switch</string>
+    <string name="buzzer_settings_summary">Turn on or turn off Buzzer</string>
+    <string name="navigation_sound_channel_settings_title">Navigation sound channel settings</string>
+    <string name="navigation_sound_channel_settings_summary">Select navigation sound channel</string>
+    <string name="radio_region_title">Radio region settings</string>
+    <string name="radio_region_summary">Select a radio region</string>
+    <string name="navigation_choice_title">Set a navigation software</string>
+    <string name="navigation_choice_summary">Select navigation software</string>
+    <string name="navigation_auto_dispaux_title">Disable navigation automatic display on screen1</string>
+    <string name="navigation_auto_dispaux_summary">Disable automatic display on screen1 while navigation is running in the background</string>
+    <string name="bluetooth_title">Bluetooth switch</string>
+    <string name="bluetooth_summary">Switch on or off Bluetooth</string>
+    <string name="led_setting">LED setting</string>
+    <string name="led_summery">Press it to select next color(Some machine support it)</string>
+    <string name="rear_settings_title">Headrest settings</string>
+    <string name="sure_reset_mcu">Are you sure you want to restore MCU to factory settings?</string>
+    <string name="sure_reset_system">Are you sure you want to restore system?</string>
+    <string name="reset_system_message">If restore the system, current settings will be lost.</string>
+    <string name="theme_title">Theme setting</string>
+    <string name="prompt_start">Press "Program" to start</string>
+    <string name="prompt_study">Press a button to the screen to start programming the function</string>
+    <string name="prompt_press">Press the correponding button on the steering wheel</string>
+    <string name="panel_prompt_press">Press a button on the panel</string>
+    <string name="prompt_success">Button programming succeeded,please proceed</string>
+    <string name="prompt_completed">Programming completed</string>
+    <string name="prompt_clear_key">Clear key</string>
+    <!-- <string name="app_name">Steering wheel control programming</string> -->
+    <string name="app_name2">Steering wheel control programming</string>
+    <string name="answer">ANSWER</string>
+    <string name="play_pause">PLAY/PAUSE</string>
+    <string name="previous">PREVIOUS</string>
+    <string name="next">NEXT</string>
+    <string name="hung_up">HANGUP</string>
+    <string name="volume_mute">MUTE</string>
+    <string name="volume_inc">VOLUME +</string>
+    <string name="volume_dec">VOLUME -</string>
+    <string name="study_over">COMPLETED</string>
+    <string name="study_start">PROGRAM</string>
+    <string name="clear_key">CLEAR KEY</string>
+    <string name="key_mode">MODE</string>
+    <string name="key_band">BAND/FM</string>
+    <string name="key_eject">EJECT</string>
+    <string name="key_standby">STANDBY</string>
+    <string name="key_home">HOME</string>
+    <string name="key_back">BACK</string>
+    <string name="key_menu">MENU</string>
+    <string name="key_dvd">DVD</string>
+    <string name="key_ipod">IPOD</string>
+    <string name="key_sd">SD</string>
+    <string name="key_bt">BT</string>
+    <string name="key_navi">NAVI</string>
+    <string name="key_eq">EQ</string>
+    <string name="key_app">APP</string>
+    <string name="key_set">SET</string>
+    <string name="key_tbd">UNDETERMINED</string>
+    <string name="ch_inc">CH +</string>
+    <string name="ch_dec">CH -</string>
+    <string name="power">POWER</string>
+    <string name="ff">Fast Forward</string>
+    <string name="fr">Fast Rear</string>
+    <string name="front_left">Front-left</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="mute">Mute</string>
+    <string name="unmute">Unmute</string>
+    <string name="factory_settings_title">Factory Settings</string>
+    <string name="app_install_title">Auto install APK file</string>
+    <string name="app_install_manul_title">Manul install APK file</string>
+    <string name="update_system_app">Update system application</string>
+    <string name="reverse_mute">Reverse mute</string>
+    <string name="other_app_sound">Third app sound first</string> 
+    
+    <string name="car_settings_name">Car settings</string> 
+    <string name="screen_config_file_not_found">%1$s and %2$s not found config file.</string> 
+    <string name="screen_config_too_more">More then 200 configration files.</string> 
+    <string name="screen_config_success">Screen configuration success.</string> 
+    
+    <string name="os_update_tip">Found the android update file in the mounted storage(%2$s).\nAre you sure update now ?</string>
+    <string name="update_file_no_exists">Update file no found(%1$s).</string>
+    <string name="update_file_copy_fail">Update fail. Note：update fule copy fail.</string>
+    <string name="update_file_is_prepare">"Update is Preparing, waiting ..."</string>
+    <string name="update_file_prepared">Update file prepared， system will restart.</string>
+    <string name="update_file_copy_progress">"Copying update files...;\nFile：%1$s  (%2$s)"</string>
+    
+    <string name="video_on_driving_title">Watching video</string>
+    <string name="video_on_driving_summary">Allowed to watch video while driving ?</string>
+    <string name="steering_wheel_control_settings_summary">Study the control function for the key on steering wheel</string>
+    <string name="pannel_control_settings_summary">Study the control function for the key on pannel</string>
+    <string name="logo_settings_summary">Select the opening splash logo</string>
+    <string name="led_settings_summary">Select the panel LED color</string>
+    <string name="no_app_hide">Nothing</string>
+    <string name="touch_key_study_title">Touch key study</string>
+    <string name="touch_key_study_summary">Study the control function for the key on touchscreen</string>
+    <string name="can_key_study_title">Canbus key study</string>
+    <string name="can_key_study_summary">Study the control function for the key on Canbus</string>
+    <string name="password_error">Password error!</string>
+    <string name="save_driver_on">Save Driver On!</string>
+    <string name="save_driver_off">Save Driver Off!</string>
+    <string name="brake_det_off">No parking brake detect</string>
+    <string name="backup_title">Backup settings</string>
+    <string name="backup_message">Do you want to backup all the factory settings into an external SD/USB device?</string>
+    <string name="restore_title">Restore settings</string>
+    <string name="restore_message">Do you want to restore all the factory settings from the external SD/USB device?</string>
+    <string name="backup_settings">Backup</string>
+    <string name="restore_settings">Restore</string>
+    <string name="restore_default">Reset</string>
+    <string name="reboot_warning">The new settings should take effect after reboot!</string>
+    <string name="alert_dialog_i_know">I know that</string>
+    <string name="backup_success">Backup settings success!</string>
+    <string name="restore_success">Restore settings success!</string>
+    <string name="no_valid_ext_storage">No valid SD/USB storage found!</string>
+    <string name="no_backuped_setting_found">No settings backup file found!</string>
+    <string name="cur_led_color">Current LED color: </string>
+    <string name="label_red">Red: </string>
+    <string name="label_green">Green: </string>
+    <string name="label_blue">Blue: </string>
+    <string name="reboot_dialog_title">Prepare for reboot!</string>
+    <string name="ill_start_time_title">Auto illumination start at</string>
+    <string name="ill_stop_time_title">Auto illumination stop at</string>
+    <string name="auto_ill_title">Auto illumination</string>
+    <string name="auto_ill_summary">Auto dim the screen and turn on the panel LED</string>
+    <string name="auto_ill_error_same">Start time can not be same with stop time!</string>
+    <string name="touch_calibration_title">Touchscreen calibration</string>
+    <string name="touch_note_1">1. Please touch the blue point at left top corner.</string>
+    <string name="touch_note_2">2. Please touch the red point at right bottom corner.</string>
+    <string name="touch_note_begin">Click anywhere to start touchscreen calibration.</string>
+    <string name="touch_note_end">Touchscreen calibration OK! Click anywhere to exit.</string>
+    <string name="update_android_title">Update Andorid</string>
+    <string name="no_valid_android_image">No valid Android image found!</string>
+    <string name="update_android_message">The machine will reset and update android from \"%1$s\"!\nPlease keep power on!</string>
+    <string name="touch_sound_title">Touch and Key tone</string>
+    <string name="rds_switch">RDS switch</string>
+    <string name="radio_ant_power">Radio Ant Power</string>
+    <string name="navi_mix_title">Navigation sound</string>
+    <string name="enable">Enable</string>
+    <string name="disable">Disable</string>
+    
+    <string name="dvr_path">DVR Storage location</string>
+    <string name="apk_install">APK Installer</string>
+    
+    <string name="dynamic_back_track">Reversing track display</string>
+    
+    <string name="static_back_track">Rear view ruler</string>
+    <string name="auto_play_music_title">Auto playing music</string>
+    <string name="auto_play_music_summary">Allowed to play music automatically when USB or SD inserted</string>
+    
+    <string name="auto_switch_drak_mode">Auto switch to night mode when the light on</string>
+    <string name="night_mode">Night mode</string>
+    <string name="f_camera_label">F-Camera</string>
+    <string name="video_out_label">Video Out</string>
+    <string name="video_out_off">OFF</string>
+    <string name="video_out_arm">ARM</string>
+    <string name="video_out_dvd">DVD</string>
+    <string name="video_out_tv">TV</string>
+    <string name="video_out_av">AV</string>
+    
+    <string name="reverse_volume">Reversing volume</string>
+    <string name="acc_delay_poweroff">Power off delay if ACC OFF</string>
+    <string name="dvr_record_time">DVR record time</string>
+    
+    <string name="custom">Custom</string>
+    <string name="radio">Radio</string>
+    <string name="system">SYS</string>
+    
+    <string name="canbox_name">CanBox</string>
+    <string name="car_type">Car type</string>
+    
+    <string name="canbox_key_mode">Key mode</string>
+    <string name="canbox_eq_mode">Amplifier mode</string>
+    
+    
+    <string name="wallpaper_instructions">Set wallpaper</string>
+    <string name="pick_wallpaper">Wallpapers</string>
+    
+    <string name="canbox_car_type">Car Type</string> 
+    <string name="canbox_car_type2">Car Type2</string> 
+    
+    <string name="canbox_key_change">Key change</string> 
+    <string name="canbox_air">Air condition</string> 
+    <string name="canbox_front_door">Front door</string> 
+    <string name="canbox_rear_door">Rear door</string>   
+    
+    
+    <string name="canbox_pre_next">Change previous and next</string> 
+    <string name="canbox_volume_increase_decrease">Change volume increase and decrease</string> 
+    
+    <string name="normal">Normal</string>    
+    <string name="change">Change</string>
+    <string name="hide">Hide</string>
+    <string name="bt_mode">BT Mode</string>
+    <string name="tv_mode">TV Type</string>
+    <string name="camera_mode">Camera Mode</string>
+    
+    <string name="joykey_study">Joykey Study</string>
+  
+    <string name="wheelkey_study">WheelKey Study</string>
+
+    
+    <string name="no_reverse">Prohibit reverse</string>
+    <string name="rudder">Rudder</string>
+    
+    
+    <string name="led_type">LED Type</string>
+    <string name="mono">Mono LED</string>
+<!--     <string name="rgb">RGB LED</string> -->
+
+    <string name="add">+</string>
+    <string name="minus">-</string>
+    <string name="vcom">V-COM</string>
+    
+    <string name="update_paramter_text">System will reboot auto if paramter config update success</string>
+     <string name="update_paramter">Click this button to update paramter</string>
+
+    <string name="panel_key_defconfig_title">Pannel key default configs</string>    
+    <string name="swc_key_defconfig_title">Wheel key default configs</string>    
+
+    <string name="amp_volume_title">AMP volume</string>
+    <string name="audio_channel_gain_title">Audio gain</string>
+    <string name="audio_gain_title">Audio gain</string>
+    
+    <string name="reverse_mirror">Reversing X-Mirror</string>
+    
+    <string name="car_model">Model</string>
+    <string name="mcu_model">MCU Model</string>
+    
+    <string name="touch3_key_type">"KEY:&#160;"</string>
+    <string name="touch3_app_type">"APP:&#160;"</string>
+    
+    <string name="title_super_settings">Super settings</string>
+    
+	<string name="title_touch3_gesture_settings">Three-Finger gesture settings</string>
+	<string name="title_touch3_switch">Turn on three-finger gesture</string>
+	<string name="title_touch3_upkey">Up fling</string>
+	<string name="title_touch3_downkey">Down fling</string>
+    <string name="title_touch3_leftkey">Left fling</string>
+    <string name="title_touch3_rightkey">Right fling</string>
+  
+    <string name="title_car_settings_personal">Personal settings</string>
+    <string name="title_car_settings_navi">Navigation settings</string>
+    <string name="title_car_settings_drive">Driving settings</string>
+    <string name="title_car_settings_wheel">Steering wheel keys</string>
+    <string name="title_car_settings_factory">Factory settings</string>
+    <string name="title_car_settings_update">Upgrade and restore factory settings</string>
+    
+    
+    <string name="launcher_ui_title">Home App</string>
+    <string name="launcher_ui_1">Launcher1</string>
+    <string name="launcher_ui_2">Launcher2</string>
+    
+    <string name="tpms">TPMS/DAB</string>
+    <string name="ftj">FTJ</string>
+    
+    
+    <string name="switch_to_front_camera">Switch to additional camera after reverse</string>
+    <string name="add_a_language">Add a language</string> 
+    
+    
+    <string name="reset_volume">Auto resumes volume after restarting</string>
+    
+    <string name="title_wheel_control">Steering wheel control</string>
+    <string name="title_eq">Amplifier</string>
+    <string name="title_gps_search">GPS search star</string>
+    <string name="title_gps_monitor">GPS monitor</string>
+    
+    
+    <string name="degrees_360">360 degrees system</string>
+    
+    <string name="show_360_btn">Show the button in the display</string>
+    
+      
+    <string name="update_touch_config">Find Touch file %s, do you want to update?</string>
+    <string name="update_system">Find System file %s, do you want to update?</string>
+    <string name="update_canbox">Find Canbox update file %s, do you want to update?</string>
+ <string name="bt_copy">Copy the upgrade files to the root directory (libbt_platform.so,libbluelet.so)</string>
+     <string name="bt_140">Update Bluetooth library i140 (automatic restart after upgrade)</string>
+     <string name="bt_145">Update Bluetooth library i145</string>
+     <string name="bt_parameter">Update IVT bluetooth sound parameters (connect to bluetooth first, bluetooth will be automatically disconnected when the upgrade is successful)</string>
+    
+    
+     <string name="bt_8761">Update Bluetooth library KLD6 (gocsdk_8761)</string>
+    
+    
+     <string name="bt_210">Update Bluetooth library RF210 (gocsdk_210)</string>
+    
+     <string name="sd816">Update Bluetooth library SD816 (sdsdk816)</string>
+
+    <string name="car_cell">Vehicle battery</string>
+    <string name="car_cell_summary">Display the current battery voltage of the vehicle</string>    
+    
+    <string name="car_info_screensaver">Car Info ScreenSaver</string>
+    <string name="off">OFF</string>
+    <string name="on">ON</string>
+
+    <string name="bt_cell">Bluetooth phone</string>
+    <string name="bt_cell_summary">Display the phone battery power,signal strength</string>
+
+    <string name="video_out">Video out</string>
+    <string name="video_out_summary">OFF</string>
+
+    <string name="car_amplifier_volume">The volume of car amplifier</string>
+    
+    
+    <string name="temp_dis">Temperature display unit</string>    
+    <string name="mileage_unit">Mileage Unit</string>
+    
+    
+    <string name="video_on_stop_title">Watching video while stop</string>
+    <string name="video_on_stop_summary">Allowed to watch video while stop by GPS speed</string>
+    
+    
+    <string name="canbox_door_voice">Voice notice if door open or close</string>
+    <string name="canbox_front_radar_camera">Open front camera if show front radar</string>
+    
+    <string name="other">Other Settings</string>
+    <string name="radar_volume">Radar Volume</string>
+    
+    <string name="radar_ui">Hide Radar UI</string>
+    
+    
+    <string name="air_single">Single Temperature</string>
+
+
+		<string name="summary_ad_std_apply">After selecting, please click apply to save the settings and restart</string>
+    <string name="title_ad_std">Set video channel standard</string>
+    <string name="title_ad_enable">On/Off</string>
+    <string name="title_ad_channel_reverse">CH0: Reverse</string>
+    <string name="title_ad_channel_auxin">CH1: AuxIn</string>
+    <string name="title_ad_channel_dvd">CH2: DVD</string>
+    <string name="title_ad_channel_fcam">CH3: F-CAM</string>
+    
+
+    <string name="bt_mic_gain">BT Mic Gain</string>
+
+    <string name="bt_not_found">Bluetooth upgrade file not found</string>
+    <string name="bt_updating">Updating</string>
+    <string name="bt_not_sound_file">No sound file found</string>
+
+<string name="mic_type">Microphone type</string>
+     <string name="mic_inside">internal</string>
+     <string name="mic_outside">external</string>
+</resources>

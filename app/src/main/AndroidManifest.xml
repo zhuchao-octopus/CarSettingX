@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission
+        android:name="android.permission.CAMERA"
+        tools:ignore="ManifestOrder" />
+    <uses-permission
+        android:name="android.permission.CLEAR_APP_CACHE"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32"
+        tools:ignore="ScopedStorage" />
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER_HINTS" />
+
+    <uses-permission
+        android:name="android.permission.CLEAR_APP_USER_DATA"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission
+        android:name="android.permission.INSTALL_PACKAGES"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission
+        android:name="android.permission.DELETE_PACKAGES"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission
+        android:name="android.permission.WRITE_SECURE_SETTINGS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission
+        android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+        tools:ignore="ProtectedPermissions" />
+
+    <application
+        android:label="@string/car_settings_name"
+        android:theme="@style/TranslucentTheme">
+        <activity
+            android:name="com.my.factory.GeneralSettings"
+            android:exported="true"
+            android:icon="@drawable/icon"
+            android:launchMode="singleInstance"
+            android:theme="@style/Theme.Settings">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <!--<category android:name="android.intent.category.LAUNCHER" /> -->
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+                <action android:name="com.my.factory.intent.action.GeneralSettings" />
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name="com.my.btupdate.ivt.MainActivity"
+            android:exported="true"
+            android:launchMode="singleInstance">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <!--<category android:name="android.intent.category.LAUNCHER" /> -->
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.my.updateapk.MainActivity"
+            android:exported="true"
+            android:launchMode="singleInstance">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <!--                 <category android:name="android.intent.category.LAUNCHER" /> -->
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.my.update.UpdateParamter"
+            android:exported="true"
+            android:launchMode="singleInstance"
+            android:theme="@android:style/Theme.Material.NoActionBar">
+            <!--             <intent-filter> -->
+            <!--                 <action android:name="android.intent.action.MAIN" /> -->
+
+            <!--                 <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!--             </intent-filter> -->
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <action android:name="com.my.update.intent.action.UpdateParamter" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.my.factory.Screen1Settings"
+            android:exported="true"
+            android:label="@string/canbox_settings_title"
+            android:launchMode="singleInstance"
+            android:theme="@style/Theme.Settings"
+            tools:ignore="ExportedPreferenceActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <!--<category android:name="android.intent.category.LAUNCHER" /> -->
+            </intent-filter>
+            <intent-filter tools:ignore="ExportedPreferenceActivity">
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <action android:name="com.my.factory.intent.action.Screen1Settings" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.my.factory.CanboxSettings"
+            android:exported="true"
+            android:label="@string/canbox_settings_title"
+            android:launchMode="singleInstance"
+            android:theme="@style/Theme.Settings"
+            tools:ignore="ExportedPreferenceActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <!--                 <category android:name="android.intent.category.LAUNCHER" /> -->
+            </intent-filter>
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <!--                 <action android:name="com.my.factory.intent.action.CanboxSettings" /> -->
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.my.factory.SaveDriveSettings"
+            android:exported="true"
+            android:icon="@drawable/icon"
+            android:launchMode="singleInstance"
+            android:theme="@android:style/Theme.Material.Light.Dialog.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            </intent-filter>
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <action android:name="com.my.factory.intent.action.SaveDriveSettings" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.my.filemanager.FileManagerActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:icon="@drawable/apk_icon"
+            android:label="@string/apk_install"
+            android:launchMode="singleInstance"
+            android:theme="@android:style/Theme.Material.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <action android:name="com.my.filemanager.intent.action.FileManagerActivity" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.my.factory.FactorySettings"
+            android:exported="true"
+            android:label="Factory Settings"
+            android:launchMode="singleInstance"
+            android:theme="@style/Theme.Settings">
+            <!--             <intent-filter> -->
+            <!--                 <action android:name="android.intent.action.MAIN" /> -->
+
+            <!--                 <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!--                 <category android:name="android.intent.category.DEFAULT" /> -->
+            <!--             </intent-filter> -->
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <action android:name="com.my.factory.intent.action.FactorySettings" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.my.update.UpdateManager"
+            android:exported="true"
+            android:launchMode="singleInstance"
+            android:theme="@android:style/Theme.Material.NoActionBar">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+            <intent-filter>
+                <action android:name="com.my.update.intent.action.UpdateManager" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.my.calibration.Calibration"
+            android:exported="true"
+            android:launchMode="singleInstance"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <action android:name="com.my.calibration.intent.action.Calibration" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.my.appinstall.AppinstallActivity"
+            android:exported="true"
+            android:launchMode="singleInstance"
+            android:theme="@style/Theme.Settings">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <action android:name="com.my.appinstall.intent.action.AppinstallActivity" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.my.factory.Settings"
+            android:exported="true"
+            android:launchMode="singleInstance"
+            android:theme="@android:style/Theme.Material.Light.Dialog.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            </intent-filter>
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <action android:name="com.my.factory.intent.action.Settings" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.my.factory.SettingsPublic"
+            android:exported="true"
+            android:launchMode="singleInstance"
+            android:theme="@android:style/Theme.Material.Light.Dialog.NoActionBar">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <action android:name="com.my.factory.intent.action.SettingsPublic" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.my.logo.LogoActivity"
+            android:exported="true"
+            android:launchMode="singleInstance"
+            android:theme="@android:style/Theme.NoTitleBar">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <action android:name="com.my.logo.intent.action.LogoActivity" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.my.update.UpdateApp"
+            android:exported="true"
+            android:launchMode="singleInstance"
+            android:theme="@android:style/Theme.NoTitleBar">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <action android:name="com.my.update.intent.action.UpdateApp" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.my.factory.UserAudioGainActivity"
+            android:exported="true"
+            android:label="@string/audio_gain_title"
+            android:launchMode="singleInstance">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+                <action android:name="com.my.factory.UserAudioGainActivity" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.my.factory.ActivityLogo"
+            android:exported="true"
+            android:label="@string/logo_settings_title"
+            android:launchMode="singleInstance">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+                <action android:name="com.my.factory.ActivityLogo" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.my.factory.TouchCalibrationSettings"
+            android:exported="true"
+            android:label="@string/touch_calibration_title"
+            android:launchMode="singleInstance"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <action android:name="com.my.factory.intent.action.TouchCalibrationSettings" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.my.videoout.VideoOutActivity"
+            android:exported="true"
+            android:icon="@drawable/icon_rear"
+            android:label="@string/video_out_label"
+            android:launchMode="singleInstance"
+            android:theme="@style/TranslucentTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <action android:name="com.my.videoout.intent.action.VideoOutActivity" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name="com.my.BR"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_MOUNTED" />
+
+                <data android:scheme="file" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_UNMOUNTED" />
+
+                <data android:scheme="file" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.my.car.service.BROADCAST_CAR_REVERSE_SEND" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.my.appinstall.InstallService"></service>
+
+    </application>
+
+</manifest>

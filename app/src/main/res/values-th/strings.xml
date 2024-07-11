@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="navigation_choice_title">ผสมเสียงนำทาง</string>
+    <string name="navi_mix_title">ที่ตัวเลือกเสียงนำทาง</string>
+    <string name="video_on_driving_title">"ดูวีดีโอ"</string>
+    <string name="dynamic_back_track">ย้อนกลับเส้นทางแบบไดนามิก</string>
+    <string name="static_back_track">ภาพไม้บรรทัด</string>
+    <string name="auto_play_music_title">โดยอัตโนมัติเล่นเพลง</string>
+    <string name="auto_play_music_summary">SD หรือ USB เมื่อเสียบอุปกรณ์โดยอัตโนมัติเมื่อคุณสลับไปที่อินเตอร์เฟซเพลง?</string>
+    <string name="led_settings_title">หลอดไฟ LED การตั้งค่าสี</string>
+    <string name="led_settings_summary">แผงการเลือกโคมไฟสี</string>
+    <string name="auto_ill_title">ปรับความสว่างของหน้าจอโดยอัตโนมัติ</string>
+    <string name="auto_ill_summary">โดยอัตโนมัติปรับความเข้มความสว่างของหน้าจอและแผงเปิดโคมไฟ</string>
+    <string name="ill_start_time_title">การปรับความสว่างโดยอัตโนมัติจะเริ่มเวลา</string>
+    <string name="ill_stop_time_title">การปรับความสว่างโดยอัตโนมัติเวลาสิ้นสุด</string>
+    <string name="auto_ill_error_same">เวลาเริ่มต้นและเวลาสิ้นสุดเหมือนไม่ได้</string>
+    <string name="touch_sound_title">สัมผัสเสียง</string>
+    <string name="steering_wheel_control_settings_title">ปุ่มที่พวงมาลัยเพื่อการเรียนรู้</string>
+    <string name="steering_wheel_control_settings_summary">เรียนรู้ปุ่มที่พวงมาลัยควบคุมการทำงาน</string>
+    <string name="factory_settings_title">การตั้งค่าโรงงาน</string>
+    <string name="update_mcu">คลิกที่ปุ่มนี้เพื่ออัพเกรด MCU</string>
+    <string name="update_mcu_text">หลังจากอัพเกรดเสร็จสมบูรณ์ระบบจะเริ่มต้นใหม่โดยอัตโนมัติ</string>
+    <string name="update_mcu_title">MCU การอัพเกรด</string>
+    <string name="reset_system_title">เรียกคืนการตั้งค่าโรงงาน</string>
+    <string name="video_on_driving_summary">เพื่อช่วยในการดูวิดีโอในขณะขับรถ</string>
+    <string name="cur_led_color">ไฟ LED สีปัจจุบัน</string>
+    <string name="update_android_title">อัพเกรดระบบ</string>
+
+    <string name="apk_install">APK การติดตั้ง</string>
+    <string name="audio_gain_title">กำไรจากเสียง</string>
+    
+    <string name="car_cell">แบตเตอรี่รถยนต์</string>
+    <string name="car_cell_summary">ยานพาหนะจอภาพแสดงแรงดันไฟฟ้าแบตเตอรี่ปัจจุบันของรถ</string>
+
+    <string name="bt_cell">โทรศัพท์บลูทูธ</string>
+    <string name="bt_cell_summary">แสดงพลังงานแบตเตอรี่โทรศัพท์ความแรงของสัญญาณ</string>
+</resources>

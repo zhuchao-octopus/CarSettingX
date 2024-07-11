@@ -1,0 +1,30 @@
+<resources>
+
+	<string-array name="navi_mix_select">
+		<item>"Εναλλαγή ήχου πλοήγησης"</item>
+		<item>"Επίπεδο μίξης ήχου πλοήγησης -5"</item>
+		<item>"Επίπεδο μίξης ήχου πλοήγησης -4"</item>
+		<item>"Επίπεδο μίξης ήχου πλοήγησης -3"</item>
+		<item>"Επίπεδο μίξης ήχου πλοήγησης -2"</item>
+		<item>"Επίπεδο μίξης ήχου πλοήγησης -1"</item>
+		<item>"Επίπεδο μίξης ήχου πλοήγησης 0"</item>
+		<item>"Επίπεδο μίξης ήχου πλοήγησης 1"</item>
+		<item>"Επίπεδο μίξης ήχου πλοήγησης 2"</item>
+		<item>"Επίπεδο μίξης ήχου πλοήγησης 3"</item>
+		<item>"Επίπεδο μίξης ήχου πλοήγησης 4"</item>
+		<item>"Επίπεδο μίξης ήχου πλοήγησης 5"</item>
+	</string-array>
+	
+	<string-array name="acc_delay_poweroff_select">
+		<item>OFF</item>
+		<item>"5 Δευτερόλεπτα"</item>
+		<item>"30 Δευτερόλεπτα"</item>
+		<item>"2 Λεπτά"</item>
+		<item>"5 Λεπτά"</item>
+		<item>"10 Λεπτά"</item>
+		<item>"30 Λεπτά"</item>
+		<item>"1 Ώρα"</item>
+	</string-array>
+
+
+</resources>

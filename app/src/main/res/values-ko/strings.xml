@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="car_settings_name">"자동차 설정"</string>
+    <string name="navigation_choice_title">"내비게이션 소프트웨어 설정"</string>
+    <string name="navi_mix_title">"탐색 소리"</string>
+    <string name="video_on_driving_title">"비디오 시청"</string>
+    <string name="auto_play_music_title">"음악 자동재생"</string>
+    <string name="auto_play_music_summary">"USB 또는 SD 장치가 연결된 경우 음악 재생 허용"</string>
+    <string name="led_settings_title">"LED 설정"</string>
+    <string name="led_settings_summary">"패널 LED 색상 선택"</string>
+    <string name="auto_ill_title">"자동 조명"</string>
+    <string name="auto_ill_summary">"화면을 자동으로 어둡게하고 패널 LED를 점등"</string>
+    <string name="ill_start_time_title">"자동 조명 시작"</string>
+    <string name="ill_stop_time_title">"자동 조명 종료"</string>
+    <string name="auto_ill_error_same">"시작 시간은 정지 시간과 같을 수 없습니다!"</string>
+    <string name="touch_sound_title">"터치음"</string>
+    <string name="steering_wheel_control_settings_title">"핸들 관리 설정"</string>
+    <string name="steering_wheel_control_settings_summary">"연구 중요한 제어 기능 핸들"</string>
+    <string name="factory_settings_title">"공장 설정"</string>
+    <string name="update_mcu">"이 단추를 누르면 업데이트 싱글칩 마이크로컴퓨터"</string>
+    <string name="update_mcu_text">"MCU가 성공적으로 업데이트되면 시스템이 자동으로 재부팅됩니다."</string>
+    <string name="update_mcu_title">"MCU 업데이트"</string>
+    <string name="reset_system_title">"공장 다시 시스템 설정"</string>
+    <string name="video_on_driving_summary">"운전 중에 동영상 시청기능을 활성화 하시겠습니까?"</string>
+    <string name="cur_led_color">"전류 색상:"</string>
+
+    
+        <string name="title_car_settings_personal">"개인 설정"</string>
+    <string name="title_car_settings_navi">"내비 설정"</string>
+    <string name="title_car_settings_drive">"운전 설정"</string>
+    <string name="title_car_settings_wheel">"핸들 리모콘키"</string>
+    <string name="title_car_settings_factory">"공장 설정"</string>
+    <string name="title_car_settings_update">"공장 설정 업그레이드 및 복구"</string>
+    
+    
+    <string name="reverse_volume">"후진시 볼륨"</string>    
+    <string name="reverse_mirror">"무슨 x-mirror"</string>    
+    <string name="input_code">"암호를 입력하십시오"</string>
+    
+    
+    <string name="acc_delay_poweroff">"ACC Off 시 전원 Off 지연"</string>
+    
+    <string name="update_android_title">"안드로이드 업그레이드"</string>
+    
+     <string name="reset_volume">"다시 시작한 후 자동으로 볼륨 재개"</string>
+    <string name="audio_gain_title">"오디오 이득"</string>
+    
+    <string name="title_wheel_control">"핸들 제어"</string>
+    <string name="title_eq">"증폭기"</string>
+    <string name="title_gps_search">"gps 검색 스타"</string>
+    
+    
+    <string name="degrees_360">"360도 시스템"</string>
+    <string name="show_360_btn">"가운데 단추 보이기"</string>
+
+    <string name="navigation_choice_summary">"내비게이션 소프트웨어 선택"</string>
+
+    <string name="sure_update_mcu">"MCU 업데이트?"</string>
+    <string name="update_failed">"업데이트 실패"</string>
+    <string name="reak_setting">"주차 브레이크 설정"</string>
+    <string name="pannel_led_control">"패널 LED 제어"</string>    
+    <string name="wallpaper_instructions">"배경화면 설정"</string>
+    <string name="launcher_ui_title">"HOME 앱"</string>
+
+    <string name="car_cell">차량 배터리</string>
+    <string name="car_cell_summary">차량 배터리 차량의 현재 전지 전압 표시</string>
+
+    <string name="bt_cell">블루투스 전화</string>
+    <string name="bt_cell_summary">휴대 전화 배터리 전원, 신호 강도 표시</string>
+</resources>

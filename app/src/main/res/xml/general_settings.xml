@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_screen"
+    android:key="key_main_screen"
+    android:layout="@layout/preference_list_fragment" >
+
+    <!-- 导航软件 -->
+    <com.my.factory.SeaNavigationChoice
+        android:key="key_navigation_choice"
+        android:summary="@string/navigation_choice_summary"
+        android:title="@string/navigation_choice_title"
+        android:layout="@layout/preference_car_settings_submenu" />
+    <ListPreference
+        android:entries="@array/navi_mix_select"
+        android:entryValues="@array/navi_mix_select_value"
+        android:key="navi_mix_setting"
+        android:title="@string/navi_mix_title"
+        android:layout="@layout/preference_car_settings_submenu" />
+    <Preference
+        android:key="key_navi_monitor"
+        android:layout="@layout/preference_car_settings_submenu"
+        android:title="@string/title_gps_monitor" >
+        <intent
+            android:targetClass="com.chartcross.gpstest.GPSTest"
+            android:targetPackage="com.chartcross.gpstest" />
+    </Preference>
+    <SwitchPreference
+        android:key="key_navi_auto_dispaux"
+        android:summary="@string/navigation_auto_dispaux_summary"
+        android:title="@string/navigation_auto_dispaux_title"
+        android:layout="@layout/preference_car_settings_submenu" />
+
+    <ListPreference
+        android:entries="@array/reverse_volume_select"
+        android:entryValues="@array/reverse_volume_select_value"
+        android:key="reverse_volume"
+        android:title="@string/reverse_volume"
+        android:layout="@layout/preference_car_settings_submenu" />
+
+    <SwitchPreference
+        android:key="video_on_driving"
+        android:summary="@string/video_on_driving_summary"
+        android:title="@string/video_on_driving_title"
+        android:layout="@layout/preference_car_settings_submenu" />
+    
+    
+    <SwitchPreference
+        android:key="video_on_gps"
+        android:summary="@string/video_on_stop_summary"
+        android:title="@string/video_on_stop_title"
+        android:layout="@layout/preference_car_settings_submenu" />
+    
+    <SwitchPreference
+        android:key="back_static_track"
+        android:title="@string/static_back_track"
+        android:layout="@layout/preference_car_settings_submenu" />
+    <SwitchPreference
+        android:key="back_dynamic_track"
+        android:title="@string/dynamic_back_track"
+        android:layout="@layout/preference_car_settings_submenu" />
+    <SwitchPreference
+        android:key="reverse_mirror"
+        android:title="@string/reverse_mirror"
+        android:layout="@layout/preference_car_settings_submenu" />
+    
+    
+    <SwitchPreference
+        android:key="canbox_front_radar_camera"
+        android:title="@string/canbox_front_radar_camera"
+        android:layout="@layout/preference_car_settings_submenu" />
+    
+    
+    <SwitchPreference
+        android:key="canbox_door_voice"
+        android:title="@string/canbox_door_voice"
+        android:layout="@layout/preference_car_settings_submenu" />
+    <ListPreference
+        android:entries="@array/launcher_ui_select"
+        android:entryValues="@array/launcher_ui_value"
+        android:key="key_launcher_ui"
+        android:layout="@layout/preference_car_settings_submenu" 
+        android:title="@string/launcher_ui_title"/>  
+        
+
+        
+
+    <SwitchPreference
+        android:key="playing_music_setting"
+        android:summary="@string/auto_play_music_summary"
+        android:title="@string/auto_play_music_title"
+        android:layout="@layout/preference_car_settings_submenu" />
+    
+    <ListPreference
+        android:entries="@array/acc_delay_poweroff_select"
+        android:entryValues="@array/acc_delay_poweroff_value"
+        android:key="acc_delay_poweroff"
+        android:title="@string/acc_delay_poweroff"
+        android:layout="@layout/preference_car_settings_submenu" />    
+    <SwitchPreference
+        android:key="touch_sound"
+        android:title="@string/touch_sound_title"
+        android:layout="@layout/preference_car_settings_submenu" />
+
+    <!--
+        SwitchPreference
+        android:defaultValue="true"
+        android:key="key_third_app_sound_first"
+        android:title="@string/other_app_sound" /
+    -->
+
+    <PreferenceScreen
+        android:key="led_setting"
+        android:summary="@string/led_settings_summary"
+        android:title="@string/led_settings_title"
+        android:layout="@layout/preference_car_settings_submenu" >
+    </PreferenceScreen>
+
+    <SwitchPreference
+        android:key="auto_ill"
+        android:summary="@string/auto_ill_summary"
+        android:title="@string/auto_ill_title"
+        android:layout="@layout/preference_car_settings_submenu" />
+        
+    <Preference
+        android:key="ill_start_time"
+        android:title="@string/ill_start_time_title"
+        android:layout="@layout/preference_car_settings_submenu" />
+    <Preference
+        android:key="ill_stop_time"
+        android:title="@string/ill_stop_time_title"
+        android:layout="@layout/preference_car_settings_submenu" />
+    
+    <ListPreference
+        android:entries="@array/reset_volume"
+        android:entryValues="@array/reset_volume_value"
+        android:key="reset_volume"
+        android:layout="@layout/preference_car_settings_submenu" 
+        android:title="@string/reset_volume"/>
+
+    <SwitchPreference
+        android:key="car_cell"
+        android:summary="@string/car_cell_summary"
+        android:title="@string/car_cell"
+        android:layout="@layout/preference_car_settings_submenu" />
+
+        <ListPreference
+        android:entries="@array/car_info_screensaver"
+        android:entryValues="@array/car_info_screensaver_value"
+        android:key="car_info_screensaver"
+        android:layout="@layout/preference_car_settings_submenu" 
+        android:title="@string/car_info_screensaver"/>
+        
+                <ListPreference
+        android:entries="@array/mic_type"
+        android:entryValues="@array/ftj_entries_value"
+        android:key="mic_type"
+        android:layout="@layout/preference_car_settings_submenu" 
+        android:title="@string/mic_type"/>
+                
+    <SwitchPreference
+        android:key="bt_cell"
+        android:summary="@string/bt_cell_summary"
+        android:title="@string/bt_cell"
+        android:layout="@layout/preference_car_settings_submenu" />
+
+    <SwitchPreference
+        android:key="video_out"
+        android:summary="@string/video_out_summary"
+        android:title="@string/video_out"
+        android:layout="@layout/preference_car_settings_submenu" />
+
+    <SwitchPreference
+        android:key="auto_switch_drak_mode"
+        android:summary="@string/auto_switch_drak_mode"
+        android:title="@string/night_mode"
+        android:layout="@layout/preference_car_settings_submenu" />
+    
+    
+       <ListPreference
+        android:entries="@array/temp_dis_t"
+        android:entryValues="@array/common_s2"
+        android:key="temp_dis_k"
+        android:title="@string/temp_dis"
+        android:layout="@layout/preference_car_settings_submenu"  />
+    
+           <ListPreference
+        android:entries="@array/mileage_unit_t"
+        android:entryValues="@array/common_s2"
+        android:key="mileage_unit"
+        android:title="@string/mileage_unit"
+        android:layout="@layout/preference_car_settings_submenu" />
+           
+    
+    <Preference
+        android:key="audio_gain"
+        android:layout="@layout/preference_car_settings_submenu"
+        android:title="@string/audio_gain_title" >
+        <intent android:action="com.my.factory.UserAudioGainActivity" />
+    </Preference>
+
+    <!-- <ListPreference -->
+    <!-- android:key="dvr_path_set" -->
+    <!-- android:title="@string/dvr_path" /> -->
+
+
+    <!-- <ListPreference -->
+    <!-- android:key="dvr_path_record_time" -->
+    <!-- android:title="@string/dvr_record_time" -->
+    <!-- android:entries="@array/dvr_record_time_select" -->
+    <!-- android:entryValues="@array/dvr_record_time_select_value" /> -->
+
+    <PreferenceScreen
+        android:key="wheel_settigs"
+        android:summary="@string/steering_wheel_control_settings_summary"
+        android:title="@string/steering_wheel_control_settings_title"
+        android:layout="@layout/preference_car_settings_submenu" >
+        <intent android:action="com.SwcApplication.intent.action.SwcActivity" />
+    </PreferenceScreen>
+
+
+    <!-- 手动安装APK文件 -->
+    <!-- <PreferenceScreen android:title="@string/app_install_manul_title" > -->
+    <!-- <intent android:action="com.my.filemanager.intent.action.FileManagerActivity" /> -->
+    <!-- </PreferenceScreen> -->
+    <!-- 工厂设置 -->
+    <PreferenceScreen android:title="@string/factory_settings_title"
+        android:key="factory_settigs"
+        android:layout="@layout/preference_car_settings_submenu" >
+        <intent android:action="com.my.factory.intent.action.FactorySettings" />
+    </PreferenceScreen>
+    <!-- MCU升级 -->
+    <PreferenceScreen android:title="@string/update_mcu_title"
+        android:key="update_mcu"
+        android:layout="@layout/preference_car_settings_submenu" >
+        <intent android:action="com.my.update.intent.action.UpdateManager" />
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:key="update_android"
+        android:title="@string/update_android_title"
+        android:layout="@layout/preference_car_settings_submenu" >
+    </PreferenceScreen>
+
+    <!-- 恢复出厂设置 -->
+    <PreferenceScreen
+        android:key="reset_system"
+        android:title="@string/reset_system_title"
+        android:layout="@layout/preference_car_settings_submenu" >
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:key="touch3_settings"
+        android:title="@string/title_touch3_gesture_settings"
+        android:layout="@layout/preference_car_settings_submenu"  >
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="touch3_settings_switch"
+            android:layout="@layout/preference_car_settings_submenu"
+            android:title="@string/title_touch3_switch" />
+        <ListPreference
+            android:key="touch3_settings_upkey"
+            android:title="@string/title_touch3_upkey"
+            android:entries="@array/touch3_settings_keycode_entries"
+            android:entryValues="@array/touch3_settings_keycode_entries_values"
+            android:layout="@layout/preference_car_settings_submenu" />
+        <ListPreference
+            android:key="touch3_settings_downkey"
+            android:title="@string/title_touch3_downkey"
+            android:entries="@array/touch3_settings_keycode_entries"
+            android:entryValues="@array/touch3_settings_keycode_entries_values"
+            android:layout="@layout/preference_car_settings_submenu" />
+        <ListPreference
+            android:key="touch3_settings_leftkey"
+            android:title="@string/title_touch3_leftkey"
+            android:entries="@array/touch3_settings_keycode_entries"
+            android:entryValues="@array/touch3_settings_keycode_entries_values"
+            android:layout="@layout/preference_car_settings_submenu" />
+        <ListPreference
+            android:key="touch3_settings_rightkey"
+            android:title="@string/title_touch3_rightkey"
+            android:entries="@array/touch3_settings_keycode_entries"
+            android:entryValues="@array/touch3_settings_keycode_entries_values"
+            android:layout="@layout/preference_car_settings_submenu" />
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:key="ad_std"
+        android:title="@string/title_ad_std"
+        android:layout="@layout/preference_car_settings_submenu"  >
+        <Preference
+            android:key="ad_std_apply"
+            android:summary="@string/summary_ad_std_apply"
+            android:layout="@layout/preference_car_settings_submenu"
+            android:title="@string/apply" />
+        <!--<SwitchPreference
+            android:defaultValue="false"
+            android:key="ad_std_enabled"
+            android:layout="@layout/preference_car_settings_submenu"
+            android:title="@string/title_ad_enable" />-->
+        <ListPreference
+            android:key="ad_channel0"
+            android:title="@string/title_ad_channel_reverse"
+            android:entries="@array/ad_std_entry"
+            android:entryValues="@array/ad_std_value"
+            android:layout="@layout/preference_car_settings_submenu" />
+        <ListPreference
+            android:key="ad_channel1"
+            android:title="@string/title_ad_channel_auxin"
+            android:entries="@array/ad_std_entry"
+            android:entryValues="@array/ad_std_value"
+            android:layout="@layout/preference_car_settings_submenu" />
+        <ListPreference
+            android:key="ad_channel2"
+            android:title="@string/title_ad_channel_dvd"
+            android:entries="@array/ad_std_entry"
+            android:entryValues="@array/ad_std_value"
+            android:layout="@layout/preference_car_settings_submenu" />
+        <ListPreference
+            android:key="ad_channel3"
+            android:title="@string/title_ad_channel_fcam"
+            android:entries="@array/ad_std_entry"
+            android:entryValues="@array/ad_std_value"
+            android:layout="@layout/preference_car_settings_submenu" />
+    </PreferenceScreen>
+</PreferenceScreen>

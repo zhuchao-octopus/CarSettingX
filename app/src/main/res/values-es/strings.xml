@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="car_settings_name">"Ajustes importantes"</string> 
+    <string name="screen1_view_title">Ajuste de pantalla</string>
+    <string name="sure_update_mcu">Actualizar MCU?</string>
+    <string name="update_mcu_text">El sistema de reiniciará si la actualización es exitosa</string>
+    <string name="download_fail">Actualización fallida</string>
+    <string name="product_setting">Ajustes de fábrica</string>
+    <string name="brake_setting">Ajuste de freno de mano</string>
+    <string name="navigation_choice_title">"Seleccionar software de navegación"</string>
+    <string name="navigation_choice_summary">"Seleccione su software de navegación"</string>
+    <string name="navi_mix_title">"Mezcla del nivel de sonido en navegación"</string>
+    <string name="enable">"Habilitar"</string>
+    <string name="disable">"Inhabilitar"</string>
+    <string name="video_on_driving_title">"Ver video en movimiento"</string>
+    <string name="dynamic_back_track">"Activar lineas dinamicas de cámara"</string>
+    <string name="static_back_track">"Activar lineas estáticas de cámara"</string>
+    <string name="auto_play_music_title">"Reproducción automática de la música"</string>
+    <string name="auto_play_music_summary">"Reproducir la música automáticamente con USB o SD"</string>
+    <string name="led_settings_title">"Ajustar el  color de iluminación"</string>
+    <string name="led_settings_summary">"Seleccionar el color LED del panel"</string>
+    <string name="auto_ill_title">"Iluminación automática"</string>
+    <string name="auto_ill_summary">"Atenuar brillo de pantalla y enciender LED automáticamente"</string>
+    <string name="ill_start_time_title">"La iluminación automática comienza en"</string>
+    <string name="ill_stop_time_title">"La iluminación automática finaliza en"</string>
+    <string name="auto_ill_error_same">"¡La hora de inicio no puede ser la misma que la hora de parada!"</string>
+    <string name="touch_sound_title">"Activar tono al pulsar teclas"</string>
+    <string name="steering_wheel_control_settings_title">"Configurar botones del volante"</string>
+    <string name="steering_wheel_control_settings_summary">"Memorizar botones de control en el volante"</string>
+    <string name="factory_settings_title">"Ajustes de fábrica"</string>
+    <string name="update_mcu">Haga clic en este botón para actualizar MCU</string>
+    <!-- <string name="update_mcu_text">MCU después de que la actualización se ha completado, el sistema se reiniciará</string> -->
+    <string name="update_mcu_title">"Actualizar MCU"</string>
+    <string name="reset_system_title">Restaurar la configuración de fábrica</string>
+    <string name="video_on_driving_summary">"¿Quiere ver video conduciendo?"</string>
+    <string name="cur_led_color">"Color de LED actual:"</string>
+    <string name="label_red">"Rojo: "</string>
+    <string name="label_green">"Verde: "</string>
+    <string name="label_blue">"Azul: "</string>
+    <string name="reboot_dialog_title">"¡Prepárate para reiniciar!"</string>
+    <string name="apk_install">"APK instalador"</string>
+ 	<string name="input_code">Por favor ingrese la clave</string>
+ 	<string name="reverse_mirror">"Activar modo espejo en cámara trasera"</string>
+ 	
+ 	    <string name="title_car_settings_personal">"Ajustes personales"</string>
+    <string name="title_car_settings_navi">"Ajustes de navegación"</string>
+    <string name="title_car_settings_drive">"Ajustes de conducción"</string>
+    <string name="title_car_settings_wheel">"Botones del volante"</string>
+    <string name="title_car_settings_factory">"Ajustes de fábrica"</string>
+    <string name="title_car_settings_update">"Actualizar y restaurar los ajustes de fábrica"</string>
+    
+    <string name="reset_volume">"Auto reanuda el volumen después de reiniciar"</string>
+    
+    <string name="reverse_volume">"Volumen al aparcar"</string>  
+    
+    <string name="acc_delay_poweroff">"Retraso de apagado al quitar contacto ACC"</string>
+    
+    <string name="update_android_title">"Actualizar Android"</string>
+    <string name="no_valid_android_image">"¡No se encontró una imagen de Android válida!"</string>
+    <string name="update_android_message">"¡La máquina se reiniciará y actualizará Android desde \"%1$s\"!\nPor favor, manténgalo encendido!"</string>
+    
+    
+    <string name="alert_dialog_ok">Aceptar</string>
+    <string name="alert_dialog_cancel">Cancelar</string>
+    <string name="source_not_exist">"El directorio de origen no existe"</string>
+    <string name="audio_gain_title">Ganancia de audio</string>
+    
+    <string name="car_cell">La batería del vehículo</string>
+    <string name="car_cell_summary">Visualice el voltaje actual de la batería del vehículo</string>
+
+    <string name="bt_cell">Teléfono Bluetooth</string>
+    <string name="bt_cell_summary">Visualice la potencia de la batería del teléfono, la intensidad de la señal</string>
+
+    <string name="backup_title">"Copia de seguridad de los ajustes"</string>
+    <string name="backup_message">"¿Desea hacer una copia de seguridad de todos los de fábrica en un dispositivo SD / USB externo?"</string>
+    <string name="restore_title">"Restaurar los ajustes"</string>
+    <string name="restore_message">"¿Desea restaurar todos los ajustes de fábrica desde el dispositivo SD / USB externo?"</string>
+    <string name="backup_settings">"Seguridad"</string>
+    <string name="restore_settings">"Restaurar"</string>
+    <string name="restore_default">Reset</string>
+    <string name="reboot_warning">"¡La nueva configuración debería tener efecto después de reiniciar!"</string>
+    <string name="alert_dialog_i_know">"Yo sé eso"</string>
+    <string name="backup_success">"Configuración de copia de seguridad exitosa!"</string>
+    <string name="restore_success">"Restaurar la configuración con éxito!"</string>
+    <string name="no_valid_ext_storage">"¡No se encontró almacenamiento SD / USB válido!"</string>
+    <string name="no_backuped_setting_found">"¡No se encontró el archivo de copia de seguridad de configuración!"</string>
+
+    <string name="video_out_label">"Salida de Video"</string>
+
+    <string name="car_model">"Modelo"</string>
+    <string name="mcu_model">"Modelo MCU"</string>
+    <string name="title_wheel_control">"Control del volante"</string>
+    <string name="title_eq">"EQ"</string>
+    <string name="title_gps_search">"Buscar GPS"</string>
+    <string name="title_gps_monitor">GPS monitor</string>
+    <string name="degrees_360">"Sistema de 360 grados"</string>
+    <string name="show_360_btn">"Mostrar el botón en la pantalla"</string>
+    
+    <string name="temp_dis">"Unidad de visualización de temperatura"</string>
+    <string name="mileage_unit">"Unidad de kilometraje"</string>
+    <string name="mic_type">Tipo de micrófono</string>
+     <string name="mic_inside">dentro</string>
+     <string name="mic_outside">fuera</string>
+</resources>

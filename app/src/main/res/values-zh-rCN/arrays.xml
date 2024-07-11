@@ -1,0 +1,428 @@
+<resources>
+	<string-array name="scan_modes">
+		<item>不可见不可连接</item>
+		<item>可见但不可连接</item>
+		<item>不可见但可连接</item>
+		<item>可见可连接</item>
+	</string-array>
+	
+		<string-array name="led_select">
+		<item>单色</item>
+		<item>颜色1</item>
+		<item>颜色2</item>
+	</string-array>
+	
+<!-- 		<string-array name="bt_mode_select"> -->
+<!-- 		    <item>IVT</item> -->
+<!-- 		    <item>鹦鹉</item> -->
+<!-- 		</string-array> -->
+
+	<string-array name="mic_input">
+		<item>内MIC</item>
+		<item>外MIC</item>
+	</string-array>
+	
+	<string-array name="mic_gain">
+		<item>音量0</item>
+		<item>音量1</item>
+		<item>音量2</item>
+		<item>音量3</item>
+		<item>音量4</item>
+		<item>音量5</item>
+	</string-array>
+	
+	<string-array name="auxin_select">
+		<item>前置</item>
+		<item>后置</item>
+		<item>前后置</item>
+	</string-array>
+	
+	<string-array name="dvd_select">
+		<item>DVS机芯</item>
+		<item>信华机芯</item>
+	</string-array>
+	
+	<string-array name="reak_select">
+		<item>关闭</item>
+		<item>电平</item>
+		<item>序列</item>
+	</string-array>
+	
+	<string-array name="illumin_select">
+		<item>电平</item>
+		<item>脉冲</item>
+	</string-array>
+	
+	<string-array name="radio_select">
+		<item>FM近程停台灵敏度</item>
+		<item>FM远程停台灵敏度</item>
+		<item>AM近程停台灵敏度</item>
+		<item>AM远程停台灵敏度</item>
+		<item>恢复默认停台灵敏度</item>
+	</string-array>
+	
+		
+	<string-array name="led_control_select">	    
+        <item>小灯状态控制</item>
+        <item>开关状态控制</item>
+        <item>开关和小灯状态控制</item>
+	</string-array>
+	
+	<string-array name="fan_select">
+		<item>始终启动</item>
+		<item>45°C</item>
+		<item>46°C</item>
+		<item>47°C</item>
+		<item>48°C</item>
+		<item>49°C</item>
+		<item>50°C</item>
+		<item>51°C</item>
+		<item>52°C</item>
+		<item>53°C</item>
+		<item>54°C</item>
+		<item>55°C</item>
+		<item>56°C</item>
+		<item>57°C</item>
+		<item>58°C</item>
+		<item>始终关闭</item>
+	</string-array>
+	
+	<string-array name="radio_region_select">
+	    <item><font><b>美国</b></font>\nFM:87.5~107.9MHZ\nAM:530~1710KHZ</item>
+		<item><font><b>拉丁美洲</b></font>\nFM:87.5~108.0MHZ\nAM:530~1710KHZ</item>
+		<item><font><b>欧洲</b></font>\nFM:87.5~108.0MHZ\nAM:522~1620KHZ</item>
+		<item><font><b>东欧</b></font>\nFM:65.0~74.0MHZ\nAM:522~1620KHZ</item>
+		<item><font><b>日本</b></font>\nFM:76.0~90.0MHZ\nAM:522~1629KHZ</item>
+		<item><font><b>中国</b></font>\nFM:87.5~108.0MHZ\nAM:522~1620KHZ</item>
+		<item><font><b>澳洲</b></font>\nFM:87.5~108.0MHZ\nAM:522~1710KHZ</item>
+		<item><font><b>俄罗斯</b></font>\nFM:65.0~74.0MHZ 88.0~108.0MHZ\nAM:522~1620KHZ</item>
+		<item><font><b>日本2</b></font>\nFM:76.0~108.0MHZ\nAM:522~1620KHZ</item>
+	</string-array>
+
+	
+	<string-array name="car_support_select">
+		<item>雷达声控制</item>
+		<item>泊车辅助切换</item>
+	</string-array>
+	
+	<string-array name="on_off">
+		<item>关</item>
+		<item>开</item>	
+	</string-array>
+	
+	<string-array name="navigation_sound_channel_entries">
+		<item>前左</item>
+		<item>前右</item>
+		<item>前左和前右</item>
+	</string-array>
+	
+<!-- 	<string-array name="canbox_select"> -->
+<!-- 		<item>"0:无"</item> -->
+<!-- 		<item>"1:福特福克斯/翼虎/翼博/嘉年华(欣朴)"</item> -->
+<!-- 		<item>"2:丰田/CAMRY/RAV4(欣朴)"</item> -->
+<!-- 		<item>"3:马自达/欧宝通用(睿志诚)"</item> -->
+<!-- 		<item>"4:奔腾X80(睿志诚)"</item> -->
+<!-- 		<item>"5:2013天籁(欣朴)"</item> -->
+<!-- 		<item>"6:马自达/旧款欧宝(欣朴)"</item> -->
+<!-- 		<item>"7:大众系列(欣朴,睿志诚)"</item> -->
+<!-- 		<item>"8:CAMRY/RAV4/新卡罗拉/新霸道(欣朴)"</item>		--> 
+<!-- 		<item>"8:三菱/欧兰德(欣朴)"</item> -->
+<!-- 		<item>"9:现代ix35/索纳塔8代/新雅尊/imx45(新胜达)/起亚索兰托/智跑/K5/K7(欣朴)"</item> -->
+<!-- 		<item>"10:PSA/DS/301/307/308/3008/C4/C5(巴谷)"</item> -->
+<!-- 		<item>"11:别克系列/雪佛兰系统/欧宝系列(欣朴)"</item>		 -->
+<!-- 		<item>"12:本田DA系列/凌派/杰德/歌诗图/飞度/缤智/奥德赛/XR-V/2015CRV/2016 款思域(欣朴)"</item> -->
+<!-- 		<item>"13:大众高尔夫(欣朴,睿志诚)"</item> -->
+<!-- 		<item>"14:Ram1500/菲亚特(欣朴)"</item> -->
+<!-- 		<item>"15:雷诺新梅甘娜/风朗(欣朴)"</item> -->
+<!-- 		<item>"16:宝马/E90/X1(和驰)"</item> -->
+<!-- 		<item>"17:菲亚特(欣朴,和驰)"</item> -->
+<!-- 		<item>"18:福特/蒙迪欧(欣朴)"</item> -->
+<!-- 		<item>"19:PSA(欣朴)"</item> -->
+<!-- 		<item>"20:奔驰(巴谷)"</item> -->
+<!-- 		<item>"21:科雷嘉(睿志诚)"</item> -->
+<!-- 		<item>"22:GMC(欣朴)"</item> -->
+<!-- 		<item>"23:奔驰/B200(和驰)"</item> -->
+<!-- 		<item>"24:马自达/BT-50(欣朴)"</item> -->
+<!-- 		<item>"25:JEEP/自由光/自由侠/指南者/多宝(欣朴)"</item>		 -->
+<!-- 		<item>"26:ACCORD7(长远通)"</item> -->
+<!-- 		<item>"27:TOYOTA(比瑞纳)"</item> -->
+<!-- 		<item>"28:MAZDA(鑫巴斯)"</item>		 -->
+<!-- 		<item>"29:标志206(欣朴)"</item> -->
+<!-- 		<item>"30:雅阁2013(欣朴)"</item> -->
+<!-- 		<item>"31:日产2013(欣朴)"</item> -->
+<!-- 		<item>"32:保时捷/卡宴(Union)"</item> -->
+<!-- 		<item>"33:MAZDA 3(比瑞纳)"</item> -->
+<!-- 		<item>"34:博悦(和驰)"</item> -->
+<!-- 		<item>"35:途锐(尚摄)"</item>	 -->
+<!-- 		<item>"36:达西亚(欣朴)"</item> -->
+<!-- 		<item>"37:日产(睿志诚)"</item> -->
+<!-- 		<item>"38:标志/雪铁龙(睿志诚)"</item>		 -->
+<!-- 		<item>"39:福特/锐界/探界者/金牛座/蒙迪获/猛禽(欣朴)"</item> -->
+<!-- 		<item>"40:Accord(比瑞纳)"</item> -->
+<!-- 		<item>"41:Audi(欣朴)"</item> -->
+<!-- 		<item>"42:SUBARU_XV(ODS)"</item> -->
+<!-- 		<item>"43:Mini(Hiworld)"</item> -->
+<!-- 		<item>"44:Nissan(Binarytek)"</item> -->
+<!-- 		<item>"45:BENZ/Vito(欣朴)"</item> -->
+<!-- 		<item>"46:VW_MQB(Raise)"</item> -->
+<!-- 		<item>"47:Chery(OD)"</item> -->
+<!-- 		<item>"48:Chrysler(Simple)"</item>		 -->
+<!-- 		<item>"49:Mazda3(Simple)"</item> -->
+<!-- 		<item>"50:OBD(binarytek)"</item> -->
+<!--         <item>"51: Hafer/H2(Xinbas)"</item> -->
+<!-- 		<item>"52:Honda(Raise)"</item> -->
+<!-- 		<item>"53:Peugeot/Citroen/Keep Car Screen(Raise)"</item> -->
+<!-- 		<item>"54:Ford/Focus/uga/Ecosport/Fiesta(Raise)"</item> -->
+<!-- 		<item>"55:BenZ/Smart(HaoZheng)"</item> -->
+<!-- 		<item>"56:LanRover(HaoZheng)"</item> -->
+<!-- 		<item>"57:Peugeot307(union)"</item> -->
+<!-- 		<item>"58:Mazda CX-5(Simple)"</item>	 -->
+<!-- 		<item>"59:RX330/LC100(HaoZheng)"</item>	 -->
+<!-- 		<item>"60:PSA/206/307(Simple)"</item>	 -->
+<!-- 		<item>"61:BESTUNE/X40(Raise)"</item>	 -->
+<!-- 		<item>"62:Mondeo(DaoJun)"</item> -->
+<!-- 		<item>"63:Jeep(Xinbas)"</item>	 -->
+<!-- 	</string-array> -->
+
+
+
+<!-- 	<string-array name="canbox_select_manufacturer"> -->
+<!--         <item>"0:所有"</item> -->
+<!--         <item>"1:欣朴"</item> -->
+<!--         <item>"2:睿志诚"</item> -->
+<!--         <item>"3:巴谷"</item> -->
+<!--         <item>"4:和驰"</item> -->
+<!--         <item>"5:长远通"</item> -->
+<!--         <item>"6:比瑞纳"</item> -->
+<!--         <item>"7:鑫巴斯"</item> -->
+<!--         <item>"8:尚摄"</item> -->
+<!--         <item>"8:欧迪"</item> -->
+<!--     </string-array> -->
+<!--     <string-array name="canbox_select_simple"> -->
+<!--         <item>"0:无"</item> -->
+<!--         <item>"1:福特福克斯/翼虎/翼博/嘉年华(欣朴)"</item> -->
+<!--         <item>"2:丰田/CAMRY/RAV4(欣朴)"</item> -->
+<!--         <item>"5:2013天籁(欣朴)"</item> -->
+<!--         <item>"6:马自达/旧款欧宝(欣朴)"</item> -->
+<!--         <item>"7:大众系列(欣朴,睿志诚)"</item> -->
+<!--         <item>"8:CAMRY/RAV4/新卡罗拉/新霸道(欣朴)"</item> -->
+<!--         <item>"8:三菱/欧兰德(欣朴)"</item> -->
+<!--         <item>"9:现代ix35/索纳塔8代/新雅尊/imx45(新胜达)/起亚索兰托/智跑/K5/K7(欣朴)"</item> -->
+<!--         <item>"11:别克系列/雪佛兰系统/欧宝系列(欣朴)"</item> -->
+<!--         <item>"12:本田DA系列/凌派/杰德/歌诗图/飞度/缤智/奥德赛/XR-V/2015CRV/2016 款思域(欣朴)"</item> -->
+<!--         <item>"13:大众高尔夫(欣朴,睿志诚)"</item> -->
+<!--         <item>"14:Ram1500/菲亚特(欣朴)"</item> -->
+<!--         <item>"15:雷诺新梅甘娜/风朗(欣朴)"</item> -->
+<!--         <item>"17:菲亚特(欣朴,和驰)"</item> -->
+<!--         <item>"18:福特/蒙迪欧(欣朴)"</item> -->
+<!--         <item>"19:PSA(欣朴)"</item> -->
+<!--         <item>"22:GMC(欣朴)"</item> -->
+<!--         <item>"24:马自达/BT-50(欣朴)"</item> -->
+<!--         <item>"25:JEEP/自由光/自由侠/指南者/多宝(欣朴)"</item> -->
+<!--         <item>"29:标志206(欣朴)"</item> -->
+<!--         <item>"30:雅阁2013(欣朴,比瑞纳)"</item> -->
+<!--         <item>"31:日产2013(欣朴)"</item> -->
+<!-- 		<item>"36:达西亚(欣朴)"</item> -->
+<!-- 		<item>"39:福特/锐界/探界者/金牛座/蒙迪获/猛禽(欣朴)"</item> -->
+<!-- 		<item>"41:Audi(欣朴)"</item> -->
+<!-- 		<item>"45:BENZ/Vito(欣朴)"</item> -->
+<!-- 		<item>"48:Chrysler(Simple)"</item>		 -->
+<!-- 		<item>"49:Mazda3(Simple)"</item> -->
+<!-- 		<item>"58:Mazda CX-5(Simple)"</item>	 -->
+<!-- 		<item>"60:PSA/206-307(Simple)"</item>	 -->
+<!--     </string-array> -->
+<!--     <string-array name="canbox_select_raise"> -->
+<!--         <item>"0:无"</item> -->
+<!--         <item>"3:马自达3/5/6/睿翼/CX-7/奔腾B50/B70/奇瑞A3/海南马自达福美来/M3/S7/比亚迪F3/传祺GA3.(睿志诚)"</item> -->
+<!--         <item>"4:奔腾X80(睿志诚)"</item> -->
+<!--         <item>"7:大众系列(欣朴,睿志诚)"</item> -->
+<!--         <item>"13:大众高尔夫(欣朴,睿志诚)"</item> -->
+<!--         <item>"21:科雷嘉(睿志诚)"</item> -->
+<!-- 		<item>"37:日产(睿志诚)"</item> -->
+<!-- 		<item>"38:标志/雪铁龙(睿志诚)"</item> -->
+<!-- 		<item>"46:VW_MQB(Raise)"</item> -->
+<!-- 		<item>"52:Honda(Raise)"</item> -->
+<!-- 		<item>"53:Peugeot/Citroen/Keep Car Screen(Raise)"</item> -->
+<!-- 		<item>"54:Ford/Focus/uga/Ecosport/Fiesta(Raise)"</item> -->
+<!-- 		<item>"61:BESTUNE/X40(Raise)"</item>	 -->
+<!--     </string-array> -->
+<!--     <string-array name="canbox_select_bagoo"> -->
+<!--         <item>"0:无"</item> -->
+<!--         <item>"10:PSA/DS/301/307/308/3008/C4/C5(巴谷)"</item> -->
+<!--         <item>"20:奔驰(巴谷)"</item> -->
+<!-- 		<item>"42:SUBARU_XV(ODS)"</item> -->
+<!--     </string-array> -->
+<!--     <string-array name="canbox_select_union"> -->
+<!--         <item>"0:无"</item> -->
+<!--         <item>"16:宝马/E90/X1(和驰)"</item> -->
+<!--         <item>"17:菲亚特(欣朴,和驰)"</item> -->
+<!--         <item>"23:奔驰/B200(和驰)"</item> -->
+<!--         <item>"32:保时捷/卡宴(Union)"</item> -->
+<!--         <item>"34:博悦(和驰)"</item> -->
+<!-- 		<item>"57:Peugeot307(union)"</item> -->
+<!--     </string-array> -->
+<!--     <string-array name="canbox_select_cyt"> -->
+<!--         <item>"0:无"</item> -->
+<!--         <item>"26:ACCORD7(长远通)"</item> -->
+<!--     </string-array> -->
+    
+<!--     <string-array name="canbox_select_od"> -->
+<!--         <item>"0:无"</item> -->
+<!-- 		<item>"47:Chery(OD)"</item> -->
+<!-- 		<item>"59:RX330/LC100(HaoZheng)"</item>	 -->
+<!-- 		<item>"62:Mondeo(DaoJun)"</item> -->
+<!--     </string-array> -->
+<!--     <string-array name="canbox_select_binarytek"> -->
+<!--         <item>"0:无"</item> -->
+<!--         <item>"27:TOYOTA(比瑞纳)"</item> -->
+<!--         <item>"33:MAZDA 3(比瑞纳)"</item> -->
+<!-- 		<item>"40:Accord(比瑞纳)"</item> -->
+<!-- 		<item>"44:Nissan(Binarytek)"</item> -->
+<!-- 		<item>"50:OBD(binarytek)"</item> -->
+<!--     </string-array> -->
+<!--     <string-array name="canbox_select_xinbas"> -->
+<!--         <item>"0:无"</item> -->
+<!--         <item>"28:MAZDA(鑫巴斯)"</item> -->
+<!--         <item>"51 Hafer/H2(Xinbas)"</item> -->
+<!-- 		<item>"63:Jeep(Xinbas)"</item>	 -->
+<!--     </string-array> -->
+<!--     <string-array name="canbox_select_hiworld"> -->
+<!--         <item>"0:无"</item> -->
+<!--         <item>"35:途锐(尚摄)"</item> -->
+<!-- 		<item>"43:Mini(Hiworld)"</item> -->
+<!--     </string-array> -->
+
+
+
+	<string-array name="rds_select">
+		<item>无RDS</item>
+		<item>有RDS</item>
+	</string-array>
+
+	<string-array name="navi_mix_select">
+		<item>"直接切换导航声音"</item>
+		<item>"导航混音 -5 级"</item>
+		<item>"导航混音 -4 级"</item>
+		<item>"导航混音 -3 级"</item>
+		<item>"导航混音 -2 级"</item>
+		<item>"导航混音 -1 级"</item>
+		<item>"导航混音 0 级"</item>
+		<item>"导航混音 1 级"</item>
+		<item>"导航混音 2 级"</item>
+		<item>"导航混音 3 级"</item>
+		<item>"导航混音 4 级"</item>
+		<item>"导航混音 5 级"</item>
+	</string-array>	
+	 
+	<string-array name="screen1_view_select">
+        <item>蓝牙电话通话界面</item>
+        <item>倒车界面</item>
+    </string-array>
+    
+    <string-array name="acc_delay_poweroff_select">
+		<item>关闭</item>
+		<item>5 秒</item>
+		<item>30 秒</item>
+		<item>2 分钟</item>
+		<item>5 分钟</item>
+		<item>10 分钟</item>
+		<item>30 分钟</item>
+		<item>1 小时</item>
+	</string-array>
+<!-- 	<string-array name="reverse_volume_select"> -->
+<!-- 		<item>开启</item> -->
+<!-- 		<item>衰减 -1</item> -->
+<!-- 		<item>衰减 -2</item> -->
+<!-- 		<item>衰减 -3</item> -->
+<!-- 		<item>衰减 -4</item> -->
+<!-- 		<item>衰减 -5</item> -->
+<!-- 		<item>衰减 -6</item> -->
+<!-- 		<item>衰减 -7</item> -->
+<!-- 		<item>衰减 -8</item> -->
+<!-- 		<item>衰减 -9</item>		 -->
+<!-- 		<item>关闭</item> -->
+<!-- 	</string-array> -->
+
+    <string-array name="panel_key_defconfigs">	    
+        <item>"通用"</item>
+        <item>"马自达阿特兹"</item>
+        <item>"马自达阿特兹2"</item>
+        <item>"奔驰"</item>
+        <item>"通用_反"</item>
+        <item>"奔驰_反"</item>
+        <item>"马自达阿特兹_反"</item>
+        <item>"马自达阿特兹_反_2"</item>
+        <item>"类型 8"</item>
+        <item>"类型 9"</item>
+        <item>"类型 10"</item>
+        <item>"类型 11"</item>
+        <item>"类型 12"</item>
+        <item>"类型 13"</item>
+        <item>"类型 14"</item>
+        <item>"类型 15"</item>
+        <item>"类型 16"</item>
+        <item>"类型 17"</item>
+        <item>"类型 18"</item>
+        <item>"类型 19"</item>
+        <item>"类型 20"</item>
+    </string-array>
+
+    
+    <string-array name="factory_settings_tab_item_name">
+        <item>功能</item>
+        <item>收音</item>
+        <item>按键</item>
+        <item>CANBUS</item>
+        <item>音量</item>
+        <item>应用</item>
+        <item>其他</item>
+    </string-array>
+    
+    <string-array name="touch3_settings_keycode_entries">
+        <!-- key -->
+        <item>未定义</item>
+	    <item>静音</item>
+	    <item>播放/暂停</item>
+	    <item>下一曲</item>
+	    <item>上一曲</item>
+	    <item>弹出</item>
+	    <item>播放</item>
+	    <item>暂停</item>
+	    <item>快进</item>
+	    <item>快退</item>
+	    <item>HOME</item>
+	    <item>返回</item>
+	    <item>关屏</item>
+	    <item>亮度</item>
+	    <!-- app -->
+	    <item>语音识别</item>
+	    <item>DVD</item>
+	    <item>导航</item>
+	    <item>收音</item>
+	    <item>均衡器</item>
+	    <item>蓝牙</item>
+	    <item>音乐</item>
+	    <item>视频</item>
+	    <item>蓝牙音乐</item>
+	</string-array>
+	
+    <string-array name="ftj_entries"  translatable="false">
+	    <item>无</item>
+		<item>分体机类型1</item>
+	</string-array>
+
+    <string-array name="swc_key_defconfigs">	    
+        <item>通用</item>
+        <item>卡罗拉</item>
+        <item>类型 2</item>
+        <item>类型 3</item>
+        <item>类型 4</item>
+        <item>类型 5</item>
+        <item>类型 6</item>
+        <item>类型 7</item>
+        <item>类型 8</item>
+        <item>类型 9</item>
+        <item>类型 10</item>
+    </string-array>
+
+</resources>
