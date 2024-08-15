@@ -59,6 +59,7 @@ import com.my.factory.SettingsControllor.GeneralSettingListener;
 
 import com.my.filemanager.FileManagerActivity.StorageInfo;
 import com.octopus.android.carsettingx.R;
+import com.zhuchao.android.fbase.MMLog;
 
 import android.provider.Settings;
 import android.provider.Settings.SettingNotFoundException;
@@ -595,7 +596,7 @@ public class GeneralSettingsFragment extends PreferenceFragment implements Prefe
         mNaviMixPreference.setOnPreferenceChangeListener(this);
 
         String value = SystemConfig.getProperty(getActivity(), MachineConfig.KEY_DISPAUX_APPAUTO_DISABLE);
-        final boolean autoDispMapToAux = (value != null && value.equals("1") ? false : true);
+        final boolean autoDispMapToAux = (value == null || !value.equals("1"));
         mNaviAutoDispAuxPreference = (SwitchPreference) findPreference(KEY_NAVI_AUTO_DISPAUX);
         mNaviAutoDispAuxPreference.setOnPreferenceChangeListener(this);
         mNaviAutoDispAuxPreference.setChecked(!autoDispMapToAux);
@@ -624,12 +625,12 @@ public class GeneralSettingsFragment extends PreferenceFragment implements Prefe
 
         mDoorVoice = (SwitchPreference) findPreference(KEY_DOOR_VOICE);
         mDoorVoice.setOnPreferenceChangeListener(this);
-        boolean b = Settings.Global.getInt(mActivity.getContentResolver(), SystemConfig.CANBOX_DOOR_VOICE, 0) == 1 ? true : false;
+        boolean b = Settings.Global.getInt(mActivity.getContentResolver(), SystemConfig.CANBOX_DOOR_VOICE, 0) == 1;
         mDoorVoice.setChecked(b);
 
         mRadarCamera = (SwitchPreference) findPreference(KEY_FRONT_RADAR_CAMERA);
         mRadarCamera.setOnPreferenceChangeListener(this);
-        b = Settings.Global.getInt(mActivity.getContentResolver(), SystemConfig.CANBOX_FRONT_RADAR_OPEN_CAMERA, 0) == 1 ? true : false;
+        b = Settings.Global.getInt(mActivity.getContentResolver(), SystemConfig.CANBOX_FRONT_RADAR_OPEN_CAMERA, 0) == 1;
         mRadarCamera.setChecked(b);
 
         mPlayMusic = (SwitchPreference) findPreference(KEYPLAY_MUSIC);
@@ -774,16 +775,13 @@ public class GeneralSettingsFragment extends PreferenceFragment implements Prefe
     }
 
     private void customUI() {
-
-
         if (!GeneralSettings.isExtShow(GeneralSettings.SETTINGS_SHOW_OBD_SCREEN)) {
             try {
                 Preference p = findPreference(KEY_CAR_INFO_SCREENSAVER);
                 if (p != null) {
                     getPreferenceScreen().removePreference(p);
                 }
-            } catch (Exception e) {
-
+            } catch (Exception ignored) {
             }
         }
 
@@ -793,8 +791,7 @@ public class GeneralSettingsFragment extends PreferenceFragment implements Prefe
                 if (p != null) {
                     getPreferenceScreen().removePreference(p);
                 }
-            } catch (Exception e) {
-
+            } catch (Exception ignored) {
             }
         }
 
@@ -804,8 +801,7 @@ public class GeneralSettingsFragment extends PreferenceFragment implements Prefe
                 if (p != null) {
                     getPreferenceScreen().removePreference(p);
                 }
-            } catch (Exception e) {
-
+            } catch (Exception ignored) {
             }
         }
 
@@ -815,8 +811,7 @@ public class GeneralSettingsFragment extends PreferenceFragment implements Prefe
                 if (p != null) {
                     getPreferenceScreen().removePreference(p);
                 }
-            } catch (Exception e) {
-
+            } catch (Exception ignored) {
             }
         }
 
@@ -826,8 +821,7 @@ public class GeneralSettingsFragment extends PreferenceFragment implements Prefe
                 if (p != null) {
                     getPreferenceScreen().removePreference(p);
                 }
-            } catch (Exception e) {
-
+            } catch (Exception ignored) {
             }
         }
         // if
@@ -1050,7 +1044,7 @@ public class GeneralSettingsFragment extends PreferenceFragment implements Prefe
         lp.setSummary(lp.getEntry());
         int v = -1;
         try {
-            v = Integer.valueOf(value);
+            v = Integer.parseInt(value);
             if (v != Integer.MAX_VALUE) {
                 SystemConfig.setIntProperty(getActivity(), SystemConfig.KEY_SCREEN_SAVE_STYLE, 1);
             } else {
@@ -1097,12 +1091,12 @@ public class GeneralSettingsFragment extends PreferenceFragment implements Prefe
 
     private void replaceFragment(int layoutId, PreferenceFragment fragment, boolean isAddStack) {
         if (fragment != null) {
-            FragmentTransaction transation = mFragmentManager.beginTransaction();
-            transation.replace(layoutId, fragment);
+            FragmentTransaction fragmentTransaction = mFragmentManager.beginTransaction();
+            fragmentTransaction.replace(layoutId, fragment);
             if (isAddStack) {
-                transation.addToBackStack(null);
+                fragmentTransaction.addToBackStack(null);
             }
-            transation.commit();
+            fragmentTransaction.commit();
         }
     }
 
@@ -1217,6 +1211,7 @@ public class GeneralSettingsFragment extends PreferenceFragment implements Prefe
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         String key = preference.getKey();
+        MMLog.d(TAG,"onPreferenceChange key="+key+",newValue="+newValue);
         if (KEY_THIRD_APP_SOUND_FIRST.equals(key)) {// 缂佹鍏涚粭渚�寮悷甯矗闂傚﹤鍘栫槐顓㈠礂閿燂拷
             // boolean mIsThirdAppSoundFirst = (Boolean) newValue;
             // MachineConfig.setProperty(MachineConfig.KEY_THIRD_APP_SOUND_FIRST,
@@ -2054,8 +2049,7 @@ public class GeneralSettingsFragment extends PreferenceFragment implements Prefe
                     continue;
                 }
                 ///if (Environment.MEDIA_MOUNTED.equals(sm.getVolumeState(v.getPath())))
-                if (Environment.MEDIA_MOUNTED.equals(v.getState()))
-                {
+                if (Environment.MEDIA_MOUNTED.equals(v.getState())) {
                     File f = new File(v.getDirectory().getPath() + "/" + ANDROID_UPDATE_GUIDE_FILE_NAME);
                     if (f.exists()) {
                         path = v.getDirectory().getPath();

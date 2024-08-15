@@ -1,5 +1,6 @@
 package com.my.factory;
 
+
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -34,11 +35,14 @@ public class GeneralSettings extends Activity {
     private static final String TAG = "GeneralSettings";
     public static String mExtUI;
     public static String mSystemUI;// = MachineConfig.getPropertyReadOnly(MachineConfig.KEY_SYSTEM_UI);
-    private FragmentCarSettingsMain mFragmentCarSettingsMain;// = new FragmentCarSettingsMain();
+    public static String mTitleOrg = "";
+    public static String PW_DRIVE_SETTING = null;
+
+
+    private CarSettingsMainFragment mFragmentCarSettingsMain;// = new FragmentCarSettingsMain();
     private GeneralSettingsFragment mGeneralSettingsFragment;// = new GeneralSettingsFragment();
     private FragmentManager mFragmentManager;
     private SettingsControllor mSettingsControllor = null;
-    private String mTitleOrg = "";
 
     public final static String SETTINGS_EXT_SHOW_DOOR_VOICE = "1";  //default is show
     public final static String SETTINGS_EXT_SHOW_RADAR_CAMERA = "2";
@@ -53,6 +57,16 @@ public class GeneralSettings extends Activity {
     public final static String SETTINGS_HIDE_STATIC_TRACK = "3";
     public final static String SETTINGS_HIDE_DYNAMIC_TRACK = "4";
     public static String mSettingsExtHide = null;
+
+
+    public final static String KEY_NONE = "key_none";
+    public final static String KEY_PERSONAL = "key_car_settings_personal";
+    public final static String KEY_NAVI = "key_car_settings_navi";
+    public final static String KEY_DRIVE = "key_car_settings_drive";
+    public final static String KEY_WHELL = "key_car_settings_wheel";
+    public final static String KEY_HOME = "key_car_settings_launcher_ui";
+    public final static String KEY_FACTORY = "key_car_settings_factory";
+    public final static String KEY_UPGRADE = "key_car_settings_update";
 
     static {
         mSystemUI = MachineConfig.getPropertyReadOnly(MachineConfig.KEY_SYSTEM_UI);
@@ -89,18 +103,11 @@ public class GeneralSettings extends Activity {
         return false;
     }
 
-    private FragmentCarSettingsMain getFragmentCarSettingsMain() {
+    private CarSettingsMainFragment getFragmentCarSettingsMain() {
         if (mFragmentCarSettingsMain == null) {
-            mFragmentCarSettingsMain = new FragmentCarSettingsMain();
+            mFragmentCarSettingsMain = new CarSettingsMainFragment();
         }
         return mFragmentCarSettingsMain;
-    }
-
-    private GeneralSettingsFragment getGeneralSettingsFragment() {
-        if (mGeneralSettingsFragment == null) {
-            mGeneralSettingsFragment = new GeneralSettingsFragment();
-        }
-        return mGeneralSettingsFragment;
     }
 
     private boolean mPasswdHold = false;
@@ -194,8 +201,6 @@ public class GeneralSettings extends Activity {
         if (value != null && !value.isEmpty()) {
             PW_DRIVE_SETTING = value;
         }
-
-
         updateIntent();
     }
 
@@ -233,231 +238,44 @@ public class GeneralSettings extends Activity {
 
     @Override
     protected void onStop() {
-        if (mSettingsControllor != null) {
-            // mSettingsControllor.disconnectService();
-        }
+        ///if (mSettingsControllor != null) {
+        //// mSettingsControllor.disconnectService();
+        //}
         super.onStop();
     }
 
     @Override
     protected void onDestroy() {
-        if (mSettingsControllor != null) {
-            // mSettingsControllor.release();
-        }
-        // if(mKeyControllor != null){
-        // mKeyControllor.release();
-        // }
-        // Settings.isPasswordAlreadyRight = false;
+        ///if (mSettingsControllor != null) {
+        /// mSettingsControllor.release();
+        ///}
+        /// if(mKeyControllor != null){
+        /// mKeyControllor.release();
+        /// }
+        /// Settings.isPasswordAlreadyRight = false;
         super.onDestroy();
     }
 
-    private void replaceFragment(int layoutId, PreferenceFragment fragment, boolean isAddStack, Bundle bundle) {
+    public GeneralSettingsFragment getGeneralSettingsFragment() {
+        if (mGeneralSettingsFragment == null) {
+            mGeneralSettingsFragment = new GeneralSettingsFragment();
+        }
+        return mGeneralSettingsFragment;
+    }
+
+    public void replaceFragment(int layoutId, PreferenceFragment fragment, boolean isAddStack, Bundle bundle) {
         try {
             if (fragment != null) {
                 if (bundle != null) fragment.setArguments(bundle);
-                FragmentTransaction transation = mFragmentManager.beginTransaction();
-                transation.replace(layoutId, fragment);
+                FragmentTransaction fragmentTransaction = mFragmentManager.beginTransaction();
+                fragmentTransaction.replace(layoutId, fragment);
                 if (isAddStack) {
-                    transation.addToBackStack(null);
+                    fragmentTransaction.addToBackStack(null);
                 }
-                transation.commit();
+                fragmentTransaction.commit();
             }
         } catch (Exception ignored) {
         }
     }
 
-    private String PW_DRIVE_SETTING = null;
-
-    public final static String KEY_NONE = "key_none";
-    public final static String KEY_PERSONAL = "key_car_settings_personal";
-    public final static String KEY_NAVI = "key_car_settings_navi";
-    public final static String KEY_DRIVE = "key_car_settings_drive";
-    public final static String KEY_WHELL = "key_car_settings_wheel";
-    public final static String KEY_HOME = "key_car_settings_launcher_ui";
-    public final static String KEY_FACTORY = "key_car_settings_factory";
-    public final static String KEY_UPGRADE = "key_car_settings_update";
-
-    @SuppressLint("ValidFragment")
-    class FragmentCarSettingsMain extends PreferenceFragment implements OnPreferenceClickListener, OnPreferenceChangeListener {
-        private static final String TAG = "CarSettingsMainFragment";
-
-        private final Handler mHandler = new Handler();
-
-        @Override
-        public void onCreate(Bundle savedInstanceState) {
-            super.onCreate(savedInstanceState);
-
-            addPreferencesFromResource(R.xml.car_settings_main);
-
-            findPreference(KEY_PERSONAL).setOnPreferenceClickListener(this);
-            findPreference(KEY_NAVI).setOnPreferenceClickListener(this);
-            findPreference(KEY_DRIVE).setOnPreferenceClickListener(this);
-            // findPreference(KEY_WHELL).setOnPreferenceClickListener(this);
-            // findPreference(KEY_FACTORY).setOnPreferenceClickListener(this);
-            // findPreference(KEY_HOME).setOnPreferenceClickListener(this);
-            findPreference(KEY_UPGRADE).setOnPreferenceClickListener(this);
-
-            customUI();
-        }
-
-        @Override
-        public void onResume() {
-            // TODO Auto-generated method stub
-            super.onResume();
-            getActivity().setTitle(mTitleOrg);
-        }
-
-        @Override
-        public boolean onPreferenceClick(Preference preference) {
-            // TODO Auto-generated method stub
-            final String key = preference.getKey();
-            Bundle bundle = null;
-            switch (key) {
-                case KEY_PERSONAL:
-                case KEY_NAVI:
-                case KEY_UPGRADE:
-                    break;
-                case KEY_DRIVE:
-                    // add by allen
-                    if (PW_DRIVE_SETTING != null) {
-                        final EditText ev = new EditText(getActivity());
-                        final Toast t = Toast.makeText(getActivity(), getResources().getString(R.string.password_error), Toast.LENGTH_SHORT);
-                        AlertDialog ad = new AlertDialog.Builder(getActivity()).setIcon(R.drawable.dialog_alert_icon).setTitle(R.string.input_code).setPositiveButton(R.string.alert_dialog_ok, new DialogInterface.OnClickListener() {
-                            public void onClick(DialogInterface dialog, int whichButton) {
-                                String str = ev.getText().toString().toLowerCase();
-                                if (PW_DRIVE_SETTING.equals(str)) {
-                                    setTitle(key);
-
-                                    Bundle bundle = new Bundle();
-                                    bundle.putString("preference_type", key);
-                                    replaceFragment(R.id.id_genernal_setting_fragment, getGeneralSettingsFragment(), true, bundle);
-                                } else {
-                                    t.show();
-                                }
-                            }
-                        }).setNegativeButton(R.string.alert_dialog_cancel, new DialogInterface.OnClickListener() {
-                            public void onClick(DialogInterface dialog, int whichButton) {
-
-                            }
-                        }).create();
-
-                        ad.setView(ev);
-                        ad.show();
-
-                        ev.setImeOptions(EditorInfo.IME_FLAG_NO_EXTRACT_UI);
-                        ev.setInputType(InputType.TYPE_CLASS_NUMBER);
-                        ev.setTransformationMethod(PasswordTransformationMethod.getInstance());
-
-                        return false;
-                    }
-                    // } else if (key.equals(KEY_WHELL)) {
-                    // } else if (key.equals(KEY_FACTORY)) {
-                    break;
-                default:
-                    return false;
-            }
-
-            setTitle(key);
-
-            bundle = new Bundle();
-            bundle.putString("preference_type", key);
-            replaceFragment(R.id.id_genernal_setting_fragment, getGeneralSettingsFragment(), true, bundle);
-            return true;
-        }
-
-        @Override
-        public boolean onPreferenceChange(Preference preference, Object newValue) {
-            String key = preference.getKey();
-            if (KEY_HOME.equals(key)) {
-                setLauncherUI(preference, (String) newValue);
-            }
-            return false;
-        }
-
-        private void setTitle(String preference_type) {
-            String title = "";
-            if (preference_type.equals(GeneralSettings.KEY_PERSONAL)) {
-                title = getResources().getString(R.string.title_car_settings_personal);
-            } else if (preference_type.equals(GeneralSettings.KEY_NAVI)) {
-                title = getResources().getString(R.string.title_car_settings_navi);
-            } else if (preference_type.equals(GeneralSettings.KEY_DRIVE)) {
-                title = getResources().getString(R.string.title_car_settings_drive);
-            } else if (preference_type.equals(GeneralSettings.KEY_WHELL)) {
-                title = getResources().getString(R.string.title_car_settings_wheel);
-            } else if (preference_type.equals(GeneralSettings.KEY_HOME)) {
-                title = getResources().getString(R.string.launcher_ui_title);
-            } else if (preference_type.equals(GeneralSettings.KEY_FACTORY)) {
-                title = getResources().getString(R.string.title_car_settings_factory);
-            } else if (preference_type.equals(GeneralSettings.KEY_UPGRADE)) {
-                title = getResources().getString(R.string.title_car_settings_update);
-            }
-            getActivity().setTitle(title);
-        }
-
-        private void customUI() {
-            // value = MachineConfig.VALUE_SYSTEM_UI20_RM10_1; // test
-            Preference p = findPreference(KEY_HOME);
-            if (p != null) {
-
-                if (MachineConfig.VALUE_SYSTEM_UI20_RM10_1.equals(GeneralSettings.mSystemUI) || MachineConfig.VALUE_SYSTEM_UI21_RM10_2.equals(GeneralSettings.mSystemUI) || MachineConfig.VALUE_SYSTEM_UI21_RM12.equals(GeneralSettings.mSystemUI) || GeneralSettings.isExtShow(GeneralSettings.SETTINGS_SHOW_LAUNCHER_UI) || GeneralSettings.mExtUI != null) {
-                    p.setOnPreferenceChangeListener(this);
-                    updateLauncherUI();
-                } else {
-                    getPreferenceScreen().removePreference(p);
-                }
-            }
-
-            p = findPreference("key_car_settings_factory");
-            if (p != null) {
-                if (GeneralSettings.isExtShow(GeneralSettings.SETTINGS_EXT_HIDE_FACTORY)) {
-                    getPreferenceScreen().removePreference(p);
-                }
-
-            }
-        }
-
-        private void updateLauncherUI() {
-            String value = SystemConfig.getProperty(getActivity(), SystemConfig.KEY_LAUNCHER_UI_RM10);
-            if (value == null) {
-                value = "0";
-            }
-            if (value != null) {
-                Preference p = findPreference(KEY_HOME);
-                if (p != null) {
-                    ListPreference lp = (ListPreference) p;
-
-                    lp.setValue(value);
-                    lp.setSummary(lp.getEntry());
-                }
-            }
-        }
-
-        private void setLauncherUI(Preference p, String value) {
-
-            String old = SystemConfig.getProperty(getActivity(), SystemConfig.KEY_LAUNCHER_UI_RM10);
-
-            if (!value.equals(old)) {
-                SystemConfig.setIntProperty(getActivity(), SystemConfig.KEY_LAUNCHER_UI_RM10_WORKSPACE_RELOAD, 1);
-                SystemConfig.setProperty(getActivity(), SystemConfig.KEY_LAUNCHER_UI_RM10, value);
-                ListPreference lp = (ListPreference) p;
-
-                lp.setValue(value);
-                lp.setSummary(lp.getEntry());
-
-                Intent it = new Intent(MyCmd.BROADCAST_MACHINECONFIG_UPDATE);
-                it.putExtra(MyCmd.EXTRA_COMMON_CMD, SystemConfig.KEY_LAUNCHER_UI_RM10);
-                it.putExtra(MyCmd.EXTRA_COMMON_DATA, value);
-                getActivity().sendBroadcast(it);
-
-                mHandler.postDelayed(new Runnable() {
-
-                    @Override
-                    public void run() {
-                        // TODO Auto-generated method stub
-                        Kernel.doKeyEvent(Kernel.KEY_HOMEPAGE);
-                    }
-                }, 800);
-            }
-        }
-    }
 }
